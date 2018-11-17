@@ -1,0 +1,4 @@
+export enum WakiRestHttpMethod{
+  POST = 'POST',
+  GET = 'GET'
+}

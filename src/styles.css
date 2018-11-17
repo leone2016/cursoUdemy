@@ -1,0 +1,71 @@
+/* You can add global styles to this file, and also import other style files */
+.skmei-badge{
+  right: 0; max-width: 40px;max-height: 40px; position: absolute;top: 0;
+}
+.gender_shop{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: futura-pt,arial,sans-serif;
+}
+.htc__login__btn button{
+  border: 1px solid #d5d5d5;
+  display: inline-block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: all 0.5s ease 0s;
+  width: 150px;
+  color: #4b4b4b;
+  text-transform: uppercase;
+}
+.tabs__checkbox input.normal_check{
+  height: 16px;
+  width: 5%;
+}
+
+
+i.arrow prev{
+
+  font-size: 83px;
+  color: #999;
+}
+
+.material-filtro{
+  max-width: 750px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.collection-filter-item {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 0 10px;
+
+}
+.leo {
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  display: inline-block;
+  cursor: pointer;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #c7c7c7;
+  width: 70px;
+  height: 70px;
+  margin: auto;
+  border-radius: 35px;
+}
+.collection-filter-item label {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  color: #929292;
+  padding: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
