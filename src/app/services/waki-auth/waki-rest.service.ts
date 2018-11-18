@@ -29,18 +29,18 @@ export class WakiRestService {
       //       //   // console.log(resp);
       //         console.log("INICAAAAAAAAAAAAAAAAAAA");C
       //         console.log("TESTTTTT");
-              return this.requestLoginApp<T>();
+              return this.requestLoginApp<T>(urlParams);
             // });
 
 
     }catch(error){}
   }
 
-  private requestLoginApp<T>():Observable<T>{
+  private requestLoginApp<T>(url:string):Observable<T>{
     if(isDevMode())
     console.log("INGRA GET");
     try {
-      const loginServiceUrl:string = 'http://localhost:8080/waki-rest/restfull/shop/articleViewer';
+      const loginServiceUrl:string = url;
       console.log(loginServiceUrl);
       const header: HttpHeaders = this.getRequestHeaders();
       return this.httpClient.get<T>(loginServiceUrl, {headers: header } );

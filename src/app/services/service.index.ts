@@ -1,3 +1,4 @@
+export {ProvinciasService} from './provincias/provincias.service';
 export {CartCheckoutService} from './cart/cart-checkout.service';
 export {CartLocalstorageService} from './cart/cart-localstorage.service';
 export {ArticlesService} from './shop/articles.service';

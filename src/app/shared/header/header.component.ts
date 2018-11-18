@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {CartLocalstorageService} from '../../services/service.index';
+import {isNullOrUndefined} from 'util';
 
 @Component({
   selector: 'app-header',
@@ -32,7 +33,9 @@ export class HeaderComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.numeroArticulos = this.cartLocalStorageService.getArticlesLocalStorage().length;
+    if(!isNullOrUndefined(this.cartLocalStorageService.getArticlesLocalStorage())){
+      this.numeroArticulos = this.cartLocalStorageService.getArticlesLocalStorage().length;
+    }
   }
 
 }

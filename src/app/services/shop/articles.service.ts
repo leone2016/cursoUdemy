@@ -25,7 +25,8 @@ export class ArticlesService {
   }
 
   public cargarArticulos():Observable<ArticleModel[]>{
-    return this.wakiRestService.request<ArticleModel[]>();
+    let url:string = environment.waki_rest_service_configuration.api_url+environment.waki_rest_service_configuration.articleModule.path;
+    return this.wakiRestService.request<ArticleModel[]>(url);
   }
 
 

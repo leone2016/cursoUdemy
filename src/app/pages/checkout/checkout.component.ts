@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ProvinciasService} from '../../services/service.index';
+import {ProvinciasModule} from '../../models/provincias.module';
 
 @Component({
   selector: 'app-checkout',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CheckoutComponent implements OnInit {
 
-  constructor() { }
+ private provincia:ProvinciasModule[]=[];
+  constructor(private provincias: ProvinciasService) { }
 
   ngOnInit() {
+    this.provincias.getProvincias().subscribe((test:Provincias[])=>{
+      this.provincia= test;
+      console.log(test);
+    })
   }
 
 }

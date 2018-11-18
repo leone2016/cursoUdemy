@@ -3,7 +3,7 @@ import {NgModule} from '@angular/core';
 import {
   ArticlesService, CartCheckoutService,
   CartLocalstorageService,
-  LoginService,
+  LoginService, ProvinciasService,
   RememberMeService,
   UsuarioService
 } from './service.index';
@@ -15,7 +15,15 @@ import {WakiAuthService} from './waki-auth/waki-auth.service';
     CommonModule,
     HttpClientModule
   ],
-  providers:[UsuarioService, RememberMeService, LoginService, ArticlesService,WakiAuthService, CartLocalstorageService, CartCheckoutService],
+  providers:[UsuarioService,
+    RememberMeService,
+    LoginService,
+    ArticlesService,
+    WakiAuthService,
+    CartLocalstorageService,
+    CartCheckoutService,
+    ProvinciasService
+  ],
   declarations:[]
 })
 export class ServiceModule{ }

@@ -1,0 +1,7052 @@
+[
+ {
+   "id": 1,
+   "parroquia": "BELISARIO QUEVEDO",
+   "canton": 178
+ },
+ {
+   "id": 2,
+   "parroquia": "CARCELÉN",
+   "canton": 178
+ },
+ {
+   "id": 3,
+   "parroquia": "CENTRO HISTÓRICO",
+   "canton": 178
+ },
+ {
+   "id": 4,
+   "parroquia": "COCHAPAMBA",
+   "canton": 178
+ },
+ {
+   "id": 5,
+   "parroquia": "COMITÉ DEL PUEBLO",
+   "canton": 178
+ },
+ {
+   "id": 6,
+   "parroquia": "COTOCOLLAO",
+   "canton": 178
+ },
+ {
+   "id": 7,
+   "parroquia": "CHILIBULO",
+   "canton": 178
+ },
+ {
+   "id": 8,
+   "parroquia": "CHILLOGALLO",
+   "canton": 178
+ },
+ {
+   "id": 9,
+   "parroquia": "CHIMBACALLE",
+   "canton": 178
+ },
+ {
+   "id": 10,
+   "parroquia": "EL CONDADO",
+   "canton": 178
+ },
+ {
+   "id": 11,
+   "parroquia": "GUAMANÍ",
+   "canton": 178
+ },
+ {
+   "id": 12,
+   "parroquia": "IÑAQUITO",
+   "canton": 178
+ },
+ {
+   "id": 13,
+   "parroquia": "ITCHIMBÍA",
+   "canton": 178
+ },
+ {
+   "id": 14,
+   "parroquia": "JIPIJAPA",
+   "canton": 178
+ },
+ {
+   "id": 15,
+   "parroquia": "KENNEDY",
+   "canton": 178
+ },
+ {
+   "id": 16,
+   "parroquia": "LA ARGELIA",
+   "canton": 178
+ },
+ {
+   "id": 17,
+   "parroquia": "LA CONCEPCIÓN",
+   "canton": 178
+ },
+ {
+   "id": 18,
+   "parroquia": "LA ECUATORIANA",
+   "canton": 178
+ },
+ {
+   "id": 19,
+   "parroquia": "LA FERROVIARIA",
+   "canton": 178
+ },
+ {
+   "id": 20,
+   "parroquia": "LA LIBERTAD",
+   "canton": 178
+ },
+ {
+   "id": 21,
+   "parroquia": "LA MAGDALENA",
+   "canton": 178
+ },
+ {
+   "id": 22,
+   "parroquia": "LA MENA",
+   "canton": 178
+ },
+ {
+   "id": 23,
+   "parroquia": "MARISCAL SUCRE",
+   "canton": 178
+ },
+ {
+   "id": 24,
+   "parroquia": "PONCEANO",
+   "canton": 178
+ },
+ {
+   "id": 25,
+   "parroquia": "PUENGASÍ",
+   "canton": 178
+ },
+ {
+   "id": 26,
+   "parroquia": "QUITUMBE",
+   "canton": 178
+ },
+ {
+   "id": 27,
+   "parroquia": "RUMIPAMBA",
+   "canton": 178
+ },
+ {
+   "id": 28,
+   "parroquia": "SAN BARTOLO",
+   "canton": 178
+ },
+ {
+   "id": 29,
+   "parroquia": "SAN ISIDRO DEL INCA",
+   "canton": 178
+ },
+ {
+   "id": 30,
+   "parroquia": "SAN JUAN",
+   "canton": 178
+ },
+ {
+   "id": 31,
+   "parroquia": "SOLANDA",
+   "canton": 178
+ },
+ {
+   "id": 32,
+   "parroquia": "TURUBAMBA",
+   "canton": 178
+ },
+ {
+   "id": 33,
+   "parroquia": "QUITO DISTRITO METROPOLITANO",
+   "canton": 178
+ },
+ {
+   "id": 34,
+   "parroquia": "ALANGASÍ",
+   "canton": 178
+ },
+ {
+   "id": 35,
+   "parroquia": "AMAGUAÑA",
+   "canton": 178
+ },
+ {
+   "id": 36,
+   "parroquia": "ATAHUALPA",
+   "canton": 178
+ },
+ {
+   "id": 37,
+   "parroquia": "CALACALÍ",
+   "canton": 178
+ },
+ {
+   "id": 38,
+   "parroquia": "CALDERÓN",
+   "canton": 178
+ },
+ {
+   "id": 39,
+   "parroquia": "CONOCOTO",
+   "canton": 178
+ },
+ {
+   "id": 40,
+   "parroquia": "CUMBAYÁ",
+   "canton": 178
+ },
+ {
+   "id": 41,
+   "parroquia": "CHAVEZPAMBA",
+   "canton": 178
+ },
+ {
+   "id": 42,
+   "parroquia": "CHECA",
+   "canton": 178
+ },
+ {
+   "id": 43,
+   "parroquia": "EL QUINCHE",
+   "canton": 178
+ },
+ {
+   "id": 44,
+   "parroquia": "GUALEA",
+   "canton": 178
+ },
+ {
+   "id": 45,
+   "parroquia": "GUANGOPOLO",
+   "canton": 178
+ },
+ {
+   "id": 46,
+   "parroquia": "GUAYLLABAMBA",
+   "canton": 178
+ },
+ {
+   "id": 47,
+   "parroquia": "LA MERCED",
+   "canton": 178
+ },
+ {
+   "id": 48,
+   "parroquia": "LLANO CHICO",
+   "canton": 178
+ },
+ {
+   "id": 49,
+   "parroquia": "LLOA",
+   "canton": 178
+ },
+ {
+   "id": 50,
+   "parroquia": "MINDO",
+   "canton": 178
+ },
+ {
+   "id": 51,
+   "parroquia": "NANEGAL",
+   "canton": 178
+ },
+ {
+   "id": 52,
+   "parroquia": "NANEGALITO",
+   "canton": 178
+ },
+ {
+   "id": 53,
+   "parroquia": "NAYÓN",
+   "canton": 178
+ },
+ {
+   "id": 54,
+   "parroquia": "NONO",
+   "canton": 178
+ },
+ {
+   "id": 55,
+   "parroquia": "PACTO",
+   "canton": 178
+ },
+ {
+   "id": 56,
+   "parroquia": "PEDRO VICENTE MALDONADO",
+   "canton": 178
+ },
+ {
+   "id": 57,
+   "parroquia": "PERUCHO",
+   "canton": 178
+ },
+ {
+   "id": 58,
+   "parroquia": "PIFO",
+   "canton": 178
+ },
+ {
+   "id": 59,
+   "parroquia": "PÍNTAG",
+   "canton": 178
+ },
+ {
+   "id": 60,
+   "parroquia": "POMASQUI",
+   "canton": 178
+ },
+ {
+   "id": 61,
+   "parroquia": "PUÉLLARO",
+   "canton": 178
+ },
+ {
+   "id": 62,
+   "parroquia": "PUEMBO",
+   "canton": 178
+ },
+ {
+   "id": 63,
+   "parroquia": "SAN ANTONIO",
+   "canton": 178
+ },
+ {
+   "id": 64,
+   "parroquia": "SAN JOSÉ DE MINAS",
+   "canton": 178
+ },
+ {
+   "id": 65,
+   "parroquia": "SAN MIGUEL DE LOS BANCOS",
+   "canton": 178
+ },
+ {
+   "id": 66,
+   "parroquia": "TABABELA",
+   "canton": 178
+ },
+ {
+   "id": 67,
+   "parroquia": "TUMBACO",
+   "canton": 178
+ },
+ {
+   "id": 68,
+   "parroquia": "YARUQUÍ",
+   "canton": 178
+ },
+ {
+   "id": 69,
+   "parroquia": "ZAMBIZA",
+   "canton": 178
+ },
+ {
+   "id": 70,
+   "parroquia": "PUERTO QUITO",
+   "canton": 178
+ },
+ {
+   "id": 71,
+   "parroquia": "BELLAVISTA",
+   "canton": 1
+ },
+ {
+   "id": 72,
+   "parroquia": "CAÑARIBAMBA",
+   "canton": 1
+ },
+ {
+   "id": 73,
+   "parroquia": "EL BATÁN",
+   "canton": 1
+ },
+ {
+   "id": 74,
+   "parroquia": "EL SAGRARIO",
+   "canton": 1
+ },
+ {
+   "id": 75,
+   "parroquia": "EL VECINO",
+   "canton": 1
+ },
+ {
+   "id": 76,
+   "parroquia": "GIL RAMÍREZ DÁVALOS",
+   "canton": 1
+ },
+ {
+   "id": 77,
+   "parroquia": "HUAYNACÁPAC",
+   "canton": 1
+ },
+ {
+   "id": 78,
+   "parroquia": "MACHÁNGARA",
+   "canton": 1
+ },
+ {
+   "id": 79,
+   "parroquia": "MONAY",
+   "canton": 1
+ },
+ {
+   "id": 80,
+   "parroquia": "SAN BLAS",
+   "canton": 1
+ },
+ {
+   "id": 81,
+   "parroquia": "SAN SEBASTIÁN",
+   "canton": 1
+ },
+ {
+   "id": 82,
+   "parroquia": "SUCRE",
+   "canton": 1
+ },
+ {
+   "id": 83,
+   "parroquia": "TOTORACOCHA",
+   "canton": 1
+ },
+ {
+   "id": 84,
+   "parroquia": "YANUNCAY",
+   "canton": 1
+ },
+ {
+   "id": 85,
+   "parroquia": "HERMANO MIGUEL",
+   "canton": 1
+ },
+ {
+   "id": 86,
+   "parroquia": "CUENCA",
+   "canton": 1
+ },
+ {
+   "id": 87,
+   "parroquia": "BAÑOS",
+   "canton": 1
+ },
+ {
+   "id": 88,
+   "parroquia": "CUMBE",
+   "canton": 1
+ },
+ {
+   "id": 89,
+   "parroquia": "CHAUCHA",
+   "canton": 1
+ },
+ {
+   "id": 90,
+   "parroquia": "CHECA (JIDCAY)",
+   "canton": 1
+ },
+ {
+   "id": 91,
+   "parroquia": "CHIQUINTAD",
+   "canton": 1
+ },
+ {
+   "id": 92,
+   "parroquia": "LLACAO",
+   "canton": 1
+ },
+ {
+   "id": 93,
+   "parroquia": "MOLLETURO",
+   "canton": 1
+ },
+ {
+   "id": 94,
+   "parroquia": "NULTI",
+   "canton": 1
+ },
+ {
+   "id": 95,
+   "parroquia": "OCTAVIO CORDERO PALACIOS (SANTA ROSA)",
+   "canton": 1
+ },
+ {
+   "id": 96,
+   "parroquia": "PACCHA",
+   "canton": 1
+ },
+ {
+   "id": 97,
+   "parroquia": "QUINGEO",
+   "canton": 1
+ },
+ {
+   "id": 98,
+   "parroquia": "RICAURTE",
+   "canton": 1
+ },
+ {
+   "id": 99,
+   "parroquia": "SAN JOAQUÍN",
+   "canton": 1
+ },
+ {
+   "id": 100,
+   "parroquia": "SANTA ANA",
+   "canton": 1
+ },
+ {
+   "id": 101,
+   "parroquia": "SAYAUSÍ",
+   "canton": 1
+ },
+ {
+   "id": 102,
+   "parroquia": "SIDCAY",
+   "canton": 1
+ },
+ {
+   "id": 103,
+   "parroquia": "SININCAY",
+   "canton": 1
+ },
+ {
+   "id": 104,
+   "parroquia": "TARQUI",
+   "canton": 1
+ },
+ {
+   "id": 105,
+   "parroquia": "TURI",
+   "canton": 1
+ },
+ {
+   "id": 106,
+   "parroquia": "VALLE",
+   "canton": 1
+ },
+ {
+   "id": 107,
+   "parroquia": "VICTORIA DEL PORTETE (IRQUIS)",
+   "canton": 1
+ },
+ {
+   "id": 108,
+   "parroquia": "GIRÓN",
+   "canton": 2
+ },
+ {
+   "id": 109,
+   "parroquia": "ASUNCIÓN",
+   "canton": 2
+ },
+ {
+   "id": 110,
+   "parroquia": "SAN GERARDO",
+   "canton": 2
+ },
+ {
+   "id": 111,
+   "parroquia": "GUALACEO",
+   "canton": 3
+ },
+ {
+   "id": 112,
+   "parroquia": "CHORDELEG",
+   "canton": 3
+ },
+ {
+   "id": 113,
+   "parroquia": "DANIEL CÓRDOVA TORAL (EL ORIENTE)",
+   "canton": 3
+ },
+ {
+   "id": 114,
+   "parroquia": "JADÁN",
+   "canton": 3
+ },
+ {
+   "id": 115,
+   "parroquia": "MARIANO MORENO",
+   "canton": 3
+ },
+ {
+   "id": 116,
+   "parroquia": "PRINCIPAL",
+   "canton": 3
+ },
+ {
+   "id": 117,
+   "parroquia": "REMIGIO CRESPO TORAL (GÚLAG)",
+   "canton": 3
+ },
+ {
+   "id": 118,
+   "parroquia": "SAN JUAN",
+   "canton": 3
+ },
+ {
+   "id": 119,
+   "parroquia": "ZHIDMAD",
+   "canton": 3
+ },
+ {
+   "id": 120,
+   "parroquia": "LUIS CORDERO VEGA",
+   "canton": 3
+ },
+ {
+   "id": 121,
+   "parroquia": "SIMÓN BOLÍVAR (CAB. EN GAÑANZOL)",
+   "canton": 3
+ },
+ {
+   "id": 122,
+   "parroquia": "NABÓN",
+   "canton": 4
+ },
+ {
+   "id": 123,
+   "parroquia": "COCHAPATA",
+   "canton": 4
+ },
+ {
+   "id": 124,
+   "parroquia": "EL PROGRESO (CAB.EN ZHOTA)",
+   "canton": 4
+ },
+ {
+   "id": 125,
+   "parroquia": "LAS NIEVES (CHAYA)",
+   "canton": 4
+ },
+ {
+   "id": 126,
+   "parroquia": "OÑA",
+   "canton": 4
+ },
+ {
+   "id": 127,
+   "parroquia": "PAUTE",
+   "canton": 5
+ },
+ {
+   "id": 128,
+   "parroquia": "AMALUZA",
+   "canton": 5
+ },
+ {
+   "id": 129,
+   "parroquia": "BULÁN (JOSÉ VÍCTOR IZQUIERDO)",
+   "canton": 5
+ },
+ {
+   "id": 130,
+   "parroquia": "CHICÁN (GUILLERMO ORTEGA)",
+   "canton": 5
+ },
+ {
+   "id": 131,
+   "parroquia": "EL CABO",
+   "canton": 5
+ },
+ {
+   "id": 132,
+   "parroquia": "GUACHAPALA",
+   "canton": 5
+ },
+ {
+   "id": 133,
+   "parroquia": "GUARAINAG",
+   "canton": 5
+ },
+ {
+   "id": 134,
+   "parroquia": "PALMAS",
+   "canton": 5
+ },
+ {
+   "id": 135,
+   "parroquia": "PAN",
+   "canton": 5
+ },
+ {
+   "id": 136,
+   "parroquia": "SAN CRISTÓBAL (CARLOS ORDÓÑEZ LAZO)",
+   "canton": 5
+ },
+ {
+   "id": 137,
+   "parroquia": "SEVILLA DE ORO",
+   "canton": 5
+ },
+ {
+   "id": 138,
+   "parroquia": "TOMEBAMBA",
+   "canton": 5
+ },
+ {
+   "id": 139,
+   "parroquia": "DUG DUG",
+   "canton": 5
+ },
+ {
+   "id": 140,
+   "parroquia": "PUCARÁ",
+   "canton": 6
+ },
+ {
+   "id": 141,
+   "parroquia": "AMILO PONCE ENRÍQUEZ (CAB. EN RÍO 7 DE MOLLEPONGO",
+   "canton": 6
+ },
+ {
+   "id": 142,
+   "parroquia": "SAN RAFAEL DE SHARUG",
+   "canton": 6
+ },
+ {
+   "id": 143,
+   "parroquia": "SAN FERNANDO",
+   "canton": 7
+ },
+ {
+   "id": 144,
+   "parroquia": "CHUMBLÍN",
+   "canton": 7
+ },
+ {
+   "id": 145,
+   "parroquia": "SANTA ISABEL (CHAGUARURCO)",
+   "canton": 8
+ },
+ {
+   "id": 146,
+   "parroquia": "ABDÓN CALDERÓN (LA UNIÓN)",
+   "canton": 8
+ },
+ {
+   "id": 147,
+   "parroquia": "EL CARMEN DE PIJILÍ",
+   "canton": 8
+ },
+ {
+   "id": 148,
+   "parroquia": "ZHAGLLI (SHAGLLI)",
+   "canton": 8
+ },
+ {
+   "id": 149,
+   "parroquia": "SAN SALVADOR DE CAÑARIBAMBA",
+   "canton": 8
+ },
+ {
+   "id": 150,
+   "parroquia": "SIGSIG",
+   "canton": 9
+ },
+ {
+   "id": 151,
+   "parroquia": "CUCHIL (CUTCHIL)",
+   "canton": 9
+ },
+ {
+   "id": 152,
+   "parroquia": "GIMA",
+   "canton": 9
+ },
+ {
+   "id": 153,
+   "parroquia": "GUEL",
+   "canton": 9
+ },
+ {
+   "id": 154,
+   "parroquia": "LUDO",
+   "canton": 9
+ },
+ {
+   "id": 155,
+   "parroquia": "SAN BARTOLOMÉ",
+   "canton": 9
+ },
+ {
+   "id": 156,
+   "parroquia": "SAN JOSÉ DE RARANGA",
+   "canton": 9
+ },
+ {
+   "id": 157,
+   "parroquia": "SAN FELIPE DE OÑA CABECERA CANTONAL",
+   "canton": 10
+ },
+ {
+   "id": 158,
+   "parroquia": "SUSUDEL",
+   "canton": 10
+ },
+ {
+   "id": 159,
+   "parroquia": "CHORDELEG",
+   "canton": 11
+ },
+ {
+   "id": 160,
+   "parroquia": "PRINCIPAL",
+   "canton": 11
+ },
+ {
+   "id": 161,
+   "parroquia": "LA UNIÓN",
+   "canton": 11
+ },
+ {
+   "id": 162,
+   "parroquia": "LUIS GALARZA ORELLANA (CAB.EN DELEGSOL)",
+   "canton": 11
+ },
+ {
+   "id": 163,
+   "parroquia": "SAN MARTÍN DE PUZHIO",
+   "canton": 11
+ },
+ {
+   "id": 164,
+   "parroquia": "EL PAN",
+   "canton": 12
+ },
+ {
+   "id": 165,
+   "parroquia": "AMALUZA",
+   "canton": 12
+ },
+ {
+   "id": 166,
+   "parroquia": "PALMAS",
+   "canton": 12
+ },
+ {
+   "id": 167,
+   "parroquia": "SAN VICENTE",
+   "canton": 12
+ },
+ {
+   "id": 168,
+   "parroquia": "SEVILLA DE ORO",
+   "canton": 13
+ },
+ {
+   "id": 169,
+   "parroquia": "AMALUZA",
+   "canton": 13
+ },
+ {
+   "id": 170,
+   "parroquia": "PALMAS",
+   "canton": 13
+ },
+ {
+   "id": 171,
+   "parroquia": "GUACHAPALA",
+   "canton": 14
+ },
+ {
+   "id": 172,
+   "parroquia": "CAMILO PONCE ENRÍQUEZ",
+   "canton": 15
+ },
+ {
+   "id": 173,
+   "parroquia": "EL CARMEN DE PIJILÍ",
+   "canton": 15
+ },
+ {
+   "id": 174,
+   "parroquia": "ÁNGEL POLIBIO CHÁVES",
+   "canton": 16
+ },
+ {
+   "id": 175,
+   "parroquia": "GABRIEL IGNACIO VEINTIMILLA",
+   "canton": 16
+ },
+ {
+   "id": 176,
+   "parroquia": "GUANUJO",
+   "canton": 16
+ },
+ {
+   "id": 177,
+   "parroquia": "GUARANDA",
+   "canton": 16
+ },
+ {
+   "id": 178,
+   "parroquia": "FACUNDO VELA",
+   "canton": 16
+ },
+ {
+   "id": 179,
+   "parroquia": "GUANUJO",
+   "canton": 16
+ },
+ {
+   "id": 180,
+   "parroquia": "JULIO E. MORENO (CATANAHUÁN GRANDE)",
+   "canton": 16
+ },
+ {
+   "id": 181,
+   "parroquia": "LAS NAVES",
+   "canton": 16
+ },
+ {
+   "id": 182,
+   "parroquia": "SALINAS",
+   "canton": 16
+ },
+ {
+   "id": 183,
+   "parroquia": "SAN LORENZO",
+   "canton": 16
+ },
+ {
+   "id": 184,
+   "parroquia": "SAN SIMÓN (YACOTO)",
+   "canton": 16
+ },
+ {
+   "id": 185,
+   "parroquia": "SANTA FÉ (SANTA FÉ)",
+   "canton": 16
+ },
+ {
+   "id": 186,
+   "parroquia": "SIMIÁTUG",
+   "canton": 16
+ },
+ {
+   "id": 187,
+   "parroquia": "SAN LUIS DE PAMBIL",
+   "canton": 16
+ },
+ {
+   "id": 188,
+   "parroquia": "CHILLANES",
+   "canton": 17
+ },
+ {
+   "id": 189,
+   "parroquia": "SAN JOSÉ DEL TAMBO (TAMBOPAMBA)",
+   "canton": 17
+ },
+ {
+   "id": 190,
+   "parroquia": "SAN JOSÉ DE CHIMBO",
+   "canton": 18
+ },
+ {
+   "id": 191,
+   "parroquia": "ASUNCIÓN (ASANCOTO)",
+   "canton": 18
+ },
+ {
+   "id": 192,
+   "parroquia": "CALUMA",
+   "canton": 18
+ },
+ {
+   "id": 193,
+   "parroquia": "MAGDALENA (CHAPACOTO)",
+   "canton": 18
+ },
+ {
+   "id": 194,
+   "parroquia": "SAN SEBASTIÁN",
+   "canton": 18
+ },
+ {
+   "id": 195,
+   "parroquia": "TELIMBELA",
+   "canton": 18
+ },
+ {
+   "id": 196,
+   "parroquia": "ECHEANDÍA",
+   "canton": 19
+ },
+ {
+   "id": 197,
+   "parroquia": "SAN MIGUEL",
+   "canton": 20
+ },
+ {
+   "id": 198,
+   "parroquia": "BALSAPAMBA",
+   "canton": 20
+ },
+ {
+   "id": 199,
+   "parroquia": "BILOVÁN",
+   "canton": 20
+ },
+ {
+   "id": 200,
+   "parroquia": "RÉGULO DE MORA",
+   "canton": 20
+ },
+ {
+   "id": 201,
+   "parroquia": "SAN PABLO (SAN PABLO DE ATENAS)",
+   "canton": 20
+ },
+ {
+   "id": 202,
+   "parroquia": "SANTIAGO",
+   "canton": 20
+ },
+ {
+   "id": 203,
+   "parroquia": "SAN VICENTE",
+   "canton": 20
+ },
+ {
+   "id": 204,
+   "parroquia": "CALUMA",
+   "canton": 21
+ },
+ {
+   "id": 205,
+   "parroquia": "LAS MERCEDES",
+   "canton": 22
+ },
+ {
+   "id": 206,
+   "parroquia": "LAS NAVES",
+   "canton": 22
+ },
+ {
+   "id": 207,
+   "parroquia": "LAS NAVES",
+   "canton": 22
+ },
+ {
+   "id": 208,
+   "parroquia": "AURELIO BAYAS MARTÍNEZ",
+   "canton": 23
+ },
+ {
+   "id": 209,
+   "parroquia": "AZOGUES",
+   "canton": 23
+ },
+ {
+   "id": 210,
+   "parroquia": "BORRERO",
+   "canton": 23
+ },
+ {
+   "id": 211,
+   "parroquia": "SAN FRANCISCO",
+   "canton": 23
+ },
+ {
+   "id": 212,
+   "parroquia": "AZOGUES",
+   "canton": 23
+ },
+ {
+   "id": 213,
+   "parroquia": "COJITAMBO",
+   "canton": 23
+ },
+ {
+   "id": 214,
+   "parroquia": "DÉLEG",
+   "canton": 23
+ },
+ {
+   "id": 215,
+   "parroquia": "GUAPÁN",
+   "canton": 23
+ },
+ {
+   "id": 216,
+   "parroquia": "JAVIER LOYOLA (CHUQUIPATA)",
+   "canton": 23
+ },
+ {
+   "id": 217,
+   "parroquia": "LUIS CORDERO",
+   "canton": 23
+ },
+ {
+   "id": 218,
+   "parroquia": "PINDILIG",
+   "canton": 23
+ },
+ {
+   "id": 219,
+   "parroquia": "RIVERA",
+   "canton": 23
+ },
+ {
+   "id": 220,
+   "parroquia": "SAN MIGUEL",
+   "canton": 23
+ },
+ {
+   "id": 221,
+   "parroquia": "SOLANO",
+   "canton": 23
+ },
+ {
+   "id": 222,
+   "parroquia": "TADAY",
+   "canton": 23
+ },
+ {
+   "id": 223,
+   "parroquia": "BIBLIÁN",
+   "canton": 24
+ },
+ {
+   "id": 224,
+   "parroquia": "NAZÓN (CAB. EN PAMPA DE DOMÍNGUEZ)",
+   "canton": 24
+ },
+ {
+   "id": 225,
+   "parroquia": "SAN FRANCISCO DE SAGEO",
+   "canton": 24
+ },
+ {
+   "id": 226,
+   "parroquia": "TURUPAMBA",
+   "canton": 24
+ },
+ {
+   "id": 227,
+   "parroquia": "JERUSALÉN",
+   "canton": 24
+ },
+ {
+   "id": 228,
+   "parroquia": "CAÑAR",
+   "canton": 25
+ },
+ {
+   "id": 229,
+   "parroquia": "CHONTAMARCA",
+   "canton": 25
+ },
+ {
+   "id": 230,
+   "parroquia": "CHOROCOPTE",
+   "canton": 25
+ },
+ {
+   "id": 231,
+   "parroquia": "GENERAL MORALES (SOCARTE)",
+   "canton": 25
+ },
+ {
+   "id": 232,
+   "parroquia": "GUALLETURO",
+   "canton": 25
+ },
+ {
+   "id": 233,
+   "parroquia": "HONORATO VÁSQUEZ (TAMBO VIEJO)",
+   "canton": 25
+ },
+ {
+   "id": 234,
+   "parroquia": "INGAPIRCA",
+   "canton": 25
+ },
+ {
+   "id": 235,
+   "parroquia": "JUNCAL",
+   "canton": 25
+ },
+ {
+   "id": 236,
+   "parroquia": "SAN ANTONIO",
+   "canton": 25
+ },
+ {
+   "id": 237,
+   "parroquia": "SUSCAL",
+   "canton": 25
+ },
+ {
+   "id": 238,
+   "parroquia": "TAMBO",
+   "canton": 25
+ },
+ {
+   "id": 239,
+   "parroquia": "ZHUD",
+   "canton": 25
+ },
+ {
+   "id": 240,
+   "parroquia": "VENTURA",
+   "canton": 25
+ },
+ {
+   "id": 241,
+   "parroquia": "DUCUR",
+   "canton": 25
+ },
+ {
+   "id": 242,
+   "parroquia": "LA TRONCAL",
+   "canton": 26
+ },
+ {
+   "id": 243,
+   "parroquia": "MANUEL J. CALLE",
+   "canton": 26
+ },
+ {
+   "id": 244,
+   "parroquia": "PANCHO NEGRO",
+   "canton": 26
+ },
+ {
+   "id": 245,
+   "parroquia": "EL TAMBO",
+   "canton": 27
+ },
+ {
+   "id": 246,
+   "parroquia": "DÉLEG",
+   "canton": 28
+ },
+ {
+   "id": 247,
+   "parroquia": "SOLANO",
+   "canton": 28
+ },
+ {
+   "id": 248,
+   "parroquia": "SUSCAL",
+   "canton": 29
+ },
+ {
+   "id": 249,
+   "parroquia": "GONZÁLEZ SUÁREZ",
+   "canton": 30
+ },
+ {
+   "id": 250,
+   "parroquia": "TULCÁN",
+   "canton": 30
+ },
+ {
+   "id": 251,
+   "parroquia": "TULCÁN",
+   "canton": 30
+ },
+ {
+   "id": 252,
+   "parroquia": "EL CARMELO (EL PUN)",
+   "canton": 30
+ },
+ {
+   "id": 253,
+   "parroquia": "HUACA",
+   "canton": 30
+ },
+ {
+   "id": 254,
+   "parroquia": "JULIO ANDRADE (OREJUELA)",
+   "canton": 30
+ },
+ {
+   "id": 255,
+   "parroquia": "MALDONADO",
+   "canton": 30
+ },
+ {
+   "id": 256,
+   "parroquia": "PIOTER",
+   "canton": 30
+ },
+ {
+   "id": 257,
+   "parroquia": "TOBAR DONOSO (LA BOCANA DE CAMUMBÍ)",
+   "canton": 30
+ },
+ {
+   "id": 258,
+   "parroquia": "TUFIÑO",
+   "canton": 30
+ },
+ {
+   "id": 259,
+   "parroquia": "URBINA (TAYA)",
+   "canton": 30
+ },
+ {
+   "id": 260,
+   "parroquia": "EL CHICAL",
+   "canton": 30
+ },
+ {
+   "id": 261,
+   "parroquia": "MARISCAL SUCRE",
+   "canton": 30
+ },
+ {
+   "id": 262,
+   "parroquia": "SANTA MARTHA DE CUBA",
+   "canton": 30
+ },
+ {
+   "id": 263,
+   "parroquia": "BOLÍVAR",
+   "canton": 31
+ },
+ {
+   "id": 264,
+   "parroquia": "BOLÍVAR",
+   "canton": 136
+ },
+ {
+   "id": 265,
+   "parroquia": "GARCÍA MORENO",
+   "canton": 31
+ },
+ {
+   "id": 266,
+   "parroquia": "GARCÍA MORENO",
+   "canton": 136
+ },
+ {
+   "id": 267,
+   "parroquia": "LOS ANDES",
+   "canton": 31
+ },
+ {
+   "id": 268,
+   "parroquia": "LOS ANDES",
+   "canton": 136
+ },
+ {
+   "id": 269,
+   "parroquia": "MONTE OLIVO",
+   "canton": 31
+ },
+ {
+   "id": 270,
+   "parroquia": "MONTE OLIVO",
+   "canton": 136
+ },
+ {
+   "id": 271,
+   "parroquia": "SAN VICENTE DE PUSIR",
+   "canton": 31
+ },
+ {
+   "id": 272,
+   "parroquia": "SAN VICENTE DE PUSIR",
+   "canton": 136
+ },
+ {
+   "id": 273,
+   "parroquia": "SAN RAFAEL",
+   "canton": 31
+ },
+ {
+   "id": 274,
+   "parroquia": "SAN RAFAEL",
+   "canton": 136
+ },
+ {
+   "id": 275,
+   "parroquia": "EL ÁNGEL",
+   "canton": 32
+ },
+ {
+   "id": 276,
+   "parroquia": "27 DE SEPTIEMBRE",
+   "canton": 32
+ },
+ {
+   "id": 277,
+   "parroquia": "EL ANGEL",
+   "canton": 32
+ },
+ {
+   "id": 278,
+   "parroquia": "EL GOALTAL",
+   "canton": 32
+ },
+ {
+   "id": 279,
+   "parroquia": "LA LIBERTAD (ALIZO)",
+   "canton": 32
+ },
+ {
+   "id": 280,
+   "parroquia": "SAN ISIDRO",
+   "canton": 32
+ },
+ {
+   "id": 281,
+   "parroquia": "MIRA (CHONTAHUASI)",
+   "canton": 33
+ },
+ {
+   "id": 282,
+   "parroquia": "CONCEPCIÓN",
+   "canton": 33
+ },
+ {
+   "id": 283,
+   "parroquia": "JIJÓN Y CAAMAÑO (CAB. EN RÍO BLANCO)",
+   "canton": 33
+ },
+ {
+   "id": 284,
+   "parroquia": "JUAN MONTALVO (SAN IGNACIO DE QUIL)",
+   "canton": 33
+ },
+ {
+   "id": 285,
+   "parroquia": "GONZÁLEZ SUÁREZ",
+   "canton": 34
+ },
+ {
+   "id": 286,
+   "parroquia": "SAN JOSÉ",
+   "canton": 34
+ },
+ {
+   "id": 287,
+   "parroquia": "SAN GABRIEL",
+   "canton": 34
+ },
+ {
+   "id": 288,
+   "parroquia": "CRISTÓBAL COLÓN",
+   "canton": 34
+ },
+ {
+   "id": 289,
+   "parroquia": "CHITÁN DE NAVARRETE",
+   "canton": 34
+ },
+ {
+   "id": 290,
+   "parroquia": "FERNÁNDEZ SALVADOR",
+   "canton": 34
+ },
+ {
+   "id": 291,
+   "parroquia": "LA PAZ",
+   "canton": 34
+ },
+ {
+   "id": 292,
+   "parroquia": "PIARTAL",
+   "canton": 34
+ },
+ {
+   "id": 293,
+   "parroquia": "HUACA",
+   "canton": 35
+ },
+ {
+   "id": 294,
+   "parroquia": "MARISCAL SUCRE",
+   "canton": 35
+ },
+ {
+   "id": 295,
+   "parroquia": "ELOY ALFARO (SAN FELIPE)",
+   "canton": 36
+ },
+ {
+   "id": 296,
+   "parroquia": "IGNACIO FLORES (PARQUE FLORES)",
+   "canton": 36
+ },
+ {
+   "id": 297,
+   "parroquia": "JUAN MONTALVO (SAN SEBASTIÁN)",
+   "canton": 36
+ },
+ {
+   "id": 298,
+   "parroquia": "LA MATRIZ",
+   "canton": 36
+ },
+ {
+   "id": 299,
+   "parroquia": "SAN BUENAVENTURA",
+   "canton": 36
+ },
+ {
+   "id": 300,
+   "parroquia": "LATACUNGA",
+   "canton": 36
+ },
+ {
+   "id": 301,
+   "parroquia": "ALAQUES (ALÁQUEZ)",
+   "canton": 36
+ },
+ {
+   "id": 302,
+   "parroquia": "BELISARIO QUEVEDO (GUANAILÍN)",
+   "canton": 36
+ },
+ {
+   "id": 303,
+   "parroquia": "GUAITACAMA (GUAYTACAMA)",
+   "canton": 36
+ },
+ {
+   "id": 304,
+   "parroquia": "JOSEGUANGO BAJO",
+   "canton": 36
+ },
+ {
+   "id": 305,
+   "parroquia": "LAS PAMPAS",
+   "canton": 36
+ },
+ {
+   "id": 306,
+   "parroquia": "MULALÓ",
+   "canton": 36
+ },
+ {
+   "id": 307,
+   "parroquia": "11 DE NOVIEMBRE (ILINCHISI)",
+   "canton": 36
+ },
+ {
+   "id": 308,
+   "parroquia": "POALÓ",
+   "canton": 36
+ },
+ {
+   "id": 309,
+   "parroquia": "SAN JUAN DE PASTOCALLE",
+   "canton": 36
+ },
+ {
+   "id": 310,
+   "parroquia": "SIGCHOS",
+   "canton": 36
+ },
+ {
+   "id": 311,
+   "parroquia": "TANICUCHÍ",
+   "canton": 36
+ },
+ {
+   "id": 312,
+   "parroquia": "TOACASO",
+   "canton": 36
+ },
+ {
+   "id": 313,
+   "parroquia": "PALO QUEMADO",
+   "canton": 36
+ },
+ {
+   "id": 314,
+   "parroquia": "EL CARMEN",
+   "canton": 37
+ },
+ {
+   "id": 315,
+   "parroquia": "LA MANÁ",
+   "canton": 37
+ },
+ {
+   "id": 316,
+   "parroquia": "EL TRIUNFO",
+   "canton": 37
+ },
+ {
+   "id": 317,
+   "parroquia": "LA MANÁ",
+   "canton": 37
+ },
+ {
+   "id": 318,
+   "parroquia": "GUASAGANDA (CAB.EN GUASAGANDA",
+   "canton": 37
+ },
+ {
+   "id": 319,
+   "parroquia": "PUCAYACU",
+   "canton": 37
+ },
+ {
+   "id": 320,
+   "parroquia": "EL CORAZÓN",
+   "canton": 38
+ },
+ {
+   "id": 321,
+   "parroquia": "MORASPUNGO",
+   "canton": 38
+ },
+ {
+   "id": 322,
+   "parroquia": "PINLLOPATA",
+   "canton": 38
+ },
+ {
+   "id": 323,
+   "parroquia": "RAMÓN CAMPAÑA",
+   "canton": 38
+ },
+ {
+   "id": 324,
+   "parroquia": "PUJILÍ",
+   "canton": 39
+ },
+ {
+   "id": 325,
+   "parroquia": "ANGAMARCA",
+   "canton": 39
+ },
+ {
+   "id": 326,
+   "parroquia": "CHUCCHILÁN (CHUGCHILÁN)",
+   "canton": 39
+ },
+ {
+   "id": 327,
+   "parroquia": "GUANGAJE",
+   "canton": 39
+ },
+ {
+   "id": 328,
+   "parroquia": "ISINLIBÍ (ISINLIVÍ)",
+   "canton": 39
+ },
+ {
+   "id": 329,
+   "parroquia": "LA VICTORIA",
+   "canton": 39
+ },
+ {
+   "id": 330,
+   "parroquia": "PILALÓ",
+   "canton": 39
+ },
+ {
+   "id": 331,
+   "parroquia": "TINGO",
+   "canton": 39
+ },
+ {
+   "id": 332,
+   "parroquia": "ZUMBAHUA",
+   "canton": 39
+ },
+ {
+   "id": 333,
+   "parroquia": "SAN MIGUEL",
+   "canton": 40
+ },
+ {
+   "id": 334,
+   "parroquia": "ANTONIO JOSÉ HOLGUÍN (SANTA LUCÍA)",
+   "canton": 40
+ },
+ {
+   "id": 335,
+   "parroquia": "CUSUBAMBA",
+   "canton": 40
+ },
+ {
+   "id": 336,
+   "parroquia": "MULALILLO",
+   "canton": 40
+ },
+ {
+   "id": 337,
+   "parroquia": "MULLIQUINDIL (SANTA ANA)",
+   "canton": 40
+ },
+ {
+   "id": 338,
+   "parroquia": "PANSALEO",
+   "canton": 40
+ },
+ {
+   "id": 339,
+   "parroquia": "SAQUISILÍ",
+   "canton": 41
+ },
+ {
+   "id": 340,
+   "parroquia": "CANCHAGUA",
+   "canton": 41
+ },
+ {
+   "id": 341,
+   "parroquia": "CHANTILÍN",
+   "canton": 41
+ },
+ {
+   "id": 342,
+   "parroquia": "COCHAPAMBA",
+   "canton": 41
+ },
+ {
+   "id": 343,
+   "parroquia": "SIGCHOS",
+   "canton": 42
+ },
+ {
+   "id": 344,
+   "parroquia": "CHUGCHILLÁN",
+   "canton": 42
+ },
+ {
+   "id": 345,
+   "parroquia": "ISINLIVÍ",
+   "canton": 42
+ },
+ {
+   "id": 346,
+   "parroquia": "LAS PAMPAS",
+   "canton": 42
+ },
+ {
+   "id": 347,
+   "parroquia": "PALO QUEMADO",
+   "canton": 42
+ },
+ {
+   "id": 348,
+   "parroquia": "LIZARZABURU",
+   "canton": 43
+ },
+ {
+   "id": 349,
+   "parroquia": "MALDONADO",
+   "canton": 43
+ },
+ {
+   "id": 350,
+   "parroquia": "VELASCO",
+   "canton": 43
+ },
+ {
+   "id": 351,
+   "parroquia": "VELOZ",
+   "canton": 43
+ },
+ {
+   "id": 352,
+   "parroquia": "YARUQUÍES",
+   "canton": 43
+ },
+ {
+   "id": 353,
+   "parroquia": "RIOBAMBA",
+   "canton": 43
+ },
+ {
+   "id": 354,
+   "parroquia": "CACHA (CAB. EN MACHÁNGARA)",
+   "canton": 43
+ },
+ {
+   "id": 355,
+   "parroquia": "CALPI",
+   "canton": 43
+ },
+ {
+   "id": 356,
+   "parroquia": "CUBIJÍES",
+   "canton": 43
+ },
+ {
+   "id": 357,
+   "parroquia": "FLORES",
+   "canton": 43
+ },
+ {
+   "id": 358,
+   "parroquia": "LICÁN",
+   "canton": 43
+ },
+ {
+   "id": 359,
+   "parroquia": "LICTO",
+   "canton": 43
+ },
+ {
+   "id": 360,
+   "parroquia": "PUNGALÁ",
+   "canton": 43
+ },
+ {
+   "id": 361,
+   "parroquia": "PUNÍN",
+   "canton": 43
+ },
+ {
+   "id": 362,
+   "parroquia": "QUIMIAG",
+   "canton": 43
+ },
+ {
+   "id": 363,
+   "parroquia": "SAN JUAN",
+   "canton": 43
+ },
+ {
+   "id": 364,
+   "parroquia": "SAN LUIS",
+   "canton": 43
+ },
+ {
+   "id": 365,
+   "parroquia": "ALAUSÍ",
+   "canton": 44
+ },
+ {
+   "id": 366,
+   "parroquia": "ACHUPALLAS",
+   "canton": 44
+ },
+ {
+   "id": 367,
+   "parroquia": "CUMANDÁ",
+   "canton": 44
+ },
+ {
+   "id": 368,
+   "parroquia": "GUASUNTOS",
+   "canton": 44
+ },
+ {
+   "id": 369,
+   "parroquia": "HUIGRA",
+   "canton": 44
+ },
+ {
+   "id": 370,
+   "parroquia": "MULTITUD",
+   "canton": 44
+ },
+ {
+   "id": 371,
+   "parroquia": "PISTISHÍ (NARIZ DEL DIABLO)",
+   "canton": 44
+ },
+ {
+   "id": 372,
+   "parroquia": "PUMALLACTA",
+   "canton": 44
+ },
+ {
+   "id": 373,
+   "parroquia": "SEVILLA",
+   "canton": 44
+ },
+ {
+   "id": 374,
+   "parroquia": "SIBAMBE",
+   "canton": 44
+ },
+ {
+   "id": 375,
+   "parroquia": "TIXÁN",
+   "canton": 44
+ },
+ {
+   "id": 376,
+   "parroquia": "CAJABAMBA",
+   "canton": 45
+ },
+ {
+   "id": 377,
+   "parroquia": "SICALPA",
+   "canton": 45
+ },
+ {
+   "id": 378,
+   "parroquia": "VILLA LA UNIÓN (CAJABAMBA)",
+   "canton": 45
+ },
+ {
+   "id": 379,
+   "parroquia": "CAÑI",
+   "canton": 45
+ },
+ {
+   "id": 380,
+   "parroquia": "COLUMBE",
+   "canton": 45
+ },
+ {
+   "id": 381,
+   "parroquia": "JUAN DE VELASCO (PANGOR)",
+   "canton": 45
+ },
+ {
+   "id": 382,
+   "parroquia": "SANTIAGO DE QUITO (CAB. EN SAN ANTONIO DE QUITO)",
+   "canton": 45
+ },
+ {
+   "id": 383,
+   "parroquia": "CHAMBO",
+   "canton": 46
+ },
+ {
+   "id": 384,
+   "parroquia": "CHUNCHI",
+   "canton": 47
+ },
+ {
+   "id": 385,
+   "parroquia": "CAPZOL",
+   "canton": 47
+ },
+ {
+   "id": 386,
+   "parroquia": "COMPUD",
+   "canton": 47
+ },
+ {
+   "id": 387,
+   "parroquia": "GONZOL",
+   "canton": 47
+ },
+ {
+   "id": 388,
+   "parroquia": "LLAGOS",
+   "canton": 47
+ },
+ {
+   "id": 389,
+   "parroquia": "GUAMOTE",
+   "canton": 48
+ },
+ {
+   "id": 390,
+   "parroquia": "CEBADAS",
+   "canton": 48
+ },
+ {
+   "id": 391,
+   "parroquia": "PALMIRA",
+   "canton": 48
+ },
+ {
+   "id": 392,
+   "parroquia": "EL ROSARIO",
+   "canton": 49
+ },
+ {
+   "id": 393,
+   "parroquia": "LA MATRIZ",
+   "canton": 49
+ },
+ {
+   "id": 394,
+   "parroquia": "GUANO",
+   "canton": 49
+ },
+ {
+   "id": 395,
+   "parroquia": "GUANANDO",
+   "canton": 49
+ },
+ {
+   "id": 396,
+   "parroquia": "ILAPO",
+   "canton": 49
+ },
+ {
+   "id": 397,
+   "parroquia": "LA PROVIDENCIA",
+   "canton": 49
+ },
+ {
+   "id": 398,
+   "parroquia": "SAN ANDRÉS",
+   "canton": 49
+ },
+ {
+   "id": 399,
+   "parroquia": "SAN GERARDO DE PACAICAGUÁN",
+   "canton": 49
+ },
+ {
+   "id": 400,
+   "parroquia": "SAN ISIDRO DE PATULÚ",
+   "canton": 49
+ },
+ {
+   "id": 401,
+   "parroquia": "SAN JOSÉ DEL CHAZO",
+   "canton": 49
+ },
+ {
+   "id": 402,
+   "parroquia": "SANTA FÉ DE GALÁN",
+   "canton": 49
+ },
+ {
+   "id": 403,
+   "parroquia": "VALPARAÍSO",
+   "canton": 49
+ },
+ {
+   "id": 404,
+   "parroquia": "PALLATANGA",
+   "canton": 50
+ },
+ {
+   "id": 405,
+   "parroquia": "PENIPE",
+   "canton": 51
+ },
+ {
+   "id": 406,
+   "parroquia": "EL ALTAR",
+   "canton": 51
+ },
+ {
+   "id": 407,
+   "parroquia": "MATUS",
+   "canton": 51
+ },
+ {
+   "id": 408,
+   "parroquia": "PUELA",
+   "canton": 51
+ },
+ {
+   "id": 409,
+   "parroquia": "SAN ANTONIO DE BAYUSHIG",
+   "canton": 51
+ },
+ {
+   "id": 410,
+   "parroquia": "LA CANDELARIA",
+   "canton": 51
+ },
+ {
+   "id": 411,
+   "parroquia": "BILBAO (CAB.EN QUILLUYACU)",
+   "canton": 51
+ },
+ {
+   "id": 412,
+   "parroquia": "CUMANDÁ",
+   "canton": 52
+ },
+ {
+   "id": 413,
+   "parroquia": "LA PROVIDENCIA",
+   "canton": 53
+ },
+ {
+   "id": 414,
+   "parroquia": "MACHALA",
+   "canton": 53
+ },
+ {
+   "id": 415,
+   "parroquia": "PUERTO BOLÍVAR",
+   "canton": 53
+ },
+ {
+   "id": 416,
+   "parroquia": "NUEVE DE MAYO",
+   "canton": 53
+ },
+ {
+   "id": 417,
+   "parroquia": "EL CAMBIO",
+   "canton": 53
+ },
+ {
+   "id": 418,
+   "parroquia": "MACHALA",
+   "canton": 53
+ },
+ {
+   "id": 419,
+   "parroquia": "EL CAMBIO",
+   "canton": 53
+ },
+ {
+   "id": 420,
+   "parroquia": "EL RETIRO",
+   "canton": 53
+ },
+ {
+   "id": 421,
+   "parroquia": "ARENILLAS",
+   "canton": 54
+ },
+ {
+   "id": 422,
+   "parroquia": "CHACRAS",
+   "canton": 54
+ },
+ {
+   "id": 423,
+   "parroquia": "LA LIBERTAD",
+   "canton": 54
+ },
+ {
+   "id": 424,
+   "parroquia": "LAS LAJAS (CAB. EN LA VICTORIA)",
+   "canton": 54
+ },
+ {
+   "id": 425,
+   "parroquia": "PALMALES",
+   "canton": 54
+ },
+ {
+   "id": 426,
+   "parroquia": "CARCABÓN",
+   "canton": 54
+ },
+ {
+   "id": 427,
+   "parroquia": "PACCHA",
+   "canton": 55
+ },
+ {
+   "id": 428,
+   "parroquia": "AYAPAMBA",
+   "canton": 55
+ },
+ {
+   "id": 429,
+   "parroquia": "CORDONCILLO",
+   "canton": 55
+ },
+ {
+   "id": 430,
+   "parroquia": "MILAGRO",
+   "canton": 55
+ },
+ {
+   "id": 431,
+   "parroquia": "SAN JOSÉ",
+   "canton": 55
+ },
+ {
+   "id": 432,
+   "parroquia": "SAN JUAN DE CERRO AZUL",
+   "canton": 55
+ },
+ {
+   "id": 433,
+   "parroquia": "BALSAS",
+   "canton": 56
+ },
+ {
+   "id": 434,
+   "parroquia": "BELLAMARÍA",
+   "canton": 56
+ },
+ {
+   "id": 435,
+   "parroquia": "CHILLA",
+   "canton": 57
+ },
+ {
+   "id": 436,
+   "parroquia": "EL GUABO",
+   "canton": 58
+ },
+ {
+   "id": 437,
+   "parroquia": "BARBONES (SUCRE)",
+   "canton": 58
+ },
+ {
+   "id": 438,
+   "parroquia": "LA IBERIA",
+   "canton": 58
+ },
+ {
+   "id": 439,
+   "parroquia": "TENDALES (CAB.EN PUERTO TENDALES)",
+   "canton": 58
+ },
+ {
+   "id": 440,
+   "parroquia": "RÍO BONITO",
+   "canton": 58
+ },
+ {
+   "id": 441,
+   "parroquia": "ECUADOR",
+   "canton": 59
+ },
+ {
+   "id": 442,
+   "parroquia": "EL PARAÍSO",
+   "canton": 59
+ },
+ {
+   "id": 443,
+   "parroquia": "HUALTACO",
+   "canton": 59
+ },
+ {
+   "id": 444,
+   "parroquia": "MILTON REYES",
+   "canton": 59
+ },
+ {
+   "id": 445,
+   "parroquia": "UNIÓN LOJANA",
+   "canton": 59
+ },
+ {
+   "id": 446,
+   "parroquia": "HUAQUILLAS",
+   "canton": 59
+ },
+ {
+   "id": 447,
+   "parroquia": "MARCABELÍ",
+   "canton": 60
+ },
+ {
+   "id": 448,
+   "parroquia": "EL INGENIO",
+   "canton": 60
+ },
+ {
+   "id": 449,
+   "parroquia": "BOLÍVAR",
+   "canton": 61
+ },
+ {
+   "id": 450,
+   "parroquia": "LOMA DE FRANCO",
+   "canton": 61
+ },
+ {
+   "id": 451,
+   "parroquia": "OCHOA LEÓN (MATRIZ)",
+   "canton": 61
+ },
+ {
+   "id": 452,
+   "parroquia": "TRES CERRITOS",
+   "canton": 61
+ },
+ {
+   "id": 453,
+   "parroquia": "PASAJE",
+   "canton": 61
+ },
+ {
+   "id": 454,
+   "parroquia": "BUENAVISTA",
+   "canton": 61
+ },
+ {
+   "id": 455,
+   "parroquia": "CASACAY",
+   "canton": 61
+ },
+ {
+   "id": 456,
+   "parroquia": "LA PEAÑA",
+   "canton": 61
+ },
+ {
+   "id": 457,
+   "parroquia": "PROGRESO",
+   "canton": 61
+ },
+ {
+   "id": 458,
+   "parroquia": "UZHCURRUMI",
+   "canton": 61
+ },
+ {
+   "id": 459,
+   "parroquia": "CAÑAQUEMADA",
+   "canton": 61
+ },
+ {
+   "id": 460,
+   "parroquia": "LA MATRIZ",
+   "canton": 62
+ },
+ {
+   "id": 461,
+   "parroquia": "LA SUSAYA",
+   "canton": 62
+ },
+ {
+   "id": 462,
+   "parroquia": "PIÑAS GRANDE",
+   "canton": 62
+ },
+ {
+   "id": 463,
+   "parroquia": "PIÑAS",
+   "canton": 62
+ },
+ {
+   "id": 464,
+   "parroquia": "CAPIRO (CAB. EN LA CAPILLA DE CAPIRO)",
+   "canton": 62
+ },
+ {
+   "id": 465,
+   "parroquia": "LA BOCANA",
+   "canton": 62
+ },
+ {
+   "id": 466,
+   "parroquia": "MOROMORO (CAB. EN EL VADO)",
+   "canton": 62
+ },
+ {
+   "id": 467,
+   "parroquia": "PIEDRAS",
+   "canton": 62
+ },
+ {
+   "id": 468,
+   "parroquia": "SAN ROQUE (AMBROSIO MALDONADO)",
+   "canton": 62
+ },
+ {
+   "id": 469,
+   "parroquia": "SARACAY",
+   "canton": 62
+ },
+ {
+   "id": 470,
+   "parroquia": "PORTOVELO",
+   "canton": 63
+ },
+ {
+   "id": 471,
+   "parroquia": "CURTINCAPA",
+   "canton": 63
+ },
+ {
+   "id": 472,
+   "parroquia": "MORALES",
+   "canton": 63
+ },
+ {
+   "id": 473,
+   "parroquia": "SALATÍ",
+   "canton": 63
+ },
+ {
+   "id": 474,
+   "parroquia": "SANTA ROSA",
+   "canton": 64
+ },
+ {
+   "id": 475,
+   "parroquia": "PUERTO JELÍ",
+   "canton": 64
+ },
+ {
+   "id": 476,
+   "parroquia": "BALNEARIO JAMBELÍ (SATÉLITE)",
+   "canton": 64
+ },
+ {
+   "id": 477,
+   "parroquia": "JUMÓN (SATÉLITE)",
+   "canton": 64
+ },
+ {
+   "id": 478,
+   "parroquia": "NUEVO SANTA ROSA",
+   "canton": 64
+ },
+ {
+   "id": 479,
+   "parroquia": "SANTA ROSA",
+   "canton": 64
+ },
+ {
+   "id": 480,
+   "parroquia": "BELLAVISTA",
+   "canton": 64
+ },
+ {
+   "id": 481,
+   "parroquia": "JAMBELÍ",
+   "canton": 64
+ },
+ {
+   "id": 482,
+   "parroquia": "LA AVANZADA",
+   "canton": 64
+ },
+ {
+   "id": 483,
+   "parroquia": "SAN ANTONIO",
+   "canton": 64
+ },
+ {
+   "id": 484,
+   "parroquia": "TORATA",
+   "canton": 64
+ },
+ {
+   "id": 485,
+   "parroquia": "VICTORIA",
+   "canton": 64
+ },
+ {
+   "id": 486,
+   "parroquia": "BELLAMARÍA",
+   "canton": 64
+ },
+ {
+   "id": 487,
+   "parroquia": "ZARUMA",
+   "canton": 65
+ },
+ {
+   "id": 488,
+   "parroquia": "ABAÑÍN",
+   "canton": 65
+ },
+ {
+   "id": 489,
+   "parroquia": "ARCAPAMBA",
+   "canton": 65
+ },
+ {
+   "id": 490,
+   "parroquia": "GUANAZÁN",
+   "canton": 65
+ },
+ {
+   "id": 491,
+   "parroquia": "GUIZHAGUIÑA",
+   "canton": 65
+ },
+ {
+   "id": 492,
+   "parroquia": "HUERTAS",
+   "canton": 65
+ },
+ {
+   "id": 493,
+   "parroquia": "MALVAS",
+   "canton": 65
+ },
+ {
+   "id": 494,
+   "parroquia": "MULUNCAY GRANDE",
+   "canton": 65
+ },
+ {
+   "id": 495,
+   "parroquia": "SINSAO",
+   "canton": 65
+ },
+ {
+   "id": 496,
+   "parroquia": "SALVIAS",
+   "canton": 65
+ },
+ {
+   "id": 497,
+   "parroquia": "LA VICTORIA",
+   "canton": 66
+ },
+ {
+   "id": 498,
+   "parroquia": "PLATANILLOS",
+   "canton": 66
+ },
+ {
+   "id": 499,
+   "parroquia": "VALLE HERMOSO",
+   "canton": 66
+ },
+ {
+   "id": 500,
+   "parroquia": "LA VICTORIA",
+   "canton": 66
+ },
+ {
+   "id": 501,
+   "parroquia": "LA LIBERTAD",
+   "canton": 66
+ },
+ {
+   "id": 502,
+   "parroquia": "EL PARAÍSO",
+   "canton": 66
+ },
+ {
+   "id": 503,
+   "parroquia": "SAN ISIDRO",
+   "canton": 66
+ },
+ {
+   "id": 504,
+   "parroquia": "BARTOLOMÉ RUIZ (CÉSAR FRANCO CARRIÓN)",
+   "canton": 67
+ },
+ {
+   "id": 505,
+   "parroquia": "5 DE AGOSTO",
+   "canton": 67
+ },
+ {
+   "id": 506,
+   "parroquia": "ESMERALDAS",
+   "canton": 67
+ },
+ {
+   "id": 507,
+   "parroquia": "LUIS TELLO (LAS PALMAS)",
+   "canton": 67
+ },
+ {
+   "id": 508,
+   "parroquia": "SIMÓN PLATA TORRES",
+   "canton": 67
+ },
+ {
+   "id": 509,
+   "parroquia": "ESMERALDAS",
+   "canton": 67
+ },
+ {
+   "id": 510,
+   "parroquia": "ATACAMES",
+   "canton": 67
+ },
+ {
+   "id": 511,
+   "parroquia": "CAMARONES (CAB. EN SAN VICENTE)",
+   "canton": 67
+ },
+ {
+   "id": 512,
+   "parroquia": "CRNEL. CARLOS CONCHA TORRES (CAB.EN HUELE)",
+   "canton": 67
+ },
+ {
+   "id": 513,
+   "parroquia": "CHINCA",
+   "canton": 67
+ },
+ {
+   "id": 514,
+   "parroquia": "CHONTADURO",
+   "canton": 67
+ },
+ {
+   "id": 515,
+   "parroquia": "CHUMUNDÉ",
+   "canton": 67
+ },
+ {
+   "id": 516,
+   "parroquia": "LAGARTO",
+   "canton": 67
+ },
+ {
+   "id": 517,
+   "parroquia": "LA UNIÓN",
+   "canton": 67
+ },
+ {
+   "id": 518,
+   "parroquia": "MAJUA",
+   "canton": 67
+ },
+ {
+   "id": 519,
+   "parroquia": "MONTALVO (CAB. EN HORQUETA)",
+   "canton": 67
+ },
+ {
+   "id": 520,
+   "parroquia": "RÍO VERDE",
+   "canton": 67
+ },
+ {
+   "id": 521,
+   "parroquia": "ROCAFUERTE",
+   "canton": 67
+ },
+ {
+   "id": 522,
+   "parroquia": "SAN MATEO",
+   "canton": 67
+ },
+ {
+   "id": 523,
+   "parroquia": "SÚA (CAB. EN LA BOCANA)",
+   "canton": 67
+ },
+ {
+   "id": 524,
+   "parroquia": "TABIAZO",
+   "canton": 67
+ },
+ {
+   "id": 525,
+   "parroquia": "TACHINA",
+   "canton": 67
+ },
+ {
+   "id": 526,
+   "parroquia": "TONCHIGÜE",
+   "canton": 67
+ },
+ {
+   "id": 527,
+   "parroquia": "VUELTA LARGA",
+   "canton": 67
+ },
+ {
+   "id": 528,
+   "parroquia": "VALDEZ (LIMONES)",
+   "canton": 68
+ },
+ {
+   "id": 529,
+   "parroquia": "ANCHAYACU",
+   "canton": 68
+ },
+ {
+   "id": 530,
+   "parroquia": "ATAHUALPA (CAB. EN CAMARONES)",
+   "canton": 68
+ },
+ {
+   "id": 531,
+   "parroquia": "BORBÓN",
+   "canton": 68
+ },
+ {
+   "id": 532,
+   "parroquia": "LA TOLA",
+   "canton": 68
+ },
+ {
+   "id": 533,
+   "parroquia": "LUIS VARGAS TORRES (CAB. EN PLAYA DE ORO)",
+   "canton": 68
+ },
+ {
+   "id": 534,
+   "parroquia": "MALDONADO",
+   "canton": 68
+ },
+ {
+   "id": 535,
+   "parroquia": "PAMPANAL DE BOLÍVAR",
+   "canton": 68
+ },
+ {
+   "id": 536,
+   "parroquia": "SAN FRANCISCO DE ONZOLE",
+   "canton": 68
+ },
+ {
+   "id": 537,
+   "parroquia": "SANTO DOMINGO DE ONZOLE",
+   "canton": 68
+ },
+ {
+   "id": 538,
+   "parroquia": "SELVA ALEGRE",
+   "canton": 68
+ },
+ {
+   "id": 539,
+   "parroquia": "TELEMBÍ",
+   "canton": 68
+ },
+ {
+   "id": 540,
+   "parroquia": "COLÓN ELOY DEL MARÍA",
+   "canton": 68
+ },
+ {
+   "id": 541,
+   "parroquia": "SAN JOSÉ DE CAYAPAS",
+   "canton": 68
+ },
+ {
+   "id": 542,
+   "parroquia": "TIMBIRÉ",
+   "canton": 68
+ },
+ {
+   "id": 543,
+   "parroquia": "MUISNE",
+   "canton": 69
+ },
+ {
+   "id": 544,
+   "parroquia": "BOLÍVAR",
+   "canton": 69
+ },
+ {
+   "id": 545,
+   "parroquia": "DAULE",
+   "canton": 69
+ },
+ {
+   "id": 546,
+   "parroquia": "GALERA",
+   "canton": 69
+ },
+ {
+   "id": 547,
+   "parroquia": "QUINGUE (OLMEDO PERDOMO FRANCO)",
+   "canton": 69
+ },
+ {
+   "id": 548,
+   "parroquia": "SALIMA",
+   "canton": 69
+ },
+ {
+   "id": 549,
+   "parroquia": "SAN FRANCISCO",
+   "canton": 69
+ },
+ {
+   "id": 550,
+   "parroquia": "SAN GREGORIO",
+   "canton": 69
+ },
+ {
+   "id": 551,
+   "parroquia": "SAN JOSÉ DE CHAMANGA (CAB.EN CHAMANGA)",
+   "canton": 69
+ },
+ {
+   "id": 552,
+   "parroquia": "ROSA ZÁRATE (QUININDÉ)",
+   "canton": 70
+ },
+ {
+   "id": 553,
+   "parroquia": "CUBE",
+   "canton": 70
+ },
+ {
+   "id": 554,
+   "parroquia": "CHURA (CHANCAMA) (CAB. EN EL YERBERO)",
+   "canton": 70
+ },
+ {
+   "id": 555,
+   "parroquia": "MALIMPIA",
+   "canton": 70
+ },
+ {
+   "id": 556,
+   "parroquia": "VICHE",
+   "canton": 70
+ },
+ {
+   "id": 557,
+   "parroquia": "LA UNIÓN",
+   "canton": 70
+ },
+ {
+   "id": 558,
+   "parroquia": "SAN LORENZO",
+   "canton": 71
+ },
+ {
+   "id": 559,
+   "parroquia": "ALTO TAMBO (CAB. EN GUADUAL)",
+   "canton": 71
+ },
+ {
+   "id": 560,
+   "parroquia": "ANCÓN (PICHANGAL) (CAB. EN PALMA REAL)",
+   "canton": 71
+ },
+ {
+   "id": 561,
+   "parroquia": "CALDERÓN",
+   "canton": 71
+ },
+ {
+   "id": 562,
+   "parroquia": "CARONDELET",
+   "canton": 71
+ },
+ {
+   "id": 563,
+   "parroquia": "5 DE JUNIO (CAB. EN UIMBI)",
+   "canton": 71
+ },
+ {
+   "id": 564,
+   "parroquia": "CONCEPCIÓN",
+   "canton": 71
+ },
+ {
+   "id": 565,
+   "parroquia": "MATAJE (CAB. EN SANTANDER)",
+   "canton": 71
+ },
+ {
+   "id": 566,
+   "parroquia": "SAN JAVIER DE CACHAVÍ (CAB. EN SAN JAVIER)",
+   "canton": 71
+ },
+ {
+   "id": 567,
+   "parroquia": "SANTA RITA",
+   "canton": 71
+ },
+ {
+   "id": 568,
+   "parroquia": "TAMBILLO",
+   "canton": 71
+ },
+ {
+   "id": 569,
+   "parroquia": "TULULBÍ (CAB. EN RICAURTE)",
+   "canton": 71
+ },
+ {
+   "id": 570,
+   "parroquia": "URBINA",
+   "canton": 71
+ },
+ {
+   "id": 571,
+   "parroquia": "ATACAMES",
+   "canton": 72
+ },
+ {
+   "id": 572,
+   "parroquia": "LA UNIÓN",
+   "canton": 72
+ },
+ {
+   "id": 573,
+   "parroquia": "SÚA (CAB. EN LA BOCANA)",
+   "canton": 72
+ },
+ {
+   "id": 574,
+   "parroquia": "TONCHIGÜE",
+   "canton": 72
+ },
+ {
+   "id": 575,
+   "parroquia": "TONSUPA",
+   "canton": 72
+ },
+ {
+   "id": 576,
+   "parroquia": "RIOVERDE",
+   "canton": 73
+ },
+ {
+   "id": 577,
+   "parroquia": "CHONTADURO",
+   "canton": 73
+ },
+ {
+   "id": 578,
+   "parroquia": "CHUMUNDÉ",
+   "canton": 73
+ },
+ {
+   "id": 579,
+   "parroquia": "LAGARTO",
+   "canton": 73
+ },
+ {
+   "id": 580,
+   "parroquia": "MONTALVO (CAB. EN HORQUETA)",
+   "canton": 73
+ },
+ {
+   "id": 581,
+   "parroquia": "ROCAFUERTE",
+   "canton": 73
+ },
+ {
+   "id": 582,
+   "parroquia": "LA CONCORDIA",
+   "canton": 74
+ },
+ {
+   "id": 583,
+   "parroquia": "MONTERREY",
+   "canton": 74
+ },
+ {
+   "id": 584,
+   "parroquia": "LA VILLEGAS",
+   "canton": 74
+ },
+ {
+   "id": 585,
+   "parroquia": "PLAN PILOTO",
+   "canton": 74
+ },
+ {
+   "id": 586,
+   "parroquia": "AYACUCHO",
+   "canton": 75
+ },
+ {
+   "id": 587,
+   "parroquia": "BOLÍVAR (SAGRARIO)",
+   "canton": 75
+ },
+ {
+   "id": 588,
+   "parroquia": "CARBO (CONCEPCIÓN)",
+   "canton": 75
+ },
+ {
+   "id": 589,
+   "parroquia": "FEBRES CORDERO",
+   "canton": 75
+ },
+ {
+   "id": 590,
+   "parroquia": "GARCÍA MORENO",
+   "canton": 75
+ },
+ {
+   "id": 591,
+   "parroquia": "LETAMENDI",
+   "canton": 75
+ },
+ {
+   "id": 592,
+   "parroquia": "NUEVE DE OCTUBRE",
+   "canton": 75
+ },
+ {
+   "id": 593,
+   "parroquia": "OLMEDO (SAN ALEJO)",
+   "canton": 75
+ },
+ {
+   "id": 594,
+   "parroquia": "ROCA",
+   "canton": 75
+ },
+ {
+   "id": 595,
+   "parroquia": "ROCAFUERTE",
+   "canton": 75
+ },
+ {
+   "id": 596,
+   "parroquia": "SUCRE",
+   "canton": 75
+ },
+ {
+   "id": 597,
+   "parroquia": "TARQUI",
+   "canton": 75
+ },
+ {
+   "id": 598,
+   "parroquia": "URDANETA",
+   "canton": 75
+ },
+ {
+   "id": 599,
+   "parroquia": "XIMENA",
+   "canton": 75
+ },
+ {
+   "id": 600,
+   "parroquia": "PASCUALES",
+   "canton": 75
+ },
+ {
+   "id": 601,
+   "parroquia": "GUAYAQUIL",
+   "canton": 75
+ },
+ {
+   "id": 602,
+   "parroquia": "CHONGÓN",
+   "canton": 75
+ },
+ {
+   "id": 603,
+   "parroquia": "JUAN GÓMEZ RENDÓN (PROGRESO)",
+   "canton": 75
+ },
+ {
+   "id": 604,
+   "parroquia": "MORRO",
+   "canton": 75
+ },
+ {
+   "id": 605,
+   "parroquia": "PASCUALES",
+   "canton": 75
+ },
+ {
+   "id": 606,
+   "parroquia": "PLAYAS (GRAL. VILLAMIL)",
+   "canton": 75
+ },
+ {
+   "id": 607,
+   "parroquia": "POSORJA",
+   "canton": 75
+ },
+ {
+   "id": 608,
+   "parroquia": "PUNÁ",
+   "canton": 75
+ },
+ {
+   "id": 609,
+   "parroquia": "TENGUEL",
+   "canton": 75
+ },
+ {
+   "id": 610,
+   "parroquia": "ALFREDO BAQUERIZO MORENO (JUJÁN)",
+   "canton": 76
+ },
+ {
+   "id": 611,
+   "parroquia": "BALAO",
+   "canton": 77
+ },
+ {
+   "id": 612,
+   "parroquia": "BALZAR",
+   "canton": 78
+ },
+ {
+   "id": 613,
+   "parroquia": "COLIMES",
+   "canton": 79
+ },
+ {
+   "id": 614,
+   "parroquia": "SAN JACINTO",
+   "canton": 79
+ },
+ {
+   "id": 615,
+   "parroquia": "DAULE",
+   "canton": 80
+ },
+ {
+   "id": 616,
+   "parroquia": "LA AURORA (SATÉLITE)",
+   "canton": 80
+ },
+ {
+   "id": 617,
+   "parroquia": "BANIFE",
+   "canton": 80
+ },
+ {
+   "id": 618,
+   "parroquia": "EMILIANO CAICEDO MARCOS",
+   "canton": 80
+ },
+ {
+   "id": 619,
+   "parroquia": "MAGRO",
+   "canton": 80
+ },
+ {
+   "id": 620,
+   "parroquia": "PADRE JUAN BAUTISTA AGUIRRE",
+   "canton": 80
+ },
+ {
+   "id": 621,
+   "parroquia": "SANTA CLARA",
+   "canton": 80
+ },
+ {
+   "id": 622,
+   "parroquia": "VICENTE PIEDRAHITA",
+   "canton": 80
+ },
+ {
+   "id": 623,
+   "parroquia": "DAULE",
+   "canton": 80
+ },
+ {
+   "id": 624,
+   "parroquia": "ISIDRO AYORA (SOLEDAD)",
+   "canton": 80
+ },
+ {
+   "id": 625,
+   "parroquia": "JUAN BAUTISTA AGUIRRE (LOS TINTOS)",
+   "canton": 80
+ },
+ {
+   "id": 626,
+   "parroquia": "LAUREL",
+   "canton": 80
+ },
+ {
+   "id": 627,
+   "parroquia": "LIMONAL",
+   "canton": 80
+ },
+ {
+   "id": 628,
+   "parroquia": "LOMAS DE SARGENTILLO",
+   "canton": 80
+ },
+ {
+   "id": 629,
+   "parroquia": "LOS LOJAS (ENRIQUE BAQUERIZO MORENO)",
+   "canton": 80
+ },
+ {
+   "id": 630,
+   "parroquia": "PIEDRAHITA (NOBOL)",
+   "canton": 80
+ },
+ {
+   "id": 631,
+   "parroquia": "ELOY ALFARO (DURÁN)",
+   "canton": 81
+ },
+ {
+   "id": 632,
+   "parroquia": "EL RECREO",
+   "canton": 81
+ },
+ {
+   "id": 633,
+   "parroquia": "ELOY ALFARO (DURÁN)",
+   "canton": 81
+ },
+ {
+   "id": 634,
+   "parroquia": "VELASCO IBARRA (EL EMPALME)",
+   "canton": 82
+ },
+ {
+   "id": 635,
+   "parroquia": "GUAYAS (PUEBLO NUEVO)",
+   "canton": 82
+ },
+ {
+   "id": 636,
+   "parroquia": "EL ROSARIO",
+   "canton": 82
+ },
+ {
+   "id": 637,
+   "parroquia": "EL TRIUNFO",
+   "canton": 83
+ },
+ {
+   "id": 638,
+   "parroquia": "MILAGRO",
+   "canton": 84
+ },
+ {
+   "id": 639,
+   "parroquia": "CHOBO",
+   "canton": 84
+ },
+ {
+   "id": 640,
+   "parroquia": "GENERAL ELIZALDE (BUCAY)",
+   "canton": 84
+ },
+ {
+   "id": 641,
+   "parroquia": "MARISCAL SUCRE (HUAQUES)",
+   "canton": 84
+ },
+ {
+   "id": 642,
+   "parroquia": "ROBERTO ASTUDILLO (CAB. EN CRUCE DE VENECIA)",
+   "canton": 84
+ },
+ {
+   "id": 643,
+   "parroquia": "NARANJAL",
+   "canton": 85
+ },
+ {
+   "id": 644,
+   "parroquia": "JESÚS MARÍA",
+   "canton": 85
+ },
+ {
+   "id": 645,
+   "parroquia": "SAN CARLOS",
+   "canton": 85
+ },
+ {
+   "id": 646,
+   "parroquia": "SANTA ROSA DE FLANDES",
+   "canton": 85
+ },
+ {
+   "id": 647,
+   "parroquia": "TAURA",
+   "canton": 85
+ },
+ {
+   "id": 648,
+   "parroquia": "NARANJITO",
+   "canton": 86
+ },
+ {
+   "id": 649,
+   "parroquia": "PALESTINA",
+   "canton": 87
+ },
+ {
+   "id": 650,
+   "parroquia": "PEDRO CARBO",
+   "canton": 88
+ },
+ {
+   "id": 651,
+   "parroquia": "VALLE DE LA VIRGEN",
+   "canton": 88
+ },
+ {
+   "id": 652,
+   "parroquia": "SABANILLA",
+   "canton": 88
+ },
+ {
+   "id": 653,
+   "parroquia": "SAMBORONDÓN",
+   "canton": 89
+ },
+ {
+   "id": 654,
+   "parroquia": "LA PUNTILLA (SATÉLITE)",
+   "canton": 89
+ },
+ {
+   "id": 655,
+   "parroquia": "SAMBORONDÓN",
+   "canton": 89
+ },
+ {
+   "id": 656,
+   "parroquia": "TARIFA",
+   "canton": 89
+ },
+ {
+   "id": 657,
+   "parroquia": "SANTA LUCÍA",
+   "canton": 90
+ },
+ {
+   "id": 658,
+   "parroquia": "BOCANA",
+   "canton": 91
+ },
+ {
+   "id": 659,
+   "parroquia": "CANDILEJOS",
+   "canton": 91
+ },
+ {
+   "id": 660,
+   "parroquia": "CENTRAL",
+   "canton": 91
+ },
+ {
+   "id": 661,
+   "parroquia": "PARAÍSO",
+   "canton": 91
+ },
+ {
+   "id": 662,
+   "parroquia": "SAN MATEO",
+   "canton": 91
+ },
+ {
+   "id": 663,
+   "parroquia": "EL SALITRE (LAS RAMAS)",
+   "canton": 91
+ },
+ {
+   "id": 664,
+   "parroquia": "GRAL. VERNAZA (DOS ESTEROS)",
+   "canton": 91
+ },
+ {
+   "id": 665,
+   "parroquia": "LA VICTORIA (ÑAUZA)",
+   "canton": 91
+ },
+ {
+   "id": 666,
+   "parroquia": "JUNQUILLAL",
+   "canton": 91
+ },
+ {
+   "id": 667,
+   "parroquia": "SAN JACINTO DE YAGUACHI",
+   "canton": 92
+ },
+ {
+   "id": 668,
+   "parroquia": "CRNEL. LORENZO DE GARAICOA (PEDREGAL)",
+   "canton": 92
+ },
+ {
+   "id": 669,
+   "parroquia": "CRNEL. MARCELINO MARIDUEÑA (SAN CARLOS)",
+   "canton": 92
+ },
+ {
+   "id": 670,
+   "parroquia": "GRAL. PEDRO J. MONTERO (BOLICHE)",
+   "canton": 92
+ },
+ {
+   "id": 671,
+   "parroquia": "SIMÓN BOLÍVAR",
+   "canton": 92
+ },
+ {
+   "id": 672,
+   "parroquia": "YAGUACHI VIEJO (CONE)",
+   "canton": 92
+ },
+ {
+   "id": 673,
+   "parroquia": "VIRGEN DE FÁTIMA",
+   "canton": 92
+ },
+ {
+   "id": 674,
+   "parroquia": "GENERAL VILLAMIL (PLAYAS)",
+   "canton": 93
+ },
+ {
+   "id": 675,
+   "parroquia": "SIMÓN BOLÍVAR",
+   "canton": 94
+ },
+ {
+   "id": 676,
+   "parroquia": "CRNEL.LORENZO DE GARAICOA (PEDREGAL)",
+   "canton": 94
+ },
+ {
+   "id": 677,
+   "parroquia": "CORONEL MARCELINO MARIDUEÑA (SAN CARLOS)",
+   "canton": 95
+ },
+ {
+   "id": 678,
+   "parroquia": "LOMAS DE SARGENTILLO",
+   "canton": 96
+ },
+ {
+   "id": 679,
+   "parroquia": "ISIDRO AYORA (SOLEDAD)",
+   "canton": 96
+ },
+ {
+   "id": 680,
+   "parroquia": "NARCISA DE JESÚS",
+   "canton": 97
+ },
+ {
+   "id": 681,
+   "parroquia": "GENERAL ANTONIO ELIZALDE (BUCAY)",
+   "canton": 98
+ },
+ {
+   "id": 682,
+   "parroquia": "ISIDRO AYORA",
+   "canton": 99
+ },
+ {
+   "id": 683,
+   "parroquia": "CARANQUI",
+   "canton": 100
+ },
+ {
+   "id": 684,
+   "parroquia": "GUAYAQUIL DE ALPACHACA",
+   "canton": 100
+ },
+ {
+   "id": 685,
+   "parroquia": "SAGRARIO",
+   "canton": 100
+ },
+ {
+   "id": 686,
+   "parroquia": "SAN FRANCISCO",
+   "canton": 100
+ },
+ {
+   "id": 687,
+   "parroquia": "LA DOLOROSA DEL PRIORATO",
+   "canton": 100
+ },
+ {
+   "id": 688,
+   "parroquia": "SAN MIGUEL DE IBARRA",
+   "canton": 100
+ },
+ {
+   "id": 689,
+   "parroquia": "AMBUQUÍ",
+   "canton": 100
+ },
+ {
+   "id": 690,
+   "parroquia": "ANGOCHAGUA",
+   "canton": 100
+ },
+ {
+   "id": 691,
+   "parroquia": "CAROLINA",
+   "canton": 100
+ },
+ {
+   "id": 692,
+   "parroquia": "LA ESPERANZA",
+   "canton": 100
+ },
+ {
+   "id": 693,
+   "parroquia": "LITA",
+   "canton": 100
+ },
+ {
+   "id": 694,
+   "parroquia": "SALINAS",
+   "canton": 100
+ },
+ {
+   "id": 695,
+   "parroquia": "SAN ANTONIO",
+   "canton": 100
+ },
+ {
+   "id": 696,
+   "parroquia": "ANDRADE MARÍN (LOURDES)",
+   "canton": 101
+ },
+ {
+   "id": 697,
+   "parroquia": "ATUNTAQUI",
+   "canton": 101
+ },
+ {
+   "id": 698,
+   "parroquia": "ATUNTAQUI",
+   "canton": 101
+ },
+ {
+   "id": 699,
+   "parroquia": "IMBAYA (SAN LUIS DE COBUENDO)",
+   "canton": 101
+ },
+ {
+   "id": 700,
+   "parroquia": "SAN FRANCISCO DE NATABUELA",
+   "canton": 101
+ },
+ {
+   "id": 701,
+   "parroquia": "SAN JOSÉ DE CHALTURA",
+   "canton": 101
+ },
+ {
+   "id": 702,
+   "parroquia": "SAN ROQUE",
+   "canton": 101
+ },
+ {
+   "id": 703,
+   "parroquia": "SAGRARIO",
+   "canton": 102
+ },
+ {
+   "id": 704,
+   "parroquia": "SAN FRANCISCO",
+   "canton": 102
+ },
+ {
+   "id": 705,
+   "parroquia": "COTACACHI",
+   "canton": 102
+ },
+ {
+   "id": 706,
+   "parroquia": "APUELA",
+   "canton": 102
+ },
+ {
+   "id": 707,
+   "parroquia": "GARCÍA MORENO (LLURIMAGUA)",
+   "canton": 102
+ },
+ {
+   "id": 708,
+   "parroquia": "IMANTAG",
+   "canton": 102
+ },
+ {
+   "id": 709,
+   "parroquia": "PEÑAHERRERA",
+   "canton": 102
+ },
+ {
+   "id": 710,
+   "parroquia": "PLAZA GUTIÉRREZ (CALVARIO)",
+   "canton": 102
+ },
+ {
+   "id": 711,
+   "parroquia": "QUIROGA",
+   "canton": 102
+ },
+ {
+   "id": 712,
+   "parroquia": "6 DE JULIO DE CUELLAJE (CAB. EN CUELLAJE)",
+   "canton": 102
+ },
+ {
+   "id": 713,
+   "parroquia": "VACAS GALINDO (EL CHURO) (CAB.EN SAN MIGUEL ALTO",
+   "canton": 102
+ },
+ {
+   "id": 714,
+   "parroquia": "JORDÁN",
+   "canton": 103
+ },
+ {
+   "id": 715,
+   "parroquia": "SAN LUIS",
+   "canton": 103
+ },
+ {
+   "id": 716,
+   "parroquia": "OTAVALO",
+   "canton": 103
+ },
+ {
+   "id": 717,
+   "parroquia": "DR. MIGUEL EGAS CABEZAS (PEGUCHE)",
+   "canton": 103
+ },
+ {
+   "id": 718,
+   "parroquia": "EUGENIO ESPEJO (CALPAQUÍ)",
+   "canton": 103
+ },
+ {
+   "id": 719,
+   "parroquia": "GONZÁLEZ SUÁREZ",
+   "canton": 103
+ },
+ {
+   "id": 720,
+   "parroquia": "PATAQUÍ",
+   "canton": 103
+ },
+ {
+   "id": 721,
+   "parroquia": "SAN JOSÉ DE QUICHINCHE",
+   "canton": 103
+ },
+ {
+   "id": 722,
+   "parroquia": "SAN JUAN DE ILUMÁN",
+   "canton": 103
+ },
+ {
+   "id": 723,
+   "parroquia": "SAN PABLO",
+   "canton": 103
+ },
+ {
+   "id": 724,
+   "parroquia": "SAN RAFAEL",
+   "canton": 103
+ },
+ {
+   "id": 725,
+   "parroquia": "SELVA ALEGRE (CAB.EN SAN MIGUEL DE PAMPLONA)",
+   "canton": 103
+ },
+ {
+   "id": 726,
+   "parroquia": "PIMAMPIRO",
+   "canton": 104
+ },
+ {
+   "id": 727,
+   "parroquia": "CHUGÁ",
+   "canton": 104
+ },
+ {
+   "id": 728,
+   "parroquia": "MARIANO ACOSTA",
+   "canton": 104
+ },
+ {
+   "id": 729,
+   "parroquia": "SAN FRANCISCO DE SIGSIPAMBA",
+   "canton": 104
+ },
+ {
+   "id": 730,
+   "parroquia": "URCUQUÍ CABECERA CANTONAL",
+   "canton": 105
+ },
+ {
+   "id": 731,
+   "parroquia": "CAHUASQUÍ",
+   "canton": 105
+ },
+ {
+   "id": 732,
+   "parroquia": "LA MERCED DE BUENOS AIRES",
+   "canton": 105
+ },
+ {
+   "id": 733,
+   "parroquia": "PABLO ARENAS",
+   "canton": 105
+ },
+ {
+   "id": 734,
+   "parroquia": "SAN BLAS",
+   "canton": 105
+ },
+ {
+   "id": 735,
+   "parroquia": "TUMBABIRO",
+   "canton": 105
+ },
+ {
+   "id": 736,
+   "parroquia": "EL SAGRARIO",
+   "canton": 106
+ },
+ {
+   "id": 737,
+   "parroquia": "SAN SEBASTIÁN",
+   "canton": 106
+ },
+ {
+   "id": 738,
+   "parroquia": "SUCRE",
+   "canton": 106
+ },
+ {
+   "id": 739,
+   "parroquia": "VALLE",
+   "canton": 106
+ },
+ {
+   "id": 740,
+   "parroquia": "LOJA",
+   "canton": 106
+ },
+ {
+   "id": 741,
+   "parroquia": "CHANTACO",
+   "canton": 106
+ },
+ {
+   "id": 742,
+   "parroquia": "CHUQUIRIBAMBA",
+   "canton": 106
+ },
+ {
+   "id": 743,
+   "parroquia": "EL CISNE",
+   "canton": 106
+ },
+ {
+   "id": 744,
+   "parroquia": "GUALEL",
+   "canton": 106
+ },
+ {
+   "id": 745,
+   "parroquia": "JIMBILLA",
+   "canton": 106
+ },
+ {
+   "id": 746,
+   "parroquia": "MALACATOS (VALLADOLID)",
+   "canton": 106
+ },
+ {
+   "id": 747,
+   "parroquia": "SAN LUCAS",
+   "canton": 106
+ },
+ {
+   "id": 748,
+   "parroquia": "SAN PEDRO DE VILCABAMBA",
+   "canton": 106
+ },
+ {
+   "id": 749,
+   "parroquia": "SANTIAGO",
+   "canton": 106
+ },
+ {
+   "id": 750,
+   "parroquia": "TAQUIL (MIGUEL RIOFRÍO)",
+   "canton": 106
+ },
+ {
+   "id": 751,
+   "parroquia": "VILCABAMBA (VICTORIA)",
+   "canton": 106
+ },
+ {
+   "id": 752,
+   "parroquia": "YANGANA (ARSENIO CASTILLO)",
+   "canton": 106
+ },
+ {
+   "id": 753,
+   "parroquia": "QUINARA",
+   "canton": 106
+ },
+ {
+   "id": 754,
+   "parroquia": "CARIAMANGA",
+   "canton": 107
+ },
+ {
+   "id": 755,
+   "parroquia": "CHILE",
+   "canton": 107
+ },
+ {
+   "id": 756,
+   "parroquia": "SAN VICENTE",
+   "canton": 107
+ },
+ {
+   "id": 757,
+   "parroquia": "CARIAMANGA",
+   "canton": 107
+ },
+ {
+   "id": 758,
+   "parroquia": "COLAISACA",
+   "canton": 107
+ },
+ {
+   "id": 759,
+   "parroquia": "EL LUCERO",
+   "canton": 107
+ },
+ {
+   "id": 760,
+   "parroquia": "UTUANA",
+   "canton": 107
+ },
+ {
+   "id": 761,
+   "parroquia": "SANGUILLÍN",
+   "canton": 107
+ },
+ {
+   "id": 762,
+   "parroquia": "CATAMAYO",
+   "canton": 108
+ },
+ {
+   "id": 763,
+   "parroquia": "SAN JOSÉ",
+   "canton": 108
+ },
+ {
+   "id": 764,
+   "parroquia": "CATAMAYO (LA TOMA)",
+   "canton": 108
+ },
+ {
+   "id": 765,
+   "parroquia": "EL TAMBO",
+   "canton": 108
+ },
+ {
+   "id": 766,
+   "parroquia": "GUAYQUICHUMA",
+   "canton": 108
+ },
+ {
+   "id": 767,
+   "parroquia": "SAN PEDRO DE LA BENDITA",
+   "canton": 108
+ },
+ {
+   "id": 768,
+   "parroquia": "ZAMBI",
+   "canton": 108
+ },
+ {
+   "id": 769,
+   "parroquia": "CELICA",
+   "canton": 109
+ },
+ {
+   "id": 770,
+   "parroquia": "CRUZPAMBA (CAB. EN CARLOS BUSTAMANTE)",
+   "canton": 109
+ },
+ {
+   "id": 771,
+   "parroquia": "CHAQUINAL",
+   "canton": 109
+ },
+ {
+   "id": 772,
+   "parroquia": "12 DE DICIEMBRE (CAB. EN ACHIOTES)",
+   "canton": 109
+ },
+ {
+   "id": 773,
+   "parroquia": "PINDAL (FEDERICO PÁEZ)",
+   "canton": 109
+ },
+ {
+   "id": 774,
+   "parroquia": "POZUL (SAN JUAN DE POZUL)",
+   "canton": 109
+ },
+ {
+   "id": 775,
+   "parroquia": "SABANILLA",
+   "canton": 109
+ },
+ {
+   "id": 776,
+   "parroquia": "TNTE. MAXIMILIANO RODRÍGUEZ LOAIZA",
+   "canton": 109
+ },
+ {
+   "id": 777,
+   "parroquia": "CHAGUARPAMBA",
+   "canton": 110
+ },
+ {
+   "id": 778,
+   "parroquia": "BUENAVISTA",
+   "canton": 110
+ },
+ {
+   "id": 779,
+   "parroquia": "EL ROSARIO",
+   "canton": 110
+ },
+ {
+   "id": 780,
+   "parroquia": "SANTA RUFINA",
+   "canton": 110
+ },
+ {
+   "id": 781,
+   "parroquia": "AMARILLOS",
+   "canton": 110
+ },
+ {
+   "id": 782,
+   "parroquia": "AMALUZA",
+   "canton": 111
+ },
+ {
+   "id": 783,
+   "parroquia": "BELLAVISTA",
+   "canton": 111
+ },
+ {
+   "id": 784,
+   "parroquia": "JIMBURA",
+   "canton": 111
+ },
+ {
+   "id": 785,
+   "parroquia": "SANTA TERESITA",
+   "canton": 111
+ },
+ {
+   "id": 786,
+   "parroquia": "27 DE ABRIL (CAB. EN LA NARANJA)",
+   "canton": 111
+ },
+ {
+   "id": 787,
+   "parroquia": "EL INGENIO",
+   "canton": 111
+ },
+ {
+   "id": 788,
+   "parroquia": "EL AIRO",
+   "canton": 111
+ },
+ {
+   "id": 789,
+   "parroquia": "GONZANAMÁ",
+   "canton": 112
+ },
+ {
+   "id": 790,
+   "parroquia": "CHANGAIMINA (LA LIBERTAD)",
+   "canton": 112
+ },
+ {
+   "id": 791,
+   "parroquia": "FUNDOCHAMBA",
+   "canton": 112
+ },
+ {
+   "id": 792,
+   "parroquia": "NAMBACOLA",
+   "canton": 112
+ },
+ {
+   "id": 793,
+   "parroquia": "PURUNUMA (EGUIGUREN)",
+   "canton": 112
+ },
+ {
+   "id": 794,
+   "parroquia": "QUILANGA (LA PAZ)",
+   "canton": 112
+ },
+ {
+   "id": 795,
+   "parroquia": "SACAPALCA",
+   "canton": 112
+ },
+ {
+   "id": 796,
+   "parroquia": "SAN ANTONIO DE LAS ARADAS (CAB. EN LAS ARADAS)",
+   "canton": 112
+ },
+ {
+   "id": 797,
+   "parroquia": "GENERAL ELOY ALFARO (SAN SEBASTIÁN)",
+   "canton": 113
+ },
+ {
+   "id": 798,
+   "parroquia": "MACARÁ (MANUEL ENRIQUE RENGEL SUQUILANDA)",
+   "canton": 113
+ },
+ {
+   "id": 799,
+   "parroquia": "MACARÁ",
+   "canton": 113
+ },
+ {
+   "id": 800,
+   "parroquia": "LARAMA",
+   "canton": 113
+ },
+ {
+   "id": 801,
+   "parroquia": "LA VICTORIA",
+   "canton": 113
+ },
+ {
+   "id": 802,
+   "parroquia": "SABIANGO (LA CAPILLA)",
+   "canton": 113
+ },
+ {
+   "id": 803,
+   "parroquia": "CATACOCHA",
+   "canton": 114
+ },
+ {
+   "id": 804,
+   "parroquia": "LOURDES",
+   "canton": 114
+ },
+ {
+   "id": 805,
+   "parroquia": "CATACOCHA",
+   "canton": 114
+ },
+ {
+   "id": 806,
+   "parroquia": "CANGONAMÁ",
+   "canton": 114
+ },
+ {
+   "id": 807,
+   "parroquia": "GUACHANAMÁ",
+   "canton": 114
+ },
+ {
+   "id": 808,
+   "parroquia": "LA TINGUE",
+   "canton": 114
+ },
+ {
+   "id": 809,
+   "parroquia": "LAURO GUERRERO",
+   "canton": 114
+ },
+ {
+   "id": 810,
+   "parroquia": "OLMEDO (SANTA BÁRBARA)",
+   "canton": 114
+ },
+ {
+   "id": 811,
+   "parroquia": "ORIANGA",
+   "canton": 114
+ },
+ {
+   "id": 812,
+   "parroquia": "SAN ANTONIO",
+   "canton": 114
+ },
+ {
+   "id": 813,
+   "parroquia": "CASANGA",
+   "canton": 114
+ },
+ {
+   "id": 814,
+   "parroquia": "YAMANA",
+   "canton": 114
+ },
+ {
+   "id": 815,
+   "parroquia": "ALAMOR",
+   "canton": 115
+ },
+ {
+   "id": 816,
+   "parroquia": "CIANO",
+   "canton": 115
+ },
+ {
+   "id": 817,
+   "parroquia": "EL ARENAL",
+   "canton": 115
+ },
+ {
+   "id": 818,
+   "parroquia": "EL LIMO (MARIANA DE JESÚS)",
+   "canton": 115
+ },
+ {
+   "id": 819,
+   "parroquia": "MERCADILLO",
+   "canton": 115
+ },
+ {
+   "id": 820,
+   "parroquia": "VICENTINO",
+   "canton": 115
+ },
+ {
+   "id": 821,
+   "parroquia": "SARAGURO",
+   "canton": 116
+ },
+ {
+   "id": 822,
+   "parroquia": "EL PARAÍSO DE CELÉN",
+   "canton": 116
+ },
+ {
+   "id": 823,
+   "parroquia": "EL TABLÓN",
+   "canton": 116
+ },
+ {
+   "id": 824,
+   "parroquia": "LLUZHAPA",
+   "canton": 116
+ },
+ {
+   "id": 825,
+   "parroquia": "MANÚ",
+   "canton": 116
+ },
+ {
+   "id": 826,
+   "parroquia": "SAN ANTONIO DE QUMBE (CUMBE)",
+   "canton": 116
+ },
+ {
+   "id": 827,
+   "parroquia": "SAN PABLO DE TENTA",
+   "canton": 116
+ },
+ {
+   "id": 828,
+   "parroquia": "SAN SEBASTIÁN DE YÚLUC",
+   "canton": 116
+ },
+ {
+   "id": 829,
+   "parroquia": "SELVA ALEGRE",
+   "canton": 116
+ },
+ {
+   "id": 830,
+   "parroquia": "URDANETA (PAQUISHAPA)",
+   "canton": 116
+ },
+ {
+   "id": 831,
+   "parroquia": "SUMAYPAMBA",
+   "canton": 116
+ },
+ {
+   "id": 832,
+   "parroquia": "SOZORANGA",
+   "canton": 117
+ },
+ {
+   "id": 833,
+   "parroquia": "NUEVA FÁTIMA",
+   "canton": 117
+ },
+ {
+   "id": 834,
+   "parroquia": "TACAMOROS",
+   "canton": 117
+ },
+ {
+   "id": 835,
+   "parroquia": "ZAPOTILLO",
+   "canton": 118
+ },
+ {
+   "id": 836,
+   "parroquia": "MANGAHURCO (CAZADEROS)",
+   "canton": 118
+ },
+ {
+   "id": 837,
+   "parroquia": "GARZAREAL",
+   "canton": 118
+ },
+ {
+   "id": 838,
+   "parroquia": "LIMONES",
+   "canton": 118
+ },
+ {
+   "id": 839,
+   "parroquia": "PALETILLAS",
+   "canton": 118
+ },
+ {
+   "id": 840,
+   "parroquia": "BOLASPAMBA",
+   "canton": 118
+ },
+ {
+   "id": 841,
+   "parroquia": "PINDAL",
+   "canton": 119
+ },
+ {
+   "id": 842,
+   "parroquia": "CHAQUINAL",
+   "canton": 119
+ },
+ {
+   "id": 843,
+   "parroquia": "12 DE DICIEMBRE (CAB.EN ACHIOTES)",
+   "canton": 119
+ },
+ {
+   "id": 844,
+   "parroquia": "MILAGROS",
+   "canton": 119
+ },
+ {
+   "id": 845,
+   "parroquia": "QUILANGA",
+   "canton": 120
+ },
+ {
+   "id": 846,
+   "parroquia": "FUNDOCHAMBA",
+   "canton": 120
+ },
+ {
+   "id": 847,
+   "parroquia": "SAN ANTONIO DE LAS ARADAS (CAB. EN LAS ARADAS)",
+   "canton": 120
+ },
+ {
+   "id": 848,
+   "parroquia": "OLMEDO",
+   "canton": 121
+ },
+ {
+   "id": 849,
+   "parroquia": "OLMEDO",
+   "canton": 152
+ },
+ {
+   "id": 850,
+   "parroquia": "LA TINGUE",
+   "canton": 121
+ },
+ {
+   "id": 851,
+   "parroquia": "LA TINGUE",
+   "canton": 152
+ },
+ {
+   "id": 852,
+   "parroquia": "CLEMENTE BAQUERIZO",
+   "canton": 122
+ },
+ {
+   "id": 853,
+   "parroquia": "DR. CAMILO PONCE",
+   "canton": 122
+ },
+ {
+   "id": 854,
+   "parroquia": "BARREIRO",
+   "canton": 122
+ },
+ {
+   "id": 855,
+   "parroquia": "EL SALTO",
+   "canton": 122
+ },
+ {
+   "id": 856,
+   "parroquia": "BABAHOYO",
+   "canton": 122
+ },
+ {
+   "id": 857,
+   "parroquia": "BARREIRO (SANTA RITA)",
+   "canton": 122
+ },
+ {
+   "id": 858,
+   "parroquia": "CARACOL",
+   "canton": 122
+ },
+ {
+   "id": 859,
+   "parroquia": "FEBRES CORDERO (LAS JUNTAS)",
+   "canton": 122
+ },
+ {
+   "id": 860,
+   "parroquia": "PIMOCHA",
+   "canton": 122
+ },
+ {
+   "id": 861,
+   "parroquia": "LA UNIÓN",
+   "canton": 122
+ },
+ {
+   "id": 862,
+   "parroquia": "BABA",
+   "canton": 123
+ },
+ {
+   "id": 863,
+   "parroquia": "GUARE",
+   "canton": 123
+ },
+ {
+   "id": 864,
+   "parroquia": "ISLA DE BEJUCAL",
+   "canton": 123
+ },
+ {
+   "id": 865,
+   "parroquia": "MONTALVO",
+   "canton": 124
+ },
+ {
+   "id": 866,
+   "parroquia": "PUEBLOVIEJO",
+   "canton": 125
+ },
+ {
+   "id": 867,
+   "parroquia": "PUERTO PECHICHE",
+   "canton": 125
+ },
+ {
+   "id": 868,
+   "parroquia": "SAN JUAN",
+   "canton": 125
+ },
+ {
+   "id": 869,
+   "parroquia": "QUEVEDO",
+   "canton": 126
+ },
+ {
+   "id": 870,
+   "parroquia": "SAN CAMILO",
+   "canton": 126
+ },
+ {
+   "id": 871,
+   "parroquia": "SAN JOSÉ",
+   "canton": 126
+ },
+ {
+   "id": 872,
+   "parroquia": "GUAYACÁN",
+   "canton": 126
+ },
+ {
+   "id": 873,
+   "parroquia": "NICOLÁS INFANTE DÍAZ",
+   "canton": 126
+ },
+ {
+   "id": 874,
+   "parroquia": "SAN CRISTÓBAL",
+   "canton": 126
+ },
+ {
+   "id": 875,
+   "parroquia": "SIETE DE OCTUBRE",
+   "canton": 126
+ },
+ {
+   "id": 876,
+   "parroquia": "24 DE MAYO",
+   "canton": 126
+ },
+ {
+   "id": 877,
+   "parroquia": "VENUS DEL RÍO QUEVEDO",
+   "canton": 126
+ },
+ {
+   "id": 878,
+   "parroquia": "VIVA ALFARO",
+   "canton": 126
+ },
+ {
+   "id": 879,
+   "parroquia": "QUEVEDO",
+   "canton": 126
+ },
+ {
+   "id": 880,
+   "parroquia": "BUENA FÉ",
+   "canton": 126
+ },
+ {
+   "id": 881,
+   "parroquia": "MOCACHE",
+   "canton": 126
+ },
+ {
+   "id": 882,
+   "parroquia": "SAN CARLOS",
+   "canton": 126
+ },
+ {
+   "id": 883,
+   "parroquia": "VALENCIA",
+   "canton": 126
+ },
+ {
+   "id": 884,
+   "parroquia": "LA ESPERANZA",
+   "canton": 126
+ },
+ {
+   "id": 885,
+   "parroquia": "CATARAMA",
+   "canton": 127
+ },
+ {
+   "id": 886,
+   "parroquia": "RICAURTE",
+   "canton": 127
+ },
+ {
+   "id": 887,
+   "parroquia": "10 DE NOVIEMBRE",
+   "canton": 128
+ },
+ {
+   "id": 888,
+   "parroquia": "VENTANAS",
+   "canton": 128
+ },
+ {
+   "id": 889,
+   "parroquia": "QUINSALOMA",
+   "canton": 128
+ },
+ {
+   "id": 890,
+   "parroquia": "ZAPOTAL",
+   "canton": 128
+ },
+ {
+   "id": 891,
+   "parroquia": "CHACARITA",
+   "canton": 128
+ },
+ {
+   "id": 892,
+   "parroquia": "LOS ÁNGELES",
+   "canton": 128
+ },
+ {
+   "id": 893,
+   "parroquia": "VINCES",
+   "canton": 129
+ },
+ {
+   "id": 894,
+   "parroquia": "ANTONIO SOTOMAYOR (CAB. EN PLAYAS DE VINCES)",
+   "canton": 129
+ },
+ {
+   "id": 895,
+   "parroquia": "PALENQUE",
+   "canton": 129
+ },
+ {
+   "id": 896,
+   "parroquia": "PALENQUE",
+   "canton": 130
+ },
+ {
+   "id": 897,
+   "parroquia": "SAN JACINTO DE BUENA FÉ",
+   "canton": 131
+ },
+ {
+   "id": 898,
+   "parroquia": "7 DE AGOSTO",
+   "canton": 131
+ },
+ {
+   "id": 899,
+   "parroquia": "11 DE OCTUBRE",
+   "canton": 131
+ },
+ {
+   "id": 900,
+   "parroquia": "SAN JACINTO DE BUENA FÉ",
+   "canton": 131
+ },
+ {
+   "id": 901,
+   "parroquia": "PATRICIA PILAR",
+   "canton": 131
+ },
+ {
+   "id": 902,
+   "parroquia": "VALENCIA",
+   "canton": 132
+ },
+ {
+   "id": 903,
+   "parroquia": "MOCACHE",
+   "canton": 133
+ },
+ {
+   "id": 904,
+   "parroquia": "QUINSALOMA",
+   "canton": 134
+ },
+ {
+   "id": 905,
+   "parroquia": "PORTOVIEJO",
+   "canton": 135
+ },
+ {
+   "id": 906,
+   "parroquia": "12 DE MARZO",
+   "canton": 135
+ },
+ {
+   "id": 907,
+   "parroquia": "COLÓN",
+   "canton": 135
+ },
+ {
+   "id": 908,
+   "parroquia": "PICOAZÁ",
+   "canton": 135
+ },
+ {
+   "id": 909,
+   "parroquia": "SAN PABLO",
+   "canton": 135
+ },
+ {
+   "id": 910,
+   "parroquia": "ANDRÉS DE VERA",
+   "canton": 135
+ },
+ {
+   "id": 911,
+   "parroquia": "FRANCISCO PACHECO",
+   "canton": 135
+ },
+ {
+   "id": 912,
+   "parroquia": "18 DE OCTUBRE",
+   "canton": 135
+ },
+ {
+   "id": 913,
+   "parroquia": "SIMÓN BOLÍVAR",
+   "canton": 135
+ },
+ {
+   "id": 914,
+   "parroquia": "PORTOVIEJO",
+   "canton": 135
+ },
+ {
+   "id": 915,
+   "parroquia": "ABDÓN CALDERÓN (SAN FRANCISCO)",
+   "canton": 135
+ },
+ {
+   "id": 916,
+   "parroquia": "ALHAJUELA (BAJO GRANDE)",
+   "canton": 135
+ },
+ {
+   "id": 917,
+   "parroquia": "CRUCITA",
+   "canton": 135
+ },
+ {
+   "id": 918,
+   "parroquia": "PUEBLO NUEVO",
+   "canton": 135
+ },
+ {
+   "id": 919,
+   "parroquia": "RIOCHICO (RÍO CHICO)",
+   "canton": 135
+ },
+ {
+   "id": 920,
+   "parroquia": "SAN PLÁCIDO",
+   "canton": 135
+ },
+ {
+   "id": 921,
+   "parroquia": "CHIRIJOS",
+   "canton": 135
+ },
+ {
+   "id": 922,
+   "parroquia": "CALCETA",
+   "canton": 31
+ },
+ {
+   "id": 923,
+   "parroquia": "CALCETA",
+   "canton": 136
+ },
+ {
+   "id": 924,
+   "parroquia": "MEMBRILLO",
+   "canton": 31
+ },
+ {
+   "id": 925,
+   "parroquia": "MEMBRILLO",
+   "canton": 136
+ },
+ {
+   "id": 926,
+   "parroquia": "QUIROGA",
+   "canton": 31
+ },
+ {
+   "id": 927,
+   "parroquia": "QUIROGA",
+   "canton": 136
+ },
+ {
+   "id": 928,
+   "parroquia": "CHONE",
+   "canton": 137
+ },
+ {
+   "id": 929,
+   "parroquia": "SANTA RITA",
+   "canton": 137
+ },
+ {
+   "id": 930,
+   "parroquia": "BOYACÁ",
+   "canton": 137
+ },
+ {
+   "id": 931,
+   "parroquia": "CANUTO",
+   "canton": 137
+ },
+ {
+   "id": 932,
+   "parroquia": "CONVENTO",
+   "canton": 137
+ },
+ {
+   "id": 933,
+   "parroquia": "CHIBUNGA",
+   "canton": 137
+ },
+ {
+   "id": 934,
+   "parroquia": "ELOY ALFARO",
+   "canton": 137
+ },
+ {
+   "id": 935,
+   "parroquia": "RICAURTE",
+   "canton": 137
+ },
+ {
+   "id": 936,
+   "parroquia": "SAN ANTONIO",
+   "canton": 137
+ },
+ {
+   "id": 937,
+   "parroquia": "EL CARMEN",
+   "canton": 138
+ },
+ {
+   "id": 938,
+   "parroquia": "4 DE DICIEMBRE",
+   "canton": 138
+ },
+ {
+   "id": 939,
+   "parroquia": "EL CARMEN",
+   "canton": 138
+ },
+ {
+   "id": 940,
+   "parroquia": "WILFRIDO LOOR MOREIRA (MAICITO)",
+   "canton": 138
+ },
+ {
+   "id": 941,
+   "parroquia": "SAN PEDRO DE SUMA",
+   "canton": 138
+ },
+ {
+   "id": 942,
+   "parroquia": "FLAVIO ALFARO",
+   "canton": 139
+ },
+ {
+   "id": 943,
+   "parroquia": "SAN FRANCISCO DE NOVILLO (CAB. EN",
+   "canton": 139
+ },
+ {
+   "id": 944,
+   "parroquia": "ZAPALLO",
+   "canton": 139
+ },
+ {
+   "id": 945,
+   "parroquia": "DR. MIGUEL MORÁN LUCIO",
+   "canton": 140
+ },
+ {
+   "id": 946,
+   "parroquia": "MANUEL INOCENCIO PARRALES Y GUALE",
+   "canton": 140
+ },
+ {
+   "id": 947,
+   "parroquia": "SAN LORENZO DE JIPIJAPA",
+   "canton": 140
+ },
+ {
+   "id": 948,
+   "parroquia": "JIPIJAPA",
+   "canton": 140
+ },
+ {
+   "id": 949,
+   "parroquia": "AMÉRICA",
+   "canton": 140
+ },
+ {
+   "id": 950,
+   "parroquia": "EL ANEGADO (CAB. EN ELOY ALFARO)",
+   "canton": 140
+ },
+ {
+   "id": 951,
+   "parroquia": "JULCUY",
+   "canton": 140
+ },
+ {
+   "id": 952,
+   "parroquia": "LA UNIÓN",
+   "canton": 140
+ },
+ {
+   "id": 953,
+   "parroquia": "MACHALILLA",
+   "canton": 140
+ },
+ {
+   "id": 954,
+   "parroquia": "MEMBRILLAL",
+   "canton": 140
+ },
+ {
+   "id": 955,
+   "parroquia": "PEDRO PABLO GÓMEZ",
+   "canton": 140
+ },
+ {
+   "id": 956,
+   "parroquia": "PUERTO DE CAYO",
+   "canton": 140
+ },
+ {
+   "id": 957,
+   "parroquia": "PUERTO LÓPEZ",
+   "canton": 140
+ },
+ {
+   "id": 958,
+   "parroquia": "JUNÍN",
+   "canton": 141
+ },
+ {
+   "id": 959,
+   "parroquia": "LOS ESTEROS",
+   "canton": 142
+ },
+ {
+   "id": 960,
+   "parroquia": "MANTA",
+   "canton": 142
+ },
+ {
+   "id": 961,
+   "parroquia": "SAN MATEO",
+   "canton": 142
+ },
+ {
+   "id": 962,
+   "parroquia": "TARQUI",
+   "canton": 142
+ },
+ {
+   "id": 963,
+   "parroquia": "ELOY ALFARO",
+   "canton": 142
+ },
+ {
+   "id": 964,
+   "parroquia": "MANTA",
+   "canton": 142
+ },
+ {
+   "id": 965,
+   "parroquia": "SAN LORENZO",
+   "canton": 142
+ },
+ {
+   "id": 966,
+   "parroquia": "SANTA MARIANITA (BOCA DE PACOCHE)",
+   "canton": 142
+ },
+ {
+   "id": 967,
+   "parroquia": "ANIBAL SAN ANDRÉS",
+   "canton": 143
+ },
+ {
+   "id": 968,
+   "parroquia": "MONTECRISTI",
+   "canton": 143
+ },
+ {
+   "id": 969,
+   "parroquia": "EL COLORADO",
+   "canton": 143
+ },
+ {
+   "id": 970,
+   "parroquia": "GENERAL ELOY ALFARO",
+   "canton": 143
+ },
+ {
+   "id": 971,
+   "parroquia": "LEONIDAS PROAÑO",
+   "canton": 143
+ },
+ {
+   "id": 972,
+   "parroquia": "MONTECRISTI",
+   "canton": 143
+ },
+ {
+   "id": 973,
+   "parroquia": "JARAMIJÓ",
+   "canton": 143
+ },
+ {
+   "id": 974,
+   "parroquia": "LA PILA",
+   "canton": 143
+ },
+ {
+   "id": 975,
+   "parroquia": "PAJÁN",
+   "canton": 144
+ },
+ {
+   "id": 976,
+   "parroquia": "CAMPOZANO (LA PALMA DE PAJÁN)",
+   "canton": 144
+ },
+ {
+   "id": 977,
+   "parroquia": "CASCOL",
+   "canton": 144
+ },
+ {
+   "id": 978,
+   "parroquia": "GUALE",
+   "canton": 144
+ },
+ {
+   "id": 979,
+   "parroquia": "LASCANO",
+   "canton": 144
+ },
+ {
+   "id": 980,
+   "parroquia": "PICHINCHA",
+   "canton": 145
+ },
+ {
+   "id": 981,
+   "parroquia": "BARRAGANETE",
+   "canton": 145
+ },
+ {
+   "id": 982,
+   "parroquia": "SAN SEBASTIÁN",
+   "canton": 145
+ },
+ {
+   "id": 983,
+   "parroquia": "ROCAFUERTE",
+   "canton": 146
+ },
+ {
+   "id": 984,
+   "parroquia": "SANTA ANA",
+   "canton": 147
+ },
+ {
+   "id": 985,
+   "parroquia": "LODANA",
+   "canton": 147
+ },
+ {
+   "id": 986,
+   "parroquia": "SANTA ANA DE VUELTA LARGA",
+   "canton": 147
+ },
+ {
+   "id": 987,
+   "parroquia": "AYACUCHO",
+   "canton": 147
+ },
+ {
+   "id": 988,
+   "parroquia": "HONORATO VÁSQUEZ (CAB. EN VÁSQUEZ)",
+   "canton": 147
+ },
+ {
+   "id": 989,
+   "parroquia": "LA UNIÓN",
+   "canton": 147
+ },
+ {
+   "id": 990,
+   "parroquia": "OLMEDO",
+   "canton": 147
+ },
+ {
+   "id": 991,
+   "parroquia": "SAN PABLO (CAB. EN PUEBLO NUEVO)",
+   "canton": 147
+ },
+ {
+   "id": 992,
+   "parroquia": "BAHÍA DE CARÁQUEZ",
+   "canton": 148
+ },
+ {
+   "id": 993,
+   "parroquia": "LEONIDAS PLAZA GUTIÉRREZ",
+   "canton": 148
+ },
+ {
+   "id": 994,
+   "parroquia": "BAHÍA DE CARÁQUEZ",
+   "canton": 148
+ },
+ {
+   "id": 995,
+   "parroquia": "CANOA",
+   "canton": 148
+ },
+ {
+   "id": 996,
+   "parroquia": "COJIMÍES",
+   "canton": 148
+ },
+ {
+   "id": 997,
+   "parroquia": "CHARAPOTÓ",
+   "canton": 148
+ },
+ {
+   "id": 998,
+   "parroquia": "10 DE AGOSTO",
+   "canton": 148
+ },
+ {
+   "id": 999,
+   "parroquia": "JAMA",
+   "canton": 148
+ },
+ {
+   "id": 1000,
+   "parroquia": "PEDERNALES",
+   "canton": 148
+ },
+ {
+   "id": 1001,
+   "parroquia": "SAN ISIDRO",
+   "canton": 148
+ },
+ {
+   "id": 1002,
+   "parroquia": "SAN VICENTE",
+   "canton": 148
+ },
+ {
+   "id": 1003,
+   "parroquia": "TOSAGUA",
+   "canton": 149
+ },
+ {
+   "id": 1004,
+   "parroquia": "BACHILLERO",
+   "canton": 149
+ },
+ {
+   "id": 1005,
+   "parroquia": "ANGEL PEDRO GILER (LA ESTANCILLA)",
+   "canton": 149
+ },
+ {
+   "id": 1006,
+   "parroquia": "SUCRE",
+   "canton": 150
+ },
+ {
+   "id": 1007,
+   "parroquia": "BELLAVISTA",
+   "canton": 150
+ },
+ {
+   "id": 1008,
+   "parroquia": "NOBOA",
+   "canton": 150
+ },
+ {
+   "id": 1009,
+   "parroquia": "ARQ. SIXTO DURÁN BALLÉN",
+   "canton": 150
+ },
+ {
+   "id": 1010,
+   "parroquia": "PEDERNALES",
+   "canton": 151
+ },
+ {
+   "id": 1011,
+   "parroquia": "COJIMÍES",
+   "canton": 151
+ },
+ {
+   "id": 1012,
+   "parroquia": "10 DE AGOSTO",
+   "canton": 151
+ },
+ {
+   "id": 1013,
+   "parroquia": "ATAHUALPA",
+   "canton": 151
+ },
+ {
+   "id": 1014,
+   "parroquia": "OLMEDO",
+   "canton": 121
+ },
+ {
+   "id": 1015,
+   "parroquia": "OLMEDO",
+   "canton": 152
+ },
+ {
+   "id": 1016,
+   "parroquia": "PUERTO LÓPEZ",
+   "canton": 153
+ },
+ {
+   "id": 1017,
+   "parroquia": "MACHALILLA",
+   "canton": 153
+ },
+ {
+   "id": 1018,
+   "parroquia": "SALANGO",
+   "canton": 153
+ },
+ {
+   "id": 1019,
+   "parroquia": "JAMA",
+   "canton": 154
+ },
+ {
+   "id": 1020,
+   "parroquia": "JARAMIJÓ",
+   "canton": 155
+ },
+ {
+   "id": 1021,
+   "parroquia": "SAN VICENTE",
+   "canton": 156
+ },
+ {
+   "id": 1022,
+   "parroquia": "CANOA",
+   "canton": 156
+ },
+ {
+   "id": 1023,
+   "parroquia": "MACAS",
+   "canton": 157
+ },
+ {
+   "id": 1024,
+   "parroquia": "ALSHI (CAB. EN 9 DE OCTUBRE)",
+   "canton": 157
+ },
+ {
+   "id": 1025,
+   "parroquia": "CHIGUAZA",
+   "canton": 157
+ },
+ {
+   "id": 1026,
+   "parroquia": "GENERAL PROAÑO",
+   "canton": 157
+ },
+ {
+   "id": 1027,
+   "parroquia": "HUASAGA (CAB.EN WAMPUIK)",
+   "canton": 157
+ },
+ {
+   "id": 1028,
+   "parroquia": "MACUMA",
+   "canton": 157
+ },
+ {
+   "id": 1029,
+   "parroquia": "SAN ISIDRO",
+   "canton": 157
+ },
+ {
+   "id": 1030,
+   "parroquia": "SEVILLA DON BOSCO",
+   "canton": 157
+ },
+ {
+   "id": 1031,
+   "parroquia": "SINAÍ",
+   "canton": 157
+ },
+ {
+   "id": 1032,
+   "parroquia": "TAISHA",
+   "canton": 157
+ },
+ {
+   "id": 1033,
+   "parroquia": "ZUÑA (ZÚÑAC)",
+   "canton": 157
+ },
+ {
+   "id": 1034,
+   "parroquia": "TUUTINENTZA",
+   "canton": 157
+ },
+ {
+   "id": 1035,
+   "parroquia": "CUCHAENTZA",
+   "canton": 157
+ },
+ {
+   "id": 1036,
+   "parroquia": "SAN JOSÉ DE MORONA",
+   "canton": 157
+ },
+ {
+   "id": 1037,
+   "parroquia": "RÍO BLANCO",
+   "canton": 157
+ },
+ {
+   "id": 1038,
+   "parroquia": "GUALAQUIZA",
+   "canton": 158
+ },
+ {
+   "id": 1039,
+   "parroquia": "MERCEDES MOLINA",
+   "canton": 158
+ },
+ {
+   "id": 1040,
+   "parroquia": "GUALAQUIZA",
+   "canton": 158
+ },
+ {
+   "id": 1041,
+   "parroquia": "AMAZONAS (ROSARIO DE CUYES)",
+   "canton": 158
+ },
+ {
+   "id": 1042,
+   "parroquia": "BERMEJOS",
+   "canton": 158
+ },
+ {
+   "id": 1043,
+   "parroquia": "BOMBOIZA",
+   "canton": 158
+ },
+ {
+   "id": 1044,
+   "parroquia": "CHIGÜINDA",
+   "canton": 158
+ },
+ {
+   "id": 1045,
+   "parroquia": "EL ROSARIO",
+   "canton": 158
+ },
+ {
+   "id": 1046,
+   "parroquia": "NUEVA TARQUI",
+   "canton": 158
+ },
+ {
+   "id": 1047,
+   "parroquia": "SAN MIGUEL DE CUYES",
+   "canton": 158
+ },
+ {
+   "id": 1048,
+   "parroquia": "EL IDEAL",
+   "canton": 158
+ },
+ {
+   "id": 1049,
+   "parroquia": "GENERAL LEONIDAS PLAZA GUTIÉRREZ (LIMÓN)",
+   "canton": 159
+ },
+ {
+   "id": 1050,
+   "parroquia": "INDANZA",
+   "canton": 159
+ },
+ {
+   "id": 1051,
+   "parroquia": "PAN DE AZÚCAR",
+   "canton": 159
+ },
+ {
+   "id": 1052,
+   "parroquia": "SAN ANTONIO (CAB. EN SAN ANTONIO CENTRO",
+   "canton": 159
+ },
+ {
+   "id": 1053,
+   "parroquia": "SAN CARLOS DE LIMÓN (SAN CARLOS DEL",
+   "canton": 159
+ },
+ {
+   "id": 1054,
+   "parroquia": "SAN JUAN BOSCO",
+   "canton": 159
+ },
+ {
+   "id": 1055,
+   "parroquia": "SAN MIGUEL DE CONCHAY",
+   "canton": 159
+ },
+ {
+   "id": 1056,
+   "parroquia": "SANTA SUSANA DE CHIVIAZA (CAB. EN CHIVIAZA)",
+   "canton": 159
+ },
+ {
+   "id": 1057,
+   "parroquia": "YUNGANZA (CAB. EN EL ROSARIO)",
+   "canton": 159
+ },
+ {
+   "id": 1058,
+   "parroquia": "PALORA (METZERA)",
+   "canton": 160
+ },
+ {
+   "id": 1059,
+   "parroquia": "ARAPICOS",
+   "canton": 160
+ },
+ {
+   "id": 1060,
+   "parroquia": "CUMANDÁ (CAB. EN COLONIA AGRÍCOLA SEVILLA DEL ORO)",
+   "canton": 160
+ },
+ {
+   "id": 1061,
+   "parroquia": "HUAMBOYA",
+   "canton": 160
+ },
+ {
+   "id": 1062,
+   "parroquia": "SANGAY (CAB. EN NAYAMANACA)",
+   "canton": 160
+ },
+ {
+   "id": 1063,
+   "parroquia": "SANTIAGO DE MÉNDEZ",
+   "canton": 161
+ },
+ {
+   "id": 1064,
+   "parroquia": "COPAL",
+   "canton": 161
+ },
+ {
+   "id": 1065,
+   "parroquia": "CHUPIANZA",
+   "canton": 161
+ },
+ {
+   "id": 1066,
+   "parroquia": "PATUCA",
+   "canton": 161
+ },
+ {
+   "id": 1067,
+   "parroquia": "SAN LUIS DE EL ACHO (CAB. EN EL ACHO)",
+   "canton": 161
+ },
+ {
+   "id": 1068,
+   "parroquia": "SANTIAGO",
+   "canton": 161
+ },
+ {
+   "id": 1069,
+   "parroquia": "TAYUZA",
+   "canton": 161
+ },
+ {
+   "id": 1070,
+   "parroquia": "SAN FRANCISCO DE CHINIMBIMI",
+   "canton": 161
+ },
+ {
+   "id": 1071,
+   "parroquia": "SUCÚA",
+   "canton": 162
+ },
+ {
+   "id": 1072,
+   "parroquia": "ASUNCIÓN",
+   "canton": 162
+ },
+ {
+   "id": 1073,
+   "parroquia": "HUAMBI",
+   "canton": 162
+ },
+ {
+   "id": 1074,
+   "parroquia": "LOGROÑO",
+   "canton": 162
+ },
+ {
+   "id": 1075,
+   "parroquia": "YAUPI",
+   "canton": 162
+ },
+ {
+   "id": 1076,
+   "parroquia": "SANTA MARIANITA DE JESÚS",
+   "canton": 162
+ },
+ {
+   "id": 1077,
+   "parroquia": "HUAMBOYA",
+   "canton": 163
+ },
+ {
+   "id": 1078,
+   "parroquia": "CHIGUAZA",
+   "canton": 163
+ },
+ {
+   "id": 1079,
+   "parroquia": "PABLO SEXTO",
+   "canton": 163
+ },
+ {
+   "id": 1080,
+   "parroquia": "SAN JUAN BOSCO",
+   "canton": 164
+ },
+ {
+   "id": 1081,
+   "parroquia": "PAN DE AZÚCAR",
+   "canton": 164
+ },
+ {
+   "id": 1082,
+   "parroquia": "SAN CARLOS DE LIMÓN",
+   "canton": 164
+ },
+ {
+   "id": 1083,
+   "parroquia": "SAN JACINTO DE WAKAMBEIS",
+   "canton": 164
+ },
+ {
+   "id": 1084,
+   "parroquia": "SANTIAGO DE PANANZA",
+   "canton": 164
+ },
+ {
+   "id": 1085,
+   "parroquia": "TAISHA",
+   "canton": 165
+ },
+ {
+   "id": 1086,
+   "parroquia": "HUASAGA (CAB. EN WAMPUIK)",
+   "canton": 165
+ },
+ {
+   "id": 1087,
+   "parroquia": "MACUMA",
+   "canton": 165
+ },
+ {
+   "id": 1088,
+   "parroquia": "TUUTINENTZA",
+   "canton": 165
+ },
+ {
+   "id": 1089,
+   "parroquia": "PUMPUENTSA",
+   "canton": 165
+ },
+ {
+   "id": 1090,
+   "parroquia": "LOGROÑO",
+   "canton": 166
+ },
+ {
+   "id": 1091,
+   "parroquia": "YAUPI",
+   "canton": 166
+ },
+ {
+   "id": 1092,
+   "parroquia": "SHIMPIS",
+   "canton": 166
+ },
+ {
+   "id": 1093,
+   "parroquia": "PABLO SEXTO",
+   "canton": 167
+ },
+ {
+   "id": 1094,
+   "parroquia": "SANTIAGO",
+   "canton": 168
+ },
+ {
+   "id": 1095,
+   "parroquia": "SAN JOSÉ DE MORONA",
+   "canton": 168
+ },
+ {
+   "id": 1096,
+   "parroquia": "TENA",
+   "canton": 169
+ },
+ {
+   "id": 1097,
+   "parroquia": "AHUANO",
+   "canton": 169
+ },
+ {
+   "id": 1098,
+   "parroquia": "CARLOS JULIO AROSEMENA TOLA (ZATZA-YACU)",
+   "canton": 169
+ },
+ {
+   "id": 1099,
+   "parroquia": "CHONTAPUNTA",
+   "canton": 169
+ },
+ {
+   "id": 1100,
+   "parroquia": "PANO",
+   "canton": 169
+ },
+ {
+   "id": 1101,
+   "parroquia": "PUERTO MISAHUALLI",
+   "canton": 169
+ },
+ {
+   "id": 1102,
+   "parroquia": "PUERTO NAPO",
+   "canton": 169
+ },
+ {
+   "id": 1103,
+   "parroquia": "TÁLAG",
+   "canton": 169
+ },
+ {
+   "id": 1104,
+   "parroquia": "SAN JUAN DE MUYUNA",
+   "canton": 169
+ },
+ {
+   "id": 1105,
+   "parroquia": "ARCHIDONA",
+   "canton": 170
+ },
+ {
+   "id": 1106,
+   "parroquia": "AVILA",
+   "canton": 170
+ },
+ {
+   "id": 1107,
+   "parroquia": "COTUNDO",
+   "canton": 170
+ },
+ {
+   "id": 1108,
+   "parroquia": "LORETO",
+   "canton": 170
+ },
+ {
+   "id": 1109,
+   "parroquia": "SAN PABLO DE USHPAYACU",
+   "canton": 170
+ },
+ {
+   "id": 1110,
+   "parroquia": "PUERTO MURIALDO",
+   "canton": 170
+ },
+ {
+   "id": 1111,
+   "parroquia": "EL CHACO",
+   "canton": 171
+ },
+ {
+   "id": 1112,
+   "parroquia": "GONZALO DíAZ DE PINEDA (EL BOMBÓN)",
+   "canton": 171
+ },
+ {
+   "id": 1113,
+   "parroquia": "LINARES",
+   "canton": 171
+ },
+ {
+   "id": 1114,
+   "parroquia": "OYACACHI",
+   "canton": 171
+ },
+ {
+   "id": 1115,
+   "parroquia": "SANTA ROSA",
+   "canton": 171
+ },
+ {
+   "id": 1116,
+   "parroquia": "SARDINAS",
+   "canton": 171
+ },
+ {
+   "id": 1117,
+   "parroquia": "BAEZA",
+   "canton": 172
+ },
+ {
+   "id": 1118,
+   "parroquia": "COSANGA",
+   "canton": 172
+ },
+ {
+   "id": 1119,
+   "parroquia": "CUYUJA",
+   "canton": 172
+ },
+ {
+   "id": 1120,
+   "parroquia": "PAPALLACTA",
+   "canton": 172
+ },
+ {
+   "id": 1121,
+   "parroquia": "SAN FRANCISCO DE BORJA (VIRGILIO DÁVILA)",
+   "canton": 172
+ },
+ {
+   "id": 1122,
+   "parroquia": "SAN JOSÉ DEL PAYAMINO",
+   "canton": 172
+ },
+ {
+   "id": 1123,
+   "parroquia": "SUMACO",
+   "canton": 172
+ },
+ {
+   "id": 1124,
+   "parroquia": "CARLOS JULIO AROSEMENA TOLA",
+   "canton": 173
+ },
+ {
+   "id": 1125,
+   "parroquia": "PUYO",
+   "canton": 174
+ },
+ {
+   "id": 1126,
+   "parroquia": "ARAJUNO",
+   "canton": 174
+ },
+ {
+   "id": 1127,
+   "parroquia": "CANELOS",
+   "canton": 174
+ },
+ {
+   "id": 1128,
+   "parroquia": "CURARAY",
+   "canton": 174
+ },
+ {
+   "id": 1129,
+   "parroquia": "DIEZ DE AGOSTO",
+   "canton": 174
+ },
+ {
+   "id": 1130,
+   "parroquia": "FÁTIMA",
+   "canton": 174
+ },
+ {
+   "id": 1131,
+   "parroquia": "MONTALVO (ANDOAS)",
+   "canton": 174
+ },
+ {
+   "id": 1132,
+   "parroquia": "POMONA",
+   "canton": 174
+ },
+ {
+   "id": 1133,
+   "parroquia": "RÍO CORRIENTES",
+   "canton": 174
+ },
+ {
+   "id": 1134,
+   "parroquia": "RÍO TIGRE",
+   "canton": 174
+ },
+ {
+   "id": 1135,
+   "parroquia": "SANTA CLARA",
+   "canton": 174
+ },
+ {
+   "id": 1136,
+   "parroquia": "SARAYACU",
+   "canton": 174
+ },
+ {
+   "id": 1137,
+   "parroquia": "SIMÓN BOLÍVAR (CAB. EN MUSHULLACTA)",
+   "canton": 174
+ },
+ {
+   "id": 1138,
+   "parroquia": "TARQUI",
+   "canton": 174
+ },
+ {
+   "id": 1139,
+   "parroquia": "TENIENTE HUGO ORTIZ",
+   "canton": 174
+ },
+ {
+   "id": 1140,
+   "parroquia": "VERACRUZ (INDILLAMA) (CAB. EN INDILLAMA)",
+   "canton": 174
+ },
+ {
+   "id": 1141,
+   "parroquia": "EL TRIUNFO",
+   "canton": 174
+ },
+ {
+   "id": 1142,
+   "parroquia": "MERA",
+   "canton": 175
+ },
+ {
+   "id": 1143,
+   "parroquia": "MADRE TIERRA",
+   "canton": 175
+ },
+ {
+   "id": 1144,
+   "parroquia": "SHELL",
+   "canton": 175
+ },
+ {
+   "id": 1145,
+   "parroquia": "SANTA CLARA",
+   "canton": 176
+ },
+ {
+   "id": 1146,
+   "parroquia": "SAN JOSÉ",
+   "canton": 176
+ },
+ {
+   "id": 1147,
+   "parroquia": "ARAJUNO",
+   "canton": 177
+ },
+ {
+   "id": 1148,
+   "parroquia": "CURARAY",
+   "canton": 177
+ },
+ {
+   "id": 1149,
+   "parroquia": "AYORA",
+   "canton": 179
+ },
+ {
+   "id": 1150,
+   "parroquia": "CAYAMBE",
+   "canton": 179
+ },
+ {
+   "id": 1151,
+   "parroquia": "JUAN MONTALVO",
+   "canton": 179
+ },
+ {
+   "id": 1152,
+   "parroquia": "CAYAMBE",
+   "canton": 179
+ },
+ {
+   "id": 1153,
+   "parroquia": "ASCÁZUBI",
+   "canton": 179
+ },
+ {
+   "id": 1154,
+   "parroquia": "CANGAHUA",
+   "canton": 179
+ },
+ {
+   "id": 1155,
+   "parroquia": "OLMEDO (PESILLO)",
+   "canton": 179
+ },
+ {
+   "id": 1156,
+   "parroquia": "OTÓN",
+   "canton": 179
+ },
+ {
+   "id": 1157,
+   "parroquia": "SANTA ROSA DE CUZUBAMBA",
+   "canton": 179
+ },
+ {
+   "id": 1158,
+   "parroquia": "MACHACHI",
+   "canton": 180
+ },
+ {
+   "id": 1159,
+   "parroquia": "ALÓAG",
+   "canton": 180
+ },
+ {
+   "id": 1160,
+   "parroquia": "ALOASÍ",
+   "canton": 180
+ },
+ {
+   "id": 1161,
+   "parroquia": "CUTUGLAHUA",
+   "canton": 180
+ },
+ {
+   "id": 1162,
+   "parroquia": "EL CHAUPI",
+   "canton": 180
+ },
+ {
+   "id": 1163,
+   "parroquia": "MANUEL CORNEJO ASTORGA (TANDAPI)",
+   "canton": 180
+ },
+ {
+   "id": 1164,
+   "parroquia": "TAMBILLO",
+   "canton": 180
+ },
+ {
+   "id": 1165,
+   "parroquia": "UYUMBICHO",
+   "canton": 180
+ },
+ {
+   "id": 1166,
+   "parroquia": "TABACUNDO",
+   "canton": 181
+ },
+ {
+   "id": 1167,
+   "parroquia": "LA ESPERANZA",
+   "canton": 181
+ },
+ {
+   "id": 1168,
+   "parroquia": "MALCHINGUÍ",
+   "canton": 181
+ },
+ {
+   "id": 1169,
+   "parroquia": "TOCACHI",
+   "canton": 181
+ },
+ {
+   "id": 1170,
+   "parroquia": "TUPIGACHI",
+   "canton": 181
+ },
+ {
+   "id": 1171,
+   "parroquia": "SANGOLQUÍ",
+   "canton": 182
+ },
+ {
+   "id": 1172,
+   "parroquia": "SAN PEDRO DE TABOADA",
+   "canton": 182
+ },
+ {
+   "id": 1173,
+   "parroquia": "SAN RAFAEL",
+   "canton": 182
+ },
+ {
+   "id": 1174,
+   "parroquia": "SANGOLQUI",
+   "canton": 182
+ },
+ {
+   "id": 1175,
+   "parroquia": "COTOGCHOA",
+   "canton": 182
+ },
+ {
+   "id": 1176,
+   "parroquia": "RUMIPAMBA",
+   "canton": 182
+ },
+ {
+   "id": 1177,
+   "parroquia": "SAN MIGUEL DE LOS BANCOS",
+   "canton": 183
+ },
+ {
+   "id": 1178,
+   "parroquia": "MINDO",
+   "canton": 183
+ },
+ {
+   "id": 1179,
+   "parroquia": "PEDRO VICENTE MALDONADO",
+   "canton": 183
+ },
+ {
+   "id": 1180,
+   "parroquia": "PUERTO QUITO",
+   "canton": 183
+ },
+ {
+   "id": 1181,
+   "parroquia": "PEDRO VICENTE MALDONADO",
+   "canton": 184
+ },
+ {
+   "id": 1182,
+   "parroquia": "PUERTO QUITO",
+   "canton": 185
+ },
+ {
+   "id": 1183,
+   "parroquia": "ATOCHA – FICOA",
+   "canton": 186
+ },
+ {
+   "id": 1184,
+   "parroquia": "CELIANO MONGE",
+   "canton": 186
+ },
+ {
+   "id": 1185,
+   "parroquia": "HUACHI CHICO",
+   "canton": 186
+ },
+ {
+   "id": 1186,
+   "parroquia": "HUACHI LORETO",
+   "canton": 186
+ },
+ {
+   "id": 1187,
+   "parroquia": "LA MERCED",
+   "canton": 186
+ },
+ {
+   "id": 1188,
+   "parroquia": "LA PENÍNSULA",
+   "canton": 186
+ },
+ {
+   "id": 1189,
+   "parroquia": "MATRIZ",
+   "canton": 186
+ },
+ {
+   "id": 1190,
+   "parroquia": "PISHILATA",
+   "canton": 186
+ },
+ {
+   "id": 1191,
+   "parroquia": "SAN FRANCISCO",
+   "canton": 186
+ },
+ {
+   "id": 1192,
+   "parroquia": "AMBATO",
+   "canton": 186
+ },
+ {
+   "id": 1193,
+   "parroquia": "AMBATILLO",
+   "canton": 186
+ },
+ {
+   "id": 1194,
+   "parroquia": "ATAHUALPA (CHISALATA)",
+   "canton": 186
+ },
+ {
+   "id": 1195,
+   "parroquia": "AUGUSTO N. MARTÍNEZ (MUNDUGLEO)",
+   "canton": 186
+ },
+ {
+   "id": 1196,
+   "parroquia": "CONSTANTINO FERNÁNDEZ (CAB. EN CULLITAHUA)",
+   "canton": 186
+ },
+ {
+   "id": 1197,
+   "parroquia": "HUACHI GRANDE",
+   "canton": 186
+ },
+ {
+   "id": 1198,
+   "parroquia": "IZAMBA",
+   "canton": 186
+ },
+ {
+   "id": 1199,
+   "parroquia": "JUAN BENIGNO VELA",
+   "canton": 186
+ },
+ {
+   "id": 1200,
+   "parroquia": "MONTALVO",
+   "canton": 186
+ },
+ {
+   "id": 1201,
+   "parroquia": "PASA",
+   "canton": 186
+ },
+ {
+   "id": 1202,
+   "parroquia": "PICAIGUA",
+   "canton": 186
+ },
+ {
+   "id": 1203,
+   "parroquia": "PILAGÜÍN (PILAHÜÍN)",
+   "canton": 186
+ },
+ {
+   "id": 1204,
+   "parroquia": "QUISAPINCHA (QUIZAPINCHA)",
+   "canton": 186
+ },
+ {
+   "id": 1205,
+   "parroquia": "SAN BARTOLOMÉ DE PINLLOG",
+   "canton": 186
+ },
+ {
+   "id": 1206,
+   "parroquia": "SAN FERNANDO (PASA SAN FERNANDO)",
+   "canton": 186
+ },
+ {
+   "id": 1207,
+   "parroquia": "SANTA ROSA",
+   "canton": 186
+ },
+ {
+   "id": 1208,
+   "parroquia": "TOTORAS",
+   "canton": 186
+ },
+ {
+   "id": 1209,
+   "parroquia": "CUNCHIBAMBA",
+   "canton": 186
+ },
+ {
+   "id": 1210,
+   "parroquia": "UNAMUNCHO",
+   "canton": 186
+ },
+ {
+   "id": 1211,
+   "parroquia": "BAÑOS DE AGUA SANTA",
+   "canton": 187
+ },
+ {
+   "id": 1212,
+   "parroquia": "LLIGUA",
+   "canton": 187
+ },
+ {
+   "id": 1213,
+   "parroquia": "RÍO NEGRO",
+   "canton": 187
+ },
+ {
+   "id": 1214,
+   "parroquia": "RÍO VERDE",
+   "canton": 187
+ },
+ {
+   "id": 1215,
+   "parroquia": "ULBA",
+   "canton": 187
+ },
+ {
+   "id": 1216,
+   "parroquia": "CEVALLOS",
+   "canton": 188
+ },
+ {
+   "id": 1217,
+   "parroquia": "MOCHA",
+   "canton": 189
+ },
+ {
+   "id": 1218,
+   "parroquia": "PINGUILÍ",
+   "canton": 189
+ },
+ {
+   "id": 1219,
+   "parroquia": "PATATE",
+   "canton": 190
+ },
+ {
+   "id": 1220,
+   "parroquia": "EL TRIUNFO",
+   "canton": 190
+ },
+ {
+   "id": 1221,
+   "parroquia": "LOS ANDES (CAB. EN POATUG)",
+   "canton": 190
+ },
+ {
+   "id": 1222,
+   "parroquia": "SUCRE (CAB. EN SUCRE-PATATE URCU)",
+   "canton": 190
+ },
+ {
+   "id": 1223,
+   "parroquia": "QUERO",
+   "canton": 191
+ },
+ {
+   "id": 1224,
+   "parroquia": "RUMIPAMBA",
+   "canton": 191
+ },
+ {
+   "id": 1225,
+   "parroquia": "YANAYACU - MOCHAPATA (CAB. EN YANAYACU)",
+   "canton": 191
+ },
+ {
+   "id": 1226,
+   "parroquia": "PELILEO",
+   "canton": 192
+ },
+ {
+   "id": 1227,
+   "parroquia": "PELILEO GRANDE",
+   "canton": 192
+ },
+ {
+   "id": 1228,
+   "parroquia": "PELILEO",
+   "canton": 192
+ },
+ {
+   "id": 1229,
+   "parroquia": "BENÍTEZ (PACHANLICA)",
+   "canton": 192
+ },
+ {
+   "id": 1230,
+   "parroquia": "BOLÍVAR",
+   "canton": 192
+ },
+ {
+   "id": 1231,
+   "parroquia": "COTALÓ",
+   "canton": 192
+ },
+ {
+   "id": 1232,
+   "parroquia": "CHIQUICHA (CAB. EN CHIQUICHA GRANDE)",
+   "canton": 192
+ },
+ {
+   "id": 1233,
+   "parroquia": "EL ROSARIO (RUMICHACA)",
+   "canton": 192
+ },
+ {
+   "id": 1234,
+   "parroquia": "GARCÍA MORENO (CHUMAQUI)",
+   "canton": 192
+ },
+ {
+   "id": 1235,
+   "parroquia": "GUAMBALÓ (HUAMBALÓ)",
+   "canton": 192
+ },
+ {
+   "id": 1236,
+   "parroquia": "SALASACA",
+   "canton": 192
+ },
+ {
+   "id": 1237,
+   "parroquia": "CIUDAD NUEVA",
+   "canton": 193
+ },
+ {
+   "id": 1238,
+   "parroquia": "PÍLLARO",
+   "canton": 193
+ },
+ {
+   "id": 1239,
+   "parroquia": "PÍLLARO",
+   "canton": 193
+ },
+ {
+   "id": 1240,
+   "parroquia": "BAQUERIZO MORENO",
+   "canton": 193
+ },
+ {
+   "id": 1241,
+   "parroquia": "EMILIO MARÍA TERÁN (RUMIPAMBA)",
+   "canton": 193
+ },
+ {
+   "id": 1242,
+   "parroquia": "MARCOS ESPINEL (CHACATA)",
+   "canton": 193
+ },
+ {
+   "id": 1243,
+   "parroquia": "PRESIDENTE URBINA (CHAGRAPAMBA -PATZUCUL)",
+   "canton": 193
+ },
+ {
+   "id": 1244,
+   "parroquia": "SAN ANDRÉS",
+   "canton": 193
+ },
+ {
+   "id": 1245,
+   "parroquia": "SAN JOSÉ DE POALÓ",
+   "canton": 193
+ },
+ {
+   "id": 1246,
+   "parroquia": "SAN MIGUELITO",
+   "canton": 193
+ },
+ {
+   "id": 1247,
+   "parroquia": "TISALEO",
+   "canton": 194
+ },
+ {
+   "id": 1248,
+   "parroquia": "QUINCHICOTO",
+   "canton": 194
+ },
+ {
+   "id": 1249,
+   "parroquia": "EL LIMÓN",
+   "canton": 195
+ },
+ {
+   "id": 1250,
+   "parroquia": "ZAMORA",
+   "canton": 195
+ },
+ {
+   "id": 1251,
+   "parroquia": "ZAMORA",
+   "canton": 195
+ },
+ {
+   "id": 1252,
+   "parroquia": "CUMBARATZA",
+   "canton": 195
+ },
+ {
+   "id": 1253,
+   "parroquia": "GUADALUPE",
+   "canton": 195
+ },
+ {
+   "id": 1254,
+   "parroquia": "IMBANA (LA VICTORIA DE IMBANA)",
+   "canton": 195
+ },
+ {
+   "id": 1255,
+   "parroquia": "PAQUISHA",
+   "canton": 195
+ },
+ {
+   "id": 1256,
+   "parroquia": "SABANILLA",
+   "canton": 195
+ },
+ {
+   "id": 1257,
+   "parroquia": "TIMBARA",
+   "canton": 195
+ },
+ {
+   "id": 1258,
+   "parroquia": "ZUMBI",
+   "canton": 195
+ },
+ {
+   "id": 1259,
+   "parroquia": "SAN CARLOS DE LAS MINAS",
+   "canton": 195
+ },
+ {
+   "id": 1260,
+   "parroquia": "ZUMBA",
+   "canton": 196
+ },
+ {
+   "id": 1261,
+   "parroquia": "CHITO",
+   "canton": 196
+ },
+ {
+   "id": 1262,
+   "parroquia": "EL CHORRO",
+   "canton": 196
+ },
+ {
+   "id": 1263,
+   "parroquia": "EL PORVENIR DEL CARMEN",
+   "canton": 196
+ },
+ {
+   "id": 1264,
+   "parroquia": "LA CHONTA",
+   "canton": 196
+ },
+ {
+   "id": 1265,
+   "parroquia": "PALANDA",
+   "canton": 196
+ },
+ {
+   "id": 1266,
+   "parroquia": "PUCAPAMBA",
+   "canton": 196
+ },
+ {
+   "id": 1267,
+   "parroquia": "SAN FRANCISCO DEL VERGEL",
+   "canton": 196
+ },
+ {
+   "id": 1268,
+   "parroquia": "VALLADOLID",
+   "canton": 196
+ },
+ {
+   "id": 1269,
+   "parroquia": "SAN ANDRÉS",
+   "canton": 196
+ },
+ {
+   "id": 1270,
+   "parroquia": "GUAYZIMI",
+   "canton": 197
+ },
+ {
+   "id": 1271,
+   "parroquia": "ZURMI",
+   "canton": 197
+ },
+ {
+   "id": 1272,
+   "parroquia": "NUEVO PARAÍSO",
+   "canton": 197
+ },
+ {
+   "id": 1273,
+   "parroquia": "28 DE MAYO (SAN JOSÉ DE YACUAMBI)",
+   "canton": 198
+ },
+ {
+   "id": 1274,
+   "parroquia": "LA PAZ",
+   "canton": 198
+ },
+ {
+   "id": 1275,
+   "parroquia": "TUTUPALI",
+   "canton": 198
+ },
+ {
+   "id": 1276,
+   "parroquia": "YANTZAZA (YANZATZA)",
+   "canton": 199
+ },
+ {
+   "id": 1277,
+   "parroquia": "CHICAÑA",
+   "canton": 199
+ },
+ {
+   "id": 1278,
+   "parroquia": "EL PANGUI",
+   "canton": 199
+ },
+ {
+   "id": 1279,
+   "parroquia": "LOS ENCUENTROS",
+   "canton": 199
+ },
+ {
+   "id": 1280,
+   "parroquia": "EL PANGUI",
+   "canton": 200
+ },
+ {
+   "id": 1281,
+   "parroquia": "EL GUISME",
+   "canton": 200
+ },
+ {
+   "id": 1282,
+   "parroquia": "PACHICUTZA",
+   "canton": 200
+ },
+ {
+   "id": 1283,
+   "parroquia": "TUNDAYME",
+   "canton": 200
+ },
+ {
+   "id": 1284,
+   "parroquia": "ZUMBI",
+   "canton": 201
+ },
+ {
+   "id": 1285,
+   "parroquia": "PAQUISHA",
+   "canton": 201
+ },
+ {
+   "id": 1286,
+   "parroquia": "TRIUNFO-DORADO",
+   "canton": 201
+ },
+ {
+   "id": 1287,
+   "parroquia": "PANGUINTZA",
+   "canton": 201
+ },
+ {
+   "id": 1288,
+   "parroquia": "PALANDA",
+   "canton": 202
+ },
+ {
+   "id": 1289,
+   "parroquia": "EL PORVENIR DEL CARMEN",
+   "canton": 202
+ },
+ {
+   "id": 1290,
+   "parroquia": "SAN FRANCISCO DEL VERGEL",
+   "canton": 202
+ },
+ {
+   "id": 1291,
+   "parroquia": "VALLADOLID",
+   "canton": 202
+ },
+ {
+   "id": 1292,
+   "parroquia": "LA CANELA",
+   "canton": 202
+ },
+ {
+   "id": 1293,
+   "parroquia": "PAQUISHA",
+   "canton": 203
+ },
+ {
+   "id": 1294,
+   "parroquia": "BELLAVISTA",
+   "canton": 203
+ },
+ {
+   "id": 1295,
+   "parroquia": "NUEVO QUITO",
+   "canton": 203
+ },
+ {
+   "id": 1296,
+   "parroquia": "PUERTO BAQUERIZO MORENO",
+   "canton": 204
+ },
+ {
+   "id": 1297,
+   "parroquia": "EL PROGRESO",
+   "canton": 204
+ },
+ {
+   "id": 1298,
+   "parroquia": "A SANTA MARÍA (FLOREANA) (CAB. EN PTO. VELASCO IBAR",
+   "canton": 204
+ },
+ {
+   "id": 1299,
+   "parroquia": "PUERTO VILLAMIL",
+   "canton": 205
+ },
+ {
+   "id": 1300,
+   "parroquia": "TOMÁS DE BERLANGA (SANTO TOMÁS)",
+   "canton": 205
+ },
+ {
+   "id": 1301,
+   "parroquia": "PUERTO AYORA",
+   "canton": 206
+ },
+ {
+   "id": 1302,
+   "parroquia": "BELLAVISTA",
+   "canton": 206
+ },
+ {
+   "id": 1303,
+   "parroquia": "SANTA ROSA (INCLUYE LA ISLA BALTRA)",
+   "canton": 206
+ },
+ {
+   "id": 1304,
+   "parroquia": "NUEVA LOJA",
+   "canton": 207
+ },
+ {
+   "id": 1305,
+   "parroquia": "CUYABENO",
+   "canton": 207
+ },
+ {
+   "id": 1306,
+   "parroquia": "DURENO",
+   "canton": 207
+ },
+ {
+   "id": 1307,
+   "parroquia": "GENERAL FARFÁN",
+   "canton": 207
+ },
+ {
+   "id": 1308,
+   "parroquia": "TARAPOA",
+   "canton": 207
+ },
+ {
+   "id": 1309,
+   "parroquia": "EL ENO",
+   "canton": 207
+ },
+ {
+   "id": 1310,
+   "parroquia": "PACAYACU",
+   "canton": 207
+ },
+ {
+   "id": 1311,
+   "parroquia": "JAMBELÍ",
+   "canton": 207
+ },
+ {
+   "id": 1312,
+   "parroquia": "SANTA CECILIA",
+   "canton": 207
+ },
+ {
+   "id": 1313,
+   "parroquia": "AGUAS NEGRAS",
+   "canton": 207
+ },
+ {
+   "id": 1314,
+   "parroquia": "EL DORADO DE CASCALES",
+   "canton": 208
+ },
+ {
+   "id": 1315,
+   "parroquia": "EL REVENTADOR",
+   "canton": 208
+ },
+ {
+   "id": 1316,
+   "parroquia": "GONZALO PIZARRO",
+   "canton": 208
+ },
+ {
+   "id": 1317,
+   "parroquia": "LUMBAQUÍ",
+   "canton": 208
+ },
+ {
+   "id": 1318,
+   "parroquia": "PUERTO LIBRE",
+   "canton": 208
+ },
+ {
+   "id": 1319,
+   "parroquia": "SANTA ROSA DE SUCUMBÍOS",
+   "canton": 208
+ },
+ {
+   "id": 1320,
+   "parroquia": "PUERTO EL CARMEN DEL PUTUMAYO",
+   "canton": 209
+ },
+ {
+   "id": 1321,
+   "parroquia": "PALMA ROJA",
+   "canton": 209
+ },
+ {
+   "id": 1322,
+   "parroquia": "PUERTO BOLÍVAR (PUERTO MONTÚFAR)",
+   "canton": 209
+ },
+ {
+   "id": 1323,
+   "parroquia": "PUERTO RODRÍGUEZ",
+   "canton": 209
+ },
+ {
+   "id": 1324,
+   "parroquia": "SANTA ELENA",
+   "canton": 209
+ },
+ {
+   "id": 1325,
+   "parroquia": "SHUSHUFINDI",
+   "canton": 210
+ },
+ {
+   "id": 1326,
+   "parroquia": "LIMONCOCHA",
+   "canton": 210
+ },
+ {
+   "id": 1327,
+   "parroquia": "PAÑACOCHA",
+   "canton": 210
+ },
+ {
+   "id": 1328,
+   "parroquia": "SAN ROQUE (CAB. EN SAN VICENTE)",
+   "canton": 210
+ },
+ {
+   "id": 1329,
+   "parroquia": "SAN PEDRO DE LOS COFANES",
+   "canton": 210
+ },
+ {
+   "id": 1330,
+   "parroquia": "SIETE DE JULIO",
+   "canton": 210
+ },
+ {
+   "id": 1331,
+   "parroquia": "LA BONITA",
+   "canton": 211
+ },
+ {
+   "id": 1332,
+   "parroquia": "EL PLAYÓN DE SAN FRANCISCO",
+   "canton": 211
+ },
+ {
+   "id": 1333,
+   "parroquia": "LA SOFÍA",
+   "canton": 211
+ },
+ {
+   "id": 1334,
+   "parroquia": "ROSA FLORIDA",
+   "canton": 211
+ },
+ {
+   "id": 1335,
+   "parroquia": "SANTA BÁRBARA",
+   "canton": 211
+ },
+ {
+   "id": 1336,
+   "parroquia": "EL DORADO DE CASCALES",
+   "canton": 212
+ },
+ {
+   "id": 1337,
+   "parroquia": "SANTA ROSA DE SUCUMBÍOS",
+   "canton": 212
+ },
+ {
+   "id": 1338,
+   "parroquia": "SEVILLA",
+   "canton": 212
+ },
+ {
+   "id": 1339,
+   "parroquia": "TARAPOA",
+   "canton": 213
+ },
+ {
+   "id": 1340,
+   "parroquia": "CUYABENO",
+   "canton": 213
+ },
+ {
+   "id": 1341,
+   "parroquia": "AGUAS NEGRAS",
+   "canton": 213
+ },
+ {
+   "id": 1342,
+   "parroquia": "PUERTO FRANCISCO DE ORELLANA (EL COCA)",
+   "canton": 214
+ },
+ {
+   "id": 1343,
+   "parroquia": "DAYUMA",
+   "canton": 214
+ },
+ {
+   "id": 1344,
+   "parroquia": "TARACOA (NUEVA ESPERANZA: YUCA)",
+   "canton": 214
+ },
+ {
+   "id": 1345,
+   "parroquia": "ALEJANDRO LABAKA",
+   "canton": 214
+ },
+ {
+   "id": 1346,
+   "parroquia": "EL DORADO",
+   "canton": 214
+ },
+ {
+   "id": 1347,
+   "parroquia": "EL EDÉN",
+   "canton": 214
+ },
+ {
+   "id": 1348,
+   "parroquia": "GARCÍA MORENO",
+   "canton": 214
+ },
+ {
+   "id": 1349,
+   "parroquia": "INÉS ARANGO (CAB. EN WESTERN)",
+   "canton": 214
+ },
+ {
+   "id": 1350,
+   "parroquia": "LA BELLEZA",
+   "canton": 214
+ },
+ {
+   "id": 1351,
+   "parroquia": "NUEVO PARAÍSO (CAB. EN UNIÓN",
+   "canton": 214
+ },
+ {
+   "id": 1352,
+   "parroquia": "SAN JOSÉ DE GUAYUSA",
+   "canton": 214
+ },
+ {
+   "id": 1353,
+   "parroquia": "SAN LUIS DE ARMENIA",
+   "canton": 214
+ },
+ {
+   "id": 1354,
+   "parroquia": "TIPITINI",
+   "canton": 215
+ },
+ {
+   "id": 1355,
+   "parroquia": "NUEVO ROCAFUERTE",
+   "canton": 215
+ },
+ {
+   "id": 1356,
+   "parroquia": "CAPITÁN AUGUSTO RIVADENEYRA",
+   "canton": 215
+ },
+ {
+   "id": 1357,
+   "parroquia": "CONONACO",
+   "canton": 215
+ },
+ {
+   "id": 1358,
+   "parroquia": "SANTA MARÍA DE HUIRIRIMA",
+   "canton": 215
+ },
+ {
+   "id": 1359,
+   "parroquia": "TIPUTINI",
+   "canton": 215
+ },
+ {
+   "id": 1360,
+   "parroquia": "YASUNÍ",
+   "canton": 215
+ },
+ {
+   "id": 1361,
+   "parroquia": "LA JOYA DE LOS SACHAS",
+   "canton": 216
+ },
+ {
+   "id": 1362,
+   "parroquia": "ENOKANQUI",
+   "canton": 216
+ },
+ {
+   "id": 1363,
+   "parroquia": "POMPEYA",
+   "canton": 216
+ },
+ {
+   "id": 1364,
+   "parroquia": "SAN CARLOS",
+   "canton": 216
+ },
+ {
+   "id": 1365,
+   "parroquia": "SAN SEBASTIÁN DEL COCA",
+   "canton": 216
+ },
+ {
+   "id": 1366,
+   "parroquia": "LAGO SAN PEDRO",
+   "canton": 216
+ },
+ {
+   "id": 1367,
+   "parroquia": "RUMIPAMBA",
+   "canton": 216
+ },
+ {
+   "id": 1368,
+   "parroquia": "TRES DE NOVIEMBRE",
+   "canton": 216
+ },
+ {
+   "id": 1369,
+   "parroquia": "UNIÓN MILAGREÑA",
+   "canton": 216
+ },
+ {
+   "id": 1370,
+   "parroquia": "LORETO",
+   "canton": 217
+ },
+ {
+   "id": 1371,
+   "parroquia": "AVILA (CAB. EN HUIRUNO)",
+   "canton": 217
+ },
+ {
+   "id": 1372,
+   "parroquia": "PUERTO MURIALDO",
+   "canton": 217
+ },
+ {
+   "id": 1373,
+   "parroquia": "SAN JOSÉ DE PAYAMINO",
+   "canton": 217
+ },
+ {
+   "id": 1374,
+   "parroquia": "SAN JOSÉ DE DAHUANO",
+   "canton": 217
+ },
+ {
+   "id": 1375,
+   "parroquia": "SAN VICENTE DE HUATICOCHA",
+   "canton": 217
+ },
+ {
+   "id": 1376,
+   "parroquia": "ABRAHAM CALAZACÓN",
+   "canton": 218
+ },
+ {
+   "id": 1377,
+   "parroquia": "BOMBOLÍ",
+   "canton": 218
+ },
+ {
+   "id": 1378,
+   "parroquia": "CHIGUILPE",
+   "canton": 218
+ },
+ {
+   "id": 1379,
+   "parroquia": "RÍO TOACHI",
+   "canton": 218
+ },
+ {
+   "id": 1380,
+   "parroquia": "RÍO VERDE",
+   "canton": 218
+ },
+ {
+   "id": 1381,
+   "parroquia": "SANTO DOMINGO DE LOS COLORADOS",
+   "canton": 218
+ },
+ {
+   "id": 1382,
+   "parroquia": "ZARACAY",
+   "canton": 218
+ },
+ {
+   "id": 1383,
+   "parroquia": "SANTO DOMINGO DE LOS COLORADOS",
+   "canton": 218
+ },
+ {
+   "id": 1384,
+   "parroquia": "ALLURIQUÍN",
+   "canton": 218
+ },
+ {
+   "id": 1385,
+   "parroquia": "PUERTO LIMÓN",
+   "canton": 218
+ },
+ {
+   "id": 1386,
+   "parroquia": "LUZ DE AMÉRICA",
+   "canton": 218
+ },
+ {
+   "id": 1387,
+   "parroquia": "SAN JACINTO DEL BÚA",
+   "canton": 218
+ },
+ {
+   "id": 1388,
+   "parroquia": "VALLE HERMOSO",
+   "canton": 218
+ },
+ {
+   "id": 1389,
+   "parroquia": "EL ESFUERZO",
+   "canton": 218
+ },
+ {
+   "id": 1390,
+   "parroquia": "SANTA MARÍA DEL TOACHI",
+   "canton": 218
+ },
+ {
+   "id": 1391,
+   "parroquia": "BALLENITA",
+   "canton": 219
+ },
+ {
+   "id": 1392,
+   "parroquia": "SANTA ELENA",
+   "canton": 219
+ },
+ {
+   "id": 1393,
+   "parroquia": "SANTA ELENA",
+   "canton": 219
+ },
+ {
+   "id": 1394,
+   "parroquia": "ATAHUALPA",
+   "canton": 219
+ },
+ {
+   "id": 1395,
+   "parroquia": "COLONCHE",
+   "canton": 219
+ },
+ {
+   "id": 1396,
+   "parroquia": "CHANDUY",
+   "canton": 219
+ },
+ {
+   "id": 1397,
+   "parroquia": "MANGLARALTO",
+   "canton": 219
+ },
+ {
+   "id": 1398,
+   "parroquia": "SIMÓN BOLÍVAR (JULIO MORENO)",
+   "canton": 219
+ },
+ {
+   "id": 1399,
+   "parroquia": "SAN JOSÉ DE ANCÓN",
+   "canton": 219
+ },
+ {
+   "id": 1400,
+   "parroquia": "LA LIBERTAD",
+   "canton": 220
+ },
+ {
+   "id": 1401,
+   "parroquia": "CARLOS ESPINOZA LARREA",
+   "canton": 221
+ },
+ {
+   "id": 1402,
+   "parroquia": "GRAL. ALBERTO ENRÍQUEZ GALLO",
+   "canton": 221
+ },
+ {
+   "id": 1403,
+   "parroquia": "VICENTE ROCAFUERTE",
+   "canton": 221
+ },
+ {
+   "id": 1404,
+   "parroquia": "SANTA ROSA",
+   "canton": 221
+ },
+ {
+   "id": 1405,
+   "parroquia": "SALINAS",
+   "canton": 221
+ },
+ {
+   "id": 1406,
+   "parroquia": "ANCONCITO",
+   "canton": 221
+ },
+ {
+   "id": 1407,
+   "parroquia": "JOSÉ LUIS TAMAYO (MUEY)",
+   "canton": 221
+ },
+ {
+   "id": 1408,
+   "parroquia": "LAS GOLONDRINAS",
+   "canton": 222
+ },
+ {
+   "id": 1409,
+   "parroquia": "MANGA DEL CURA",
+   "canton": 223
+ },
+ {
+   "id": 1410,
+   "parroquia": "EL PIEDRERO",
+   "canton": 224
+ }
+]
