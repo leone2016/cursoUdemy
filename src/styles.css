@@ -68,4 +68,26 @@ i.arrow prev{
   cursor: pointer;
   text-transform: uppercase;
 }
+.header-nav-top-bar {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+
+  font-family: "futura-pt",arial,sans-serif;
+  font-weight: 500;
+
+}
+ /*sticky__header scroll-header*/
+/*.mainmenu__area.sticky__header.scroll-header .menu-extra .header-nav-cart-count li span {*/
+  /*color: #cc0000;*/
+/*}*/
+/*.header-nav-cart-count span {*/
+  /*position: absolute;*/
+  /*top: 41px;*/
+  /*color: #000;*/
+
+/*}*/
+
 

@@ -64,5 +64,19 @@ Paso 4.  Permission denied (publickey) [more info](https://confluence.atlassian.
 
     logged in as leone2015.
     You can use git or hg to connect to Bitbucket. Shell access is disabled.
+# Datos importantes
 
+
+> Use the btoa() function to encode:
+
+````JS 
+    console.log(btoa("password")); 
+    // cGFzc3dvcmQ= 
+````
+
+> To decode, you can use the atob() function:
+````JS 
+    console.log(atob("cGFzc3dvcmQ=")); 
+    // password
+````
 

@@ -1,4 +1,18 @@
 
+<div class="header-nav-top-bar" data-top-bar="" id="topBar">
+  <div class="flow-gdpr-banner"></div>
+  <div class="header-nav-top-bar__inner" id="dyId7cc701672300266c" data-dy-embedded-object="true"><div class="dy_unit dy_smart_object_573456"><style type="text/css"></style><div class="header-nav-top-bar__inner--left">
+    <!-- <img class="header-nav-top-bar__icon" src="https://cdn.shopify.com/s/files/1/0377/2037/files/gift-icon-white.svg?13260730400266402813" alt="Gift Icon"> -->
+    <div class="header-nav-top-bar__inner-left-text">
+      <span class="header-nav-top-bar__light-text">Pre Black Friday ⚠️ <span class="mobile-only-line-break" title="* Envio gratis solo para el territorio Ecuatoriano"><br></span>Desc 10% Off + Envio Gratis *</span>&nbsp;
+      <span class="header-nav-top-bar__bold-text"></span>
+    </div>
+  </div>
+    <div class="header-nav-top-bar__inner--right">
+      <div class="header-nav-top-bar__inner--dy-timer"></div>
+      <!-- <button type="button" class="js-dy-shipping-btn header-nav-top-bar__details-btn">Details</button> -->
+    </div></div></div>
+</div>
   <!-- Start Header Style -->
   <header id="header" class="htc-header header--3 bg__white">
     <!-- Start Mainmenu Area -->
@@ -37,7 +51,7 @@
                     <!--<li><a href="blog-details.html">blog details</a></li>-->
                   <!--</ul>-->
                 <!--</li>-->
-                <li class="drop"><a href="shop.html">Hombres</a>
+                <li class="drop"><a href="shop.html">HOMBRES</a>
                   <ul class="dropdown mega_dropdown">
                     <!-- Start Single Mega MEnu -->
                     <li><a class="mega__title" href="shop.html">Shop Pages</a>
@@ -174,7 +188,11 @@
           <div class="col-md-2 col-sm-4 col-xs-3">
             <ul class="menu-extra">
               <li><a routerLink="/login"><span class="ti-user"></span></a></li>
-              <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
+              <li ><a (click)="abrirCesta()"><span class="ti-shopping-cart"> </span>
+                <!--data-item-count="" data-cart-render="item_count"-->
+                <span class="header-nav-cart-count" style="font-size: 9px;position: relative;top: -18px;color: #000;">{{ this.numeroArticulos }}</span>
+                </a>
+              </li>
               <li class="search search__open hidden-xs"><span class="ti-search"></span></li>
               <li class="toggle__menu hidden-xs hidden-sm"><span class="ti-menu"></span></li>
             </ul>

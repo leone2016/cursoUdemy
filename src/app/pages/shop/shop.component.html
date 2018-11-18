@@ -91,8 +91,8 @@
                   </div>
                   <div class="product__hover__info">
                     <ul class="product__action">
-                      <li><a data-toggle="modal" data-target="#productModal" title="Vista Rapida" class="quick-view modal-view detail-link" (click)="abirModal(articulo)" ><span class="ti-plus"></span></a></li>
-                      <li><a title="Añadir a al cesta" (click)="agregarCesta()"><span class="ti-shopping-cart"></span></a></li>
+                      <li><a data-toggle="modal" data-target="#productModal" title="Vista Rapida" class="quick-view modal-view detail-link" (click)="abrirModal(articulo)" ><span class="ti-plus"></span></a></li>
+                      <li><a title="Añadir a al cesta" (click)="agregarCesta(articulo)"><span class="ti-shopping-cart"></span></a></li>
                     </ul>
                   </div>
                   <div class="add__to__wishlist">
@@ -111,10 +111,50 @@
           </div>
           <!-- End Single Product -->
 
+          <!-- Start Cart Panel -->
+          <div class="shopping__cart">
+            <div class="shopping__cart__inner">
+              <div class="offsetmenu__close__btn">
+                <span class="ti-shopping-cart"></span> REVISA TU CESTA
+                <!--<a href="#"><i class="zmdi zmdi-close"></i></a>-->
+              </div>
+              <div class="subtotal" *ngIf="this.listCartArticle.length === 0 ">
+                Tu cesta está vacía, elige el reloj de tu gusto !
+              </div>
+              <div class="shp__cart__wrap">
+                <div class="shp__single__product" *ngFor="let articuloStorage of this.listCartArticle ">
+                  <div class="shp__pro__thumb">
+                    <a href="#">
+                      <img [src]="articuloStorage.urlFoto" [alt]="articuloStorage.nameProduct">
+                    </a>
+                  </div>
+                  <div class="shp__pro__details">
+                    <h2><a href="product-details.html">{{articuloStorage.nameProduct}}</a></h2>
+                    <span class="quantity">Cantidad: 1</span>
+                    <span class="shp__price">{{this.signoModeda}}{{articuloStorage.ratePromo}}</span>
+                  </div>
+                  <div class="remove__btn">
+                    <a title="Remove this item" (click)="eliminarDeCesta(articuloStorage)"><i class="zmdi zmdi-close"></i></a>
+                  </div>
+                </div>
 
+              </div>
+              <ul class="shoping__total" *ngIf="this.listCartArticle.length !== 0 ">
+                <li class="subtotal">Subtotal:</li>
+                <li class="total__price">{{this.signoModeda}}{{subTotal}}</li>
+                <li  class="old__price" style="text-decoration: line-through;">{{this.signoModeda}}{{subTotalSinPromo}}</li>
 
+              </ul>
+              <ul class="shopping__btn"*ngIf="this.listCartArticle.length !== 0 ">
+
+                <li class="shp__checkout"><a href="checkout.html">Ir a la cesta</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- End Cart Panel -->
+          <!-- Modal -->
           <div id="quickview-wrapper">
-            <!-- Modal -->
+
             <div class="modal fade" id="productModal"  tabindex="-1" role="dialog" *ngIf=" this.articuloSingle != null ">
               <div class="modal-dialog modal__container" role="document">
                 <div class="modal-content">
@@ -217,7 +257,7 @@
                           <!--</div>-->
                         <!--</div>-->
                         <div class="addtocart-btn">
-                          <a href="#">Añadir a al cesta</a>
+                          <a (click)="agregarCesta(articuloSingle)">Añadir a al cesta</a>
                         </div>
                       </div><!-- .product-info -->
                     </div><!-- .modal-product -->
@@ -228,55 +268,7 @@
             <!-- END Modal -->
           </div>
           <!-- END QUICKVIEW PRODUCT -->
-          <!-- Start Cart Panel -->
-          <div class="shopping__cart">
-            <div class="shopping__cart__inner">
-              <!--<div class="offsetmenu__close__btn">-->
-                <!--<a href="#"><i class="zmdi zmdi-close"></i></a>-->
-              <!--</div>-->
-              <div class="shp__cart__wrap">
-                <div class="shp__single__product">
-                  <div class="shp__pro__thumb">
-                    <a href="#">
-                      <img src="assets/images/product/sm-img/1.jpg" alt="product images">
-                    </a>
-                  </div>
-                  <div class="shp__pro__details">
-                    <h2><a href="product-details.html">BO&Play Wireless Speaker</a></h2>
-                    <span class="quantity">QTY: 1</span>
-                    <span class="shp__price">$105.00</span>
-                  </div>
-                  <div class="remove__btn">
-                    <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                  </div>
-                </div>
-                <div class="shp__single__product">
-                  <div class="shp__pro__thumb">
-                    <a href="#">
-                      <img src="assets/images/product/sm-img/2.jpg" alt="product images">
-                    </a>
-                  </div>
-                  <div class="shp__pro__details">
-                    <h2><a href="product-details.html">Brone Candle</a></h2>
-                    <span class="quantity">QTY: 1</span>
-                    <span class="shp__price">$25.00</span>
-                  </div>
-                  <div class="remove__btn">
-                    <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
-                  </div>
-                </div>
-              </div>
-              <ul class="shoping__total">
-                <li class="subtotal">Subtotal:</li>
-                <li class="total__price">$130.00</li>
-              </ul>
-              <ul class="shopping__btn">
-                <li><a href="cart.html">View Cart</a></li>
-                <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Cart Panel -->
+
 
         </div>
       </div>

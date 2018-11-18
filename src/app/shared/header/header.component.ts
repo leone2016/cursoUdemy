@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {ActivatedRoute, Router} from '@angular/router';
+import {CartLocalstorageService} from '../../services/service.index';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +9,30 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  private numeroArticulos:number=0;
+  constructor(private cartLocalStorageService: CartLocalstorageService,private router:Router,  private activatedRoute: ActivatedRoute) {
+
+  }
+
+  private abrirCesta():void{
+
+    if(this.numeroArticulos === 0){
+      let shoppingCart:any = document.getElementsByClassName('shopping__cart');
+      let bodyOverlay:any = document.getElementsByClassName('body__overlay');
+      shoppingCart[0].classList.add('shopping__cart__on');
+      bodyOverlay[0].classList.add('is-visible');
+    }else{
+      // this.router.navigate('/checkout');
+      console.log("ROUTER");
+      this.router.navigate(['/checkout']);
+    }
+
+
+
+  }
 
   ngOnInit() {
+    this.numeroArticulos = this.cartLocalStorageService.getArticlesLocalStorage().length;
   }
 
 }

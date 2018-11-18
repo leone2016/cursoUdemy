@@ -7,6 +7,9 @@ export const environment = {
   defaultImage: "http://relojes593.com/bancoImagenes/default.png",
   localStorageKey: 'waki-commerce2018',
   urlAssets: "",
+  waki_cart: {
+    localStorageKey:'waki-cart'
+  },
   waki_rest_service_configuration:{
     api_url: 'http://localhost:8080/waki-rest/restfull/',
     articleModule:{

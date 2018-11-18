@@ -1,17 +1,21 @@
 import {CommonModule} from '@angular/common';
 import {NgModule} from '@angular/core';
-import {ArticlesService, LoginService, RememberMeService, UsuarioService} from './service.index';
+import {
+  ArticlesService, CartCheckoutService,
+  CartLocalstorageService,
+  LoginService,
+  RememberMeService,
+  UsuarioService
+} from './service.index';
 import {HttpClientModule} from '@angular/common/http';
 import {WakiAuthService} from './waki-auth/waki-auth.service';
-
-
 
 @NgModule({
   imports:[
     CommonModule,
     HttpClientModule
   ],
-  providers:[UsuarioService, RememberMeService, LoginService, ArticlesService,WakiAuthService],
+  providers:[UsuarioService, RememberMeService, LoginService, ArticlesService,WakiAuthService, CartLocalstorageService, CartCheckoutService],
   declarations:[]
 })
 export class ServiceModule{ }

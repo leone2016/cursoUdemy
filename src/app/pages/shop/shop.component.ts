@@ -1,11 +1,12 @@
 import {Component, isDevMode, OnInit,Inject, Injectable} from '@angular/core';
 // import {WakiAuthService} from '../../services/waki-auth/waki-auth.service';
 import {bunble} from '../../../environments/bundle';
-import {ArticlesService} from '../../services/service.index';
+import {MaterialModel, ArticlePhotoModel, StockModel, ArticleModel, ColorMaterialModel, CartModel} from '../../models/model.index';
+import {ArticlesService, CartCheckoutService, CartLocalstorageService} from '../../services/service.index';
 import {map, retry} from 'rxjs/operators';
 import {Observable} from 'rxjs';
 import {DOCUMENT} from '@angular/common';
-import {MaterialModel, ArticlePhotoModel, StockModel, ArticleModel, ColorMaterialModel} from '../../models/model.index';
+
 import {ArticleImportCodeModel} from '../../models/article-import-code.model';
 import {environment} from '../../../environments/environment';
 import {isNullOrUndefined} from 'util';
@@ -27,6 +28,9 @@ export class ShopComponent implements OnInit {
   private listadoImportacion:ArticleImportCodeModel[] = [];
   private listadoMateriales: MaterialModel[] = [];
   private listadoColorMaterial: ColorMaterialModel[] = [];
+  private listCartArticle: ArticleModel[] = [];
+  private subTotal:number = 0;
+  private subTotalSinPromo:number = 0;
     // imageUrls: (string | IImage)[] = [
   //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_image/image/56748793/dbohn_170625_1801_0018.0.0.jpg', caption: 'The first slide', href: '#config' },
   //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_asset/file/9278671/jbareham_170917_2000_0124.jpg', clickAction: () => alert('custom click function') },
@@ -59,7 +63,9 @@ export class ShopComponent implements OnInit {
   width: string = '100%';
 
 
-  constructor( private articleService: ArticlesService, @Inject(DOCUMENT) private _document) {
+  constructor( private articleService: ArticlesService,
+               @Inject(DOCUMENT) private _document,
+               private cartLocalstorageService : CartLocalstorageService, private cartCheckoutService: CartCheckoutService) {
 
   }
   private abrirModal(articulo: ArticleModel ):void{
@@ -81,27 +87,34 @@ export class ShopComponent implements OnInit {
         this.listadoColorMaterial = this.getColorMaterial(articuloImportacion.listArticle, articulo.codeMaterial);
       }
     }
-
-    /*
-    COLOR MATERIALES
-     */
-
-
   }
 
   private seleccionColor(codeColor:number):void{
     console.log("INGRESA--------->",codeColor);
   }
-  private agregarCesta():void{
-    let shoppingCart:any = document.getElementsByClassName('shopping__cart');
-    let bodyOverlay:any = document.getElementsByClassName('body__overlay');
-    // for( let ref of shoppingCart){
+
+
+
+  /**
+   * AGREGAR ARTICULOS A LA CESTA
+   */
+  private agregarCesta(articulo: ArticleModel ):void{
+    this.listCartArticle = [];
+      let shoppingCart:any = document.getElementsByClassName('shopping__cart');
+      let bodyOverlay:any = document.getElementsByClassName('body__overlay');
       shoppingCart[0].classList.add('shopping__cart__on');
       bodyOverlay[0].classList.add('is-visible');
-    // }
-    //body__overlay is-visible
-    console.log();
-    console.log(bodyOverlay[0]);
+      let test = this.cartLocalstorageService.guardarLocalStorage( {code: btoa(articulo.code.toString()), url:btoa(articulo.urlFoto) } );
+      this.setListCartArticle();
+      this.setSubtotales();
+
+  }
+
+
+  private eliminarDeCesta(articulo: ArticleModel):void{
+    this.cartCheckoutService.eliminarDeCesta(articulo);
+    this.setListCartArticle();
+    this.setSubtotales();
   }
   private getMaterialModel(listArticulos:ArticleModel[]):MaterialModel[]{
     let retornoListMateriales:MaterialModel[] = [];
@@ -180,6 +193,18 @@ export class ShopComponent implements OnInit {
       });
 
 
+  }
+
+  private setListCartArticle(){
+    this.listCartArticle = this.cartCheckoutService.getDatosLocalStorage(this.articulos);
+  }
+  private getListCartArticle():ArticleModel[]{
+    return this.listCartArticle;
+  }
+  private setSubtotales(){
+    let subtotales:any = this.cartCheckoutService.getSubTotal(this.listCartArticle);
+    this.subTotal = subtotales.subtotalPromo;
+    this.subTotalSinPromo = subtotales.subtotal;
   }
 
 }
