@@ -1,5 +1,6 @@
 <div class="wrapper fixed__footer">
     <app-header></app-header>
+  <mat-progress-bar mode="query" *ngIf="fakeArticle"></mat-progress-bar>
   <div class="body__overlay"></div>
     <app-slider></app-slider>
     <router-outlet></router-outlet>

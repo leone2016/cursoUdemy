@@ -5,6 +5,8 @@ import {FormsModule} from '@angular/forms';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {SlideshowModule} from 'ng-simple-slideshow';
+import {MaterialDesingModule} from '../material-desing.module';
+import {MatDatepickerModule, MatNativeDateModule, MatNativeDateModule} from '@angular/material';
 
 
 @NgModule({
@@ -23,7 +25,14 @@ import {SlideshowModule} from 'ng-simple-slideshow';
     WishlistComponent,
     PagesComponent
   ],
-  imports:[SharedModule,PAGES_ROUtES,FormsModule,BrowserModule, SlideshowModule]
+  imports:[SharedModule,
+    PAGES_ROUtES,
+    FormsModule,
+    BrowserModule,
+    SlideshowModule,
+    MaterialDesingModule,
+    MatDatepickerModule, MatNativeDateModule
+  ]
 
 })
 export class PagesModule{}

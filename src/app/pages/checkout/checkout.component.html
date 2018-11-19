@@ -1,109 +1,271 @@
+<style>
+  <!--.example-form {-->
+    <!--min-width: 150px;-->
+    <!--max-width: 500px;-->
+    <!--width: 100%;-->
+    <!--padding-top: 30px;-->
+  <!--}-->
+
+  .full {
+    width: 72%;
+  }
+
+  .example-radio-group {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .example-radio-button {
+    margin: 5px;
+  }
+
+  .example-selected-value {
+    margin: 15px 0;
+  }
+  @media screen and (min-width: 992px)  {
+    .boxes1 {
+      position:relative;
+      float:left;
+      left:70%
+    }
+    .boxes2 {
+      position:relative;
+      float:left;
+      left:-30%
+    }
+  }
+
+  @media screen and (min-width: 505px) and (max-width: 991px)  {
+    .boxes1 {
+      position:relative;
+      float:left;
+      left:23%
+    }
+    .boxes2 {
+      position:relative;
+      float:left;
+      left:23%
+    }
+  }
+
+  /*@media screen and (max-width: 504px)   {*/
+    /*.boxes1 {*/
+      /*position:relative;*/
+      /*float:left;*/
+      /*left:23%*/
+    /*}*/
+    /*.boxes2 {*/
+      /*position:relative;*/
+      /*float:left;*/
+      /*left:23%*/
+    /*}*/
+  /*}*/
+</style>
+
 <section class="our-checkout-area ptb--120 bg__white">
   <div class="container">
+
+     <!-- INICIA CHECKOUT-->
     <div class="row">
-      <div class="col-md-8">
-        <div class="ckeckout-left-sidebar">
-          <!-- Start Checkbox Area -->
-          <div class="checkout-form">
-            <h2 class="section-title-3">Datos de envio</h2>
-            <div class="checkout-form-inner">
-              <div class="single-checkout-box">
-                <input type="text" placeholder="First Name*">
-                <input type="text" placeholder="Last Name*">
+      <div class="col-md-4 order-md-2 mb-4 boxes1" id="blockpedido">
+        <h2 class="section-title-3">Detalles de pedido</h2>
+        <div class="shopping__cart__inner">
+
+          <!--<div class="offsetmenu__close__btn">-->
+            <!--<a href="#"><i class="zmdi zmdi-close"></i></a>-->
+          <!--</div>-->
+          <div class="shp__cart__wrap">
+            <div class="shp__single__product">
+              <div class="shp__pro__thumb">
+                <a href="#">
+                  <img src="images/product/sm-img/1.jpg" alt="product images">
+                </a>
               </div>
-              <div class="single-checkout-box">
-                <input type="email" placeholder="Emil*">
-                <input type="text" placeholder="Phone*">
+              <div class="shp__pro__details">
+                <h2><a href="product-details.html">BO&amp;Play Wireless Speaker</a></h2>
+                <span class="quantity">QTY: 1</span>
+                <span class="shp__price">$105.00</span>
               </div>
-              <!--<div class="single-checkout-box">-->
-                <!--<textarea name="message" placeholder="Message*"></textarea>-->
-              <!--</div>-->
-              <div class="single-checkout-box">
-                <select disabled="true">
-                  <option>ECUADOR</option>
-                </select>
-
-                  <select >
-                    <option>Provincia</option>
-                    <option *ngFor="let prov of provincia">{{prov.provincia}}</option>
-
-                  </select>
-
+              <div class="remove__btn">
+                <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
               </div>
-
-              <div class="single-checkout-box">
-                <select >
-                  <option>Provincia</option>
-                  <option *ngFor="let prov of provincia">{{prov.provincia}}</option>
-
-                </select>
-                <input type="text" placeholder="Zip Code*">
+            </div>
+            <div class="shp__single__product">
+              <div class="shp__pro__thumb">
+                <a href="#">
+                  <img src="images/product/sm-img/2.jpg" alt="product images">
+                </a>
               </div>
-              <div class="single-checkout-box checkbox">
-                <input id="remind-me" type="checkbox">
-                <label for="remind-me"><span></span>Create a Account ?</label>
+              <div class="shp__pro__details">
+                <h2><a href="product-details.html">Brone Candle</a></h2>
+                <span class="quantity">QTY: 1</span>
+                <span class="shp__price">$25.00</span>
+              </div>
+              <div class="remove__btn">
+                <a href="#" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
               </div>
             </div>
           </div>
-          <!-- End Checkbox Area -->
-          <!-- Start Payment Box -->
-          <div class="payment-form">
-            <h2 class="section-title-3">payment details</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur kgjhyt</p>
-            <div class="payment-form-inner">
-              <div class="single-checkout-box">
-                <input type="text" placeholder="Name on Card*">
-                <input type="text" placeholder="Card Number*">
-              </div>
-              <div class="single-checkout-box select-option">
-                <select>
-                  <option>Date*</option>
-                  <option>Date</option>
-                  <option>Date</option>
-                  <option>Date</option>
-                  <option>Date</option>
-                </select>
-                <input type="text" placeholder="Security Code*">
-              </div>
-            </div>
-          </div>
-          <!-- End Payment Box -->
-          <!-- Start Payment Way -->
-          <div class="our-payment-sestem">
-            <h2 class="section-title-3">We  Accept :</h2>
-            <ul class="payment-menu">
-              <!--<li><a href="#"><img src="images/payment/1.jpg" alt="payment-img"></a></li>-->
-              <!--<li><a href="#"><img src="images/payment/2.jpg" alt="payment-img"></a></li>-->
-              <!--<li><a href="#"><img src="images/payment/3.jpg" alt="payment-img"></a></li>-->
-              <!--<li><a href="#"><img src="images/payment/4.jpg" alt="payment-img"></a></li>-->
-              <!--<li><a href="#"><img src="images/payment/5.jpg" alt="payment-img"></a></li>-->
-            </ul>
-            <div class="checkout-btn">
-              <a class="ts-btn btn-light btn-large hover-theme" href="#">CONFIRM &amp; BUY NOW</a>
-            </div>
-          </div>
-          <!-- End Payment Way -->
+          <ul class="shoping__total">
+            <li class="subtotal">Subtotal:</li>
+            <li class="total__price">$130.00</li>
+          </ul>
+          <ul class="shopping__btn">
+            <li><a href="cart.html">View Cart</a></li>
+            <li class="shp__checkout"><a href="checkout.html">Checkout</a></li>
+          </ul>
         </div>
+
       </div>
-      <div class="col-md-4 col-lg-4">
-        <div class="checkout-right-sidebar">
-          <div class="our-important-note">
-            <h2 class="section-title-3">Note :</h2>
-            <p class="note-desc">Lorem ipsum dolor sit amet, consectetur adipisici elit, sed do eiusmod tempor incididunt ut laborekf et dolore magna aliqua.</p>
-            <ul class="important-note">
-              <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet, consectetur nipabali</a></li>
-              <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet</a></li>
-              <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet, consectetur nipabali</a></li>
-              <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet, consectetur nipabali</a></li>
-              <li><a href="#"><i class="zmdi zmdi-caret-right-circle"></i>Lorem ipsum dolor sit amet</a></li>
-            </ul>
+      <div class="col-md-8 order-md-1 boxes2" id="blockPayments">
+        <h2 class="section-title-3">Detalles de envio</h2>
+        <form class="needs-validation" novalidate="">
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <!--<label for="firstName">First name</label>-->
+              <mat-form-field  style="width:100%">
+                <input matInput placeholder="Nombres" >
+              </mat-form-field>
+              <!--<div class="invalid-feedback">-->
+                <!--Valid first name is required.-->
+              <!--</div>-->
+            </div>
+            <div class="col-md-6 mb-3">
+              <mat-form-field  style="width:100%">
+                <input matInput placeholder="Apellidos" >
+              </mat-form-field>
+            </div>
           </div>
-          <div class="puick-contact-area mt--60">
-            <h2 class="section-title-3">Quick Contract</h2>
-            <a href="phone:+8801722889963">+88 01900 939 500</a>
+
+          <div class="mb-3">
+            <mat-form-field  style="width:100%">
+              <input matInput placeholder="Email" >
+            </mat-form-field>
           </div>
-        </div>
+
+          <div class="mb-3">
+            <mat-form-field  style="width:100%">
+              <input matInput placeholder="Calle principal - #Casa" >
+            </mat-form-field>
+          </div>
+
+          <div class="mb-3">
+            <mat-form-field  style="width:100%">
+              <input matInput placeholder="Calle secundaria" >
+            </mat-form-field>
+          </div>
+
+          <div class="row">
+            <!--<div class="col-md-5 mb-3">-->
+              <!--<label for="country">Country</label>-->
+              <!--<select class="custom-select d-block w-100" id="country" required="">-->
+                <!--<option value="">Choose...</option>-->
+                <!--<option>United States</option>-->
+              <!--</select>-->
+              <!--<div class="invalid-feedback">-->
+                <!--Please select a valid country.-->
+              <!--</div>-->
+            <!--</div>-->
+            <div class="col-md-4 mb-3">
+              <!--<label for="state">Provincia</label>-->
+              <mat-form-field>
+                <mat-select placeholder="Provincia"  name="food">
+                  <mat-option>seleccione</mat-option>
+                  <mat-option *ngFor="let prov of provincia" [value]="prov.id">
+                    {{prov.provincia}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-md-4 mb-3">
+              <!--<label for="state">Provincia</label>-->
+              <mat-form-field>
+                <mat-select placeholder="Canton"  name="food">
+                  <mat-option>seleccione</mat-option>
+                  <mat-option *ngFor="let prov of provincia" [value]="prov.id">
+                    {{prov.provincia}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-md-4 mb-3">
+              <!--<label for="state">Provincia</label>-->
+              <mat-form-field>
+                <mat-select placeholder="Parroquia"  name="food">
+                  <mat-option>seleccione</mat-option>
+                  <mat-option *ngFor="let prov of provincia" [value]="prov.id">
+                    {{prov.provincia}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <!--<div class="custom-control custom-checkbox">-->
+            <!--<mat-checkbox> La dirección de envío es la misma que mi dirección de facturación</mat-checkbox>-->
+            <!--&lt;!&ndash;<label class="custom-control-label" for="same-address"></label>&ndash;&gt;-->
+          <!--</div>-->
+          <!--<div class="custom-control custom-checkbox">-->
+            <!--<mat-checkbox> Guarda esta información para la próxima vez</mat-checkbox>-->
+          <!--</div>-->
+          <!--<hr class="mb-4">-->
+
+          <h4 class="mb-3">PAGO </h4>
+
+          <div class="d-block my-3">
+            <mat-radio-group class="example-radio-group">
+            <mat-radio-button class="example-radio-button" *ngFor="let season of seasons" [value]="season">
+              {{season}}
+            </mat-radio-button>
+            </mat-radio-group>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <mat-form-field  style="width:100%">
+                <input matInput placeholder="Nombre de tarjeta" >
+              </mat-form-field>
+            </div>
+            <div class="col-md-6 mb-3">
+              <mat-form-field  style="width:100%">
+                <input matInput placeholder="Número de tarjeta" >
+              </mat-form-field>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <label for="state">Expiración</label>
+              <br/>
+              <mat-form-field style="width: 50%">
+                <mat-select placeholder="Mes"  name="food">
+                  <mat-option>seleccione</mat-option>
+                  <mat-option *ngFor="let mes of meses" [value]="mes">
+                    {{mes}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+              <mat-form-field style="width: 50%">
+                <mat-select placeholder="Año"  name="food">
+                  <mat-option>seleccione</mat-option>
+                  <mat-option *ngFor="let anio of anios" [value]="anio">
+                    {{anio}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="cc-expiration">CVV</label>
+              <mat-form-field  style="width:100%">
+                <input matInput placeholder="codigo de segurida" >
+              </mat-form-field>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <button mat-raised-button color="primary" style="font-family: 'Poppins', sans-serif;width: 100%;border:none;display: block;height: 57px;background-color: #050505;">Continunar con el pago</button>
+
+        </form>
       </div>
     </div>
+      <!--FINALIZA CHECKOUT-->
+
   </div>
 </section>

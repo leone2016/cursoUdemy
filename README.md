@@ -2,6 +2,8 @@
 npm install --save sweetalert
 ng g s services/usuario/usuario
 npm install angular-2-local-storage
+* crear componentes en el app.module
+ng g c components/mapa --module=app.module --spec=false
 
 # Hola, Bienvenido
 > Solucion

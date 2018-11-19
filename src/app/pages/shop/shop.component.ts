@@ -10,9 +10,9 @@ import {DOCUMENT} from '@angular/common';
 import {ArticleImportCodeModel} from '../../models/article-import-code.model';
 import {environment} from '../../../environments/environment';
 import {isNullOrUndefined} from 'util';
+import {MatSnackBar} from '@angular/material';
 
-declare function inica_plungin_leo();
-declare function inica_plungin_leo2();
+
 @Component({
   selector: 'app-shop',
   templateUrl: './shop.component.html',
@@ -65,7 +65,9 @@ export class ShopComponent implements OnInit {
 
   constructor( private articleService: ArticlesService,
                @Inject(DOCUMENT) private _document,
-               private cartLocalstorageService : CartLocalstorageService, private cartCheckoutService: CartCheckoutService) {
+               private cartLocalstorageService : CartLocalstorageService,
+               private cartCheckoutService: CartCheckoutService,
+               public snackBar: MatSnackBar) {
 
   }
   private abrirModal(articulo: ArticleModel ):void{
@@ -105,6 +107,11 @@ export class ShopComponent implements OnInit {
       shoppingCart[0].classList.add('shopping__cart__on');
       bodyOverlay[0].classList.add('is-visible');
       let test = this.cartLocalstorageService.guardarLocalStorage( {code: btoa(articulo.code.toString()), url:btoa(articulo.urlFoto) } );
+      if(test){
+        this.snackBar.open("Nuevo reloj Agregado", 'X', {
+          duration: 2000,
+        });
+      }
       this.setListCartArticle();
       this.setSubtotales();
 

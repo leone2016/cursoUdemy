@@ -1,3 +1,4 @@
+
 <section class="htc__feature__product bg__cat--2 ">
   <div class="container">
     <div class="row">
@@ -84,15 +85,15 @@
               <div class="product foo">
                 <div class="product__inner">
                   <div class="pro__thumb">
-                    <img alt="Connected Icon" src="assets/images/icons/Connected_Badge_square.svg" class="skmei-badge" title="Compatible iOS - ANDROID" *ngIf="articulo.category === 'SMART WATCH'">
+                    <img alt="Connected Icon" src="assets/images/icons/Connected_Badge_square.svg" class="skmei-badge" matTooltip="Compatible iOS - ANDROID" *ngIf="articulo.category === 'SMART WATCH'">
                     <a data-toggle="modal" data-target="#productModal"  (click)="abrirModal(articulo)">
                       <img [src]="articulo.urlFoto" alt="product images">
                     </a>
                   </div>
                   <div class="product__hover__info">
                     <ul class="product__action">
-                      <li><a data-toggle="modal" data-target="#productModal" title="Vista Rapida" class="quick-view modal-view detail-link" (click)="abrirModal(articulo)" ><span class="ti-plus"></span></a></li>
-                      <li><a title="Añadir a al cesta" (click)="agregarCesta(articulo)"><span class="ti-shopping-cart"></span></a></li>
+                      <li><a data-toggle="modal" data-target="#productModal"  matTooltip="Vista Rapida" class="quick-view modal-view detail-link" (click)="abrirModal(articulo)" ><span class="ti-plus"></span></a></li>
+                      <li><a matTooltip="Añadir a al cesta" (click)="agregarCesta(articulo)"><span class="ti-shopping-cart"></span></a></li>
                     </ul>
                   </div>
                   <div class="add__to__wishlist">
@@ -103,7 +104,7 @@
                   <h2><a href="product-details.html">{{ articulo.nameProduct }}</a></h2>
                   <ul class="product__price">
                     <li class="old__price"  *ngIf="articulo.Promo != 'NO PROMO'">{{this.signoModeda}}{{ articulo.rate }}</li>
-                    <li class="new__price" [title]="articulo.code">{{this.signoModeda}}{{ articulo.ratePromo }}</li>
+                    <li class="new__price" [matTooltip]="articulo.code" >{{this.signoModeda}}{{ articulo.ratePromo }}</li>
                   </ul>
                 </div>
               </div>

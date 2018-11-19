@@ -14,6 +14,8 @@ import {ServiceModule} from './services/service.module';
 import {LocalStorageModule} from 'angular-2-local-storage';
 import {environment} from '../environments/environment';
 import { SearchArticlePipe } from './pipes/search-article.pipe';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MaterialDesingModule} from './material-desing.module';
 
 
 @NgModule({
@@ -31,6 +33,8 @@ import { SearchArticlePipe } from './pipes/search-article.pipe';
     FormsModule,
     ReactiveFormsModule,
     ServiceModule,
+    BrowserAnimationsModule,
+    MaterialDesingModule,
     LocalStorageModule.withConfig({
       prefix: environment.localStorageKey,
       storageType: 'localStorage'
