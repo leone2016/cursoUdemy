@@ -9,7 +9,7 @@ import {ProvinciasModule} from '../../models/provincias.module';
 })
 export class CheckoutComponent implements OnInit {
   private seasons: string[] = ['Tarjeta de Credito', 'Tarjeta de credito', 'Paypal ', 'Deposito'];
-  private meses: number[] = ['01','02','03','04','05','06','07','08','09','10','11','12'];
+  private meses: string[] = ['01','02','03','04','05','06','07','08','09','10','11','12'];
   private anios: number[] = [2018,2019,2020,2021,2022,2023,2024,2025,2026,2027,2028,2029,2030];
  private provincia:ProvinciasModule[]=[];
   constructor(private provincias: ProvinciasService) { }

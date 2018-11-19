@@ -6,7 +6,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 import {SlideshowModule} from 'ng-simple-slideshow';
 import {MaterialDesingModule} from '../material-desing.module';
-import {MatDatepickerModule, MatNativeDateModule, MatNativeDateModule} from '@angular/material';
+import {MatDatepickerModule, MatNativeDateModule} from '@angular/material';
 
 
 @NgModule({
