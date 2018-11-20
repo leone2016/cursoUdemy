@@ -3,14 +3,16 @@ import {Component, isDevMode, OnInit,Inject, Injectable} from '@angular/core';
 import {bunble} from '../../../environments/bundle';
 import {MaterialModel, ArticlePhotoModel, StockModel, ArticleModel, ColorMaterialModel, CartModel} from '../../models/model.index';
 import {ArticlesService, CartCheckoutService, CartLocalstorageService} from '../../services/service.index';
-import {map, retry} from 'rxjs/operators';
-import {Observable} from 'rxjs';
+import { map, retry, concatMap, mergeMap } from 'rxjs/operators';
+import {Observable, interval} from 'rxjs';
 import {DOCUMENT} from '@angular/common';
 
 import {ArticleImportCodeModel} from '../../models/article-import-code.model';
 import {environment} from '../../../environments/environment';
 import {isNullOrUndefined} from 'util';
 import {MatSnackBar} from '@angular/material';
+import { WakiAuthService } from '../../services/waki-auth/waki-auth.service';
+
 
 
 @Component({
@@ -67,8 +69,11 @@ export class ShopComponent implements OnInit {
                @Inject(DOCUMENT) private _document,
                private cartLocalstorageService : CartLocalstorageService,
                private cartCheckoutService: CartCheckoutService,
-               public snackBar: MatSnackBar) {
+               public snackBar: MatSnackBar, private wakiAuthService: WakiAuthService) {
 
+                // let token = this.wakiAuthService.requestToken().subscribe((test:string)=>{
+                //     console.log(test);
+                // })
   }
   private abrirModal(articulo: ArticleModel ):void{
     this.imageUrls = [];
@@ -180,27 +185,27 @@ export class ShopComponent implements OnInit {
     return {codeImport:codigoImportacion,listArticle:retornoListArticulos, listMaterial: retornoListMateriales};
   }
   ngOnInit() {
-      this.articleService.cargarArticulos().subscribe( (articulos:ArticleModel[]) =>{
-          this.articulos = articulos;
-          this.fakeArticle = false;
-          console.log("INICA");
-        for( let articulo of this.articulos){
-            let verifica:boolean=false;
-            for (let articuloImportacion of this.listadoImportacion) {
-              if(articuloImportacion.codeImport === articulo.codeImport){
-                verifica = true;
-                break;
-              }
+    this.articleService.cargarArticulos().subscribe( (articulos:ArticleModel[]) =>{
+        this.articulos = articulos;
+        this.fakeArticle = false;
+        console.log("INICA");
+      for( let articulo of this.articulos){
+          let verifica:boolean=false;
+          for (let articuloImportacion of this.listadoImportacion) {
+            if(articuloImportacion.codeImport === articulo.codeImport){
+              verifica = true;
+              break;
             }
-            if(!verifica){
-              this.listadoImportacion.push(this.getArticulo_material(articulo.codeImport));
-            }
-        }
-          console.log(this.listadoImportacion);
-      });
+          }
+          if(!verifica){
+            this.listadoImportacion.push(this.getArticulo_material(articulo.codeImport));
+          }
+      }
+        console.log(this.listadoImportacion);
+    });
 
 
-  }
+}
 
   private setListCartArticle(){
     this.listCartArticle = this.cartCheckoutService.getDatosLocalStorage(this.articulos);

@@ -6,6 +6,7 @@ import {isNullOrUndefined} from 'util';
 import {bunble} from '../../../environments/bundle';
 import {environment} from '../../../environments/environment';
 import {LoginResponseModel} from '../../models/login-response.model';
+import { mergeMap, concat, concatMap } from 'rxjs/operators';
 
 
 @Injectable({
@@ -21,24 +22,36 @@ export class WakiRestService {
   }
   public request<T>(urlParams?:string, httpOptions?: {headers?:HttpHeaders},body?:any):Observable<T>{
     try{
-
+       if(isDevMode)
+       console.log('---------------3');
       if(isNullOrUndefined(urlParams) || urlParams===''){
         throwError(bunble.messageErrorRestUrl)
       }
-      // const userTokenObservable  = this.wakiAuthService.requestToken(false).subscribe((resp:string )=>{
-      //       //   // console.log(resp);
-      //         console.log("INICAAAAAAAAAAAAAAAAAAA");C
-      //         console.log("TESTTTTT");
-              return this.requestLoginApp<T>(urlParams);
-            // });
+      let request: Observable<any>;
+      const userTokenObservable  = this.wakiAuthService.requestToken(false);
 
-
+      request = userTokenObservable.pipe(concatMap((resp:string )=>{
+        if(isDevMode){
+          console.log('---------------5');
+          console.log(resp);
+          console.log("INICAAAAAAAAAAAAAAAAAAA");
+          console.log("TESTTTTT");
+        }
+        
+        return this.requestLoginApp<T>(urlParams);
+     }));
+     if(isDevMode)
+     console.log('---------------7');
+     return request;
     }catch(error){}
   }
 
   private requestLoginApp<T>(url:string):Observable<T>{
     if(isDevMode())
-    console.log("INGRA GET");
+    if(isDevMode){
+      console.log('---------------6');
+      console.log("INGRA GET");
+    }
     try {
       const loginServiceUrl:string = url;
       console.log(loginServiceUrl);
@@ -52,12 +65,14 @@ export class WakiRestService {
   }
   private getRequestHeaders():HttpHeaders{
     let headers: HttpHeaders = new HttpHeaders({'content-type': 'aplication/json' });
+    console.log('PREBA TOKEN');
+    console.log(this.getBasicAuthHeader());
     const authHeader: {key: string, value:string} = this.getBasicAuthHeader();
     headers = headers.append(authHeader.key, authHeader.value)
     return headers;
   }
   private getBasicAuthHeader():{key:string, value:string}{
-    return {key:'Authorization', value: 'BASIC '+this.wakiAuthService.requestToken2()};
+    return {key:'Authorization', value: 'Bearer '+this.wakiAuthService.requestToken2()};
   }
   public getEncodeDataForrequest():string{
     try {
