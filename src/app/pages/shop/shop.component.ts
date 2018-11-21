@@ -68,6 +68,7 @@ export class ShopComponent implements OnInit {
                private cartLocalstorageService : CartLocalstorageService,
                private cartCheckoutService: CartCheckoutService,
                public snackBar: MatSnackBar) {
+    console.log("4");
 
   }
   private abrirModal(articulo: ArticleModel ):void{

@@ -16,10 +16,20 @@
           <!-- Start Single Content -->
           <div id="register" role="tabpanel" class="single__tabs__panel tab-pane fade in active">
             <form  [formGroup]="forma" (ngSubmit)="crearCuenta()" class="login" method="post">
-              <input formControlName="nombres" required type="text" placeholder="Nombre*">
-              <input formControlName="mail"   required type="email" placeholder="Correo*">
-              <input formControlName="contrasenia"   required type="password" placeholder="Contraseña*">
-              <input formControlName="contrasenia2" required type="password" placeholder="Verifica contraseña*">
+              <mat-form-field  style="width:100%">
+                <input matInput formControlName="nombres" required type="text" placeholder="Nombre">
+              </mat-form-field>
+              <!--<input >-->
+              <mat-form-field  style="width:100%">
+                <input matInput formControlName="mail"   required type="email" placeholder="Correo">
+              </mat-form-field>
+              <!--<input >-->
+              <mat-form-field  style="width:100%">
+                <input matInput formControlName="contrasenia"   required type="password" placeholder="Contraseña">
+              </mat-form-field>
+              <mat-form-field  style="width:100%">
+                <input matInput formControlName="contrasenia2" required type="password" placeholder="Verifica contraseña">
+              </mat-form-field>
               <div class="form-group" *ngIf="forma.errors?.iguales && !forma.pristine">
                 <p class="text-danger">
                   <dt>Las contraseñas deben de ser Iguales</dt>

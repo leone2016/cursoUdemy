@@ -326,7 +326,7 @@
     -moz-border-top-colors: none;
     border-color: currentcolor currentcolor #8e8e8e;
     border-image: none;
-    border-style: none none solid;
+    /*border-style: none none solid;*/
     border-width: 0 0 1px;
     color: #686868;
     font-size: 16px;
