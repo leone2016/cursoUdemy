@@ -9,7 +9,7 @@ import {applySourceSpanToExpressionIfNeeded} from '@angular/compiler/src/output/
 import {Observable, throwError} from 'rxjs/index';
 import { of } from 'rxjs';
 
-import { map } from "rxjs/operators";
+import { map, concatMap } from "rxjs/operators";
 // import 'rxjs/add/operator/catch';
 @Injectable({
   providedIn: 'root'
@@ -33,24 +33,29 @@ export class WakiAuthService {
 
   public requestToken2():string{
 
-    if (this.isAuthenticaded()){
-      return  this.getToken();
-    }
-    return "";
+   return  this.getToken();
   }
   public requestToken(forceRequest?: boolean):Observable<string>{
     try{
       // SI ESTA REGISTRADO Y NO SE FUERZA A CARGAR UN NUEVO TOKEN
+      if(isDevMode)
+      console.log('---------------3.1');
       this.lg("Solicita token --->");
       if (!this.isAuthenticaded() && !forceRequest){
         return  of(this.getToken());
       }
       this.removeItem();
-      this.requestLoginApp().subscribe((loginResponse:LoginResponseModel)=>{
+      let request: Observable<string>;
+      const userTokenObservable  = this.requestLoginApp();
+      request = userTokenObservable.pipe(map((loginResponse:LoginResponseModel)=>{
+        if(isDevMode)
+        console.log('----------------------3.3');
         this.setToken(loginResponse);
         return this.getToken();
-      });
-
+      }));
+      if(isDevMode)
+      console.log('----------------------3.6');
+      return request;
       // TALVEZ NO ESTA AUTHENTIFICADO TOKEN ó SE FUERZA A UN NUEVO TOKEN
 
     }catch(error){ return throwError( error );}
@@ -90,7 +95,10 @@ export class WakiAuthService {
       } );
   }
   private requestLoginApp():Observable<LoginResponseModel>{
-    this.lg("CONSULTA token");
+    if(isDevMode){
+      this.lg("CONSULTA token");
+    console.log('---------------3.2');
+    }
     try {
       const loginServiceUrl:string = environment.waki_rest_service_configuration.api_url +  environment.waki_rest_service_configuration.authApp.path
       const header: HttpHeaders = this.getRequestHeaders();
@@ -119,6 +127,8 @@ export class WakiAuthService {
     }
   }
   private setToken(response?:LoginResponseModel ){
+    if(isDevMode)
+    console.log('----------------------3.4');
     if( isNullOrUndefined(response) ){
       this.token = this.converterObjectToArray(this.getUserName())[0];
     }else{
@@ -129,6 +139,8 @@ export class WakiAuthService {
     }
   }
   private getToken():string{
+    if(isDevMode)
+    console.log('----------------------3.5');
     return  this.token;
   }
 }
