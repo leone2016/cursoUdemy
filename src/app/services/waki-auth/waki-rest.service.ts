@@ -20,7 +20,7 @@ export class WakiRestService {
         return object[ key ];
       } );
   }
-  public request<T>request<T>(urlParams?:string,httpMethod?:string):Observable<T>{
+  public request<T>(urlParams?:string,httpMethod?:string, body?: any):Observable<T>{
     try{
        if(isDevMode)
        console.log('---------------3');
@@ -38,7 +38,7 @@ export class WakiRestService {
           console.log("TESTTTTT");
         }
 
-        return this.requestLoginApp<T>(urlParams,httpMethod);
+        return this.makeHttpRequest<T>(urlParams,httpMethod,body);
      }));
      if(isDevMode)
      console.log('---------------7');
@@ -46,7 +46,7 @@ export class WakiRestService {
     }catch(error){}
   }
 
-  private requestLoginApp<T>(urlParams:string ,httpMethod?:string):Observable<T>{
+  private makeHttpRequest<T>(urlParams:string ,httpMethod?:string, body?: any):Observable<T>{
     if(isDevMode){
       console.log('---------------6');
       console.log("INGRA GET");
@@ -54,14 +54,12 @@ export class WakiRestService {
     try {
       const loginServiceUrl:string = urlParams;
       const header: HttpHeaders = this.getRequestHeaders();
-      // const header: HttpHeaders = this.getRequestHeaders();
       if( httpMethod === 'POST'){
-
+        const requestBody: any = body || JSON.stringify('');
+        return this.httpClient.post<T>( urlParams, requestBody, {headers: header } );
       }else if(httpMethod === 'GET'){
         return this.httpClient.get<T>(loginServiceUrl, {headers: header } );
       }
-
-
     }catch(error){
       if(isDevMode())
       console.error("ERROR -----> "+error);
@@ -78,14 +76,13 @@ export class WakiRestService {
         failureResponse.error['status'] === false
       );
     } catch ( error ) {
-      this.log( error );
+
       return true;
     }
   }
 
   private getRequestHeaders():HttpHeaders{
     let headers: HttpHeaders = new HttpHeaders({'content-type': 'aplication/json' });
-    console.log('PREBA TOKEN');
     console.log(this.getBasicAuthHeader());
     const authHeader: {key: string, value:string} = this.getBasicAuthHeader();
     headers = headers.append(authHeader.key, authHeader.value)

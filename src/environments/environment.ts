@@ -15,6 +15,9 @@ export const environment = {
     articleModule:{
       path: 'shop/articleViewer'
     },
+    newUser:{
+      path: 'user/sendEmail'
+    },
     authUser:{
       path: 'auth/login',
       localStorageKey: 'waki-user'

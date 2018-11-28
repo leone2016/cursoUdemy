@@ -39,11 +39,17 @@ export class RegisterComponent implements OnInit {
       }
 
       let usuario = new Usuario(
-        this.forma.value.nombres,
-        this.forma.value.mail,
-        this.forma.value.contrasenia
+        this.forma.value.name,
+        this.forma.value.email,
+        this.forma.value.password
       );
-      // this._usuarioService.crearUsuario(usuario).subscribe(resp=> { console.log(resp); });
+
+      console.log(usuario);
+      this._usuarioService.crearUsuario(usuario).subscribe((resp)=> {
+        swal('Bienvenido a Relojes 593 (Ecuador) ', '', 'success');
+      }, (error)=>{
+        console.error(error);
+      });
 
 
 
@@ -51,11 +57,11 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit() {
     this.forma =new FormGroup ({
-      nombres: new FormControl(null, [Validators.required, Validators.minLength(5)]),
-      mail: new FormControl(null, [Validators.required, Validators.email]),
-      contrasenia: new FormControl(null, Validators.required ),
-      contrasenia2: new FormControl(null, Validators.required )
-    }, { validators: this.iguales( 'contrasenia', 'contrasenia2' )} )
+      name: new FormControl(null, [Validators.required, Validators.minLength(5)]),
+      email: new FormControl(null, [Validators.required, Validators.email]),
+      password: new FormControl(null, Validators.required ),
+      password2: new FormControl(null, Validators.required )
+    }, { validators: this.iguales( 'password', 'password2' )} )
   }
 
 }

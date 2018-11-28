@@ -17,18 +17,18 @@
           <div id="register" role="tabpanel" class="single__tabs__panel tab-pane fade in active">
             <form  [formGroup]="forma" (ngSubmit)="crearCuenta()" class="login" method="post">
               <mat-form-field  style="width:100%">
-                <input matInput formControlName="nombres" required type="text" placeholder="Nombre">
+                <input matInput formControlName="name" required type="text" placeholder="Nombre">
               </mat-form-field>
               <!--<input >-->
               <mat-form-field  style="width:100%">
-                <input matInput formControlName="mail"   required type="email" placeholder="Correo">
+                <input matInput formControlName="email"   required type="email" placeholder="Correo">
               </mat-form-field>
               <!--<input >-->
               <mat-form-field  style="width:100%">
-                <input matInput formControlName="contrasenia"   required type="password" placeholder="Contraseña">
+                <input matInput formControlName="password"   required type="password" placeholder="Contraseña">
               </mat-form-field>
               <mat-form-field  style="width:100%">
-                <input matInput formControlName="contrasenia2" required type="password" placeholder="Verifica contraseña">
+                <input matInput formControlName="password2" required type="password" placeholder="Verifica contraseña">
               </mat-form-field>
               <div class="form-group" *ngIf="forma.errors?.iguales && !forma.pristine">
                 <p class="text-danger">

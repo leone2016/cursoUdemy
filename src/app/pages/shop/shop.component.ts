@@ -31,6 +31,8 @@ export class ShopComponent implements OnInit {
   private listCartArticle: ArticleModel[] = [];
   private subTotal:number = 0;
   private subTotalSinPromo:number = 0;
+  private img:string ="assets/images/borrar/images/bigimage00.jpg";
+  private img2:string = "assets/images/borrar/smallimage.jpg";
     // imageUrls: (string | IImage)[] = [
   //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_image/image/56748793/dbohn_170625_1801_0018.0.0.jpg', caption: 'The first slide', href: '#config' },
   //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_asset/file/9278671/jbareham_170917_2000_0124.jpg', clickAction: () => alert('custom click function') },
