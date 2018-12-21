@@ -4,6 +4,7 @@ import {HttpClient} from '@angular/common/http';
 import {environment} from '../../../environments/environment';
 import {ArticleModel} from '../../models/article.model';
 import {WakiRestService} from '../waki-auth/waki-rest.service';
+import {MensajeModel} from '../../models/mensaje.model';
 
 
 @Injectable({
@@ -20,6 +21,6 @@ export class UsuarioService {
     console.log("LLEGA");
     console.log(usuario);
     let url:string = environment.waki_rest_service_configuration.api_url+environment.waki_rest_service_configuration.newUser.path;
-    return this.wakiRestService.request<ArticleModel[]>(url,'POST', usuario);
+    return this.wakiRestService.request<MensajeModel>(url,'POST', usuario);
   }
 }

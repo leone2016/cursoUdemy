@@ -9,6 +9,7 @@ import {
 } from './service.index';
 import {HttpClientModule} from '@angular/common/http';
 import {WakiAuthService} from './waki-auth/waki-auth.service';
+import {EventEmiterService} from './emit/emit.service';
 
 @NgModule({
   imports:[
@@ -22,7 +23,8 @@ import {WakiAuthService} from './waki-auth/waki-auth.service';
     WakiAuthService,
     CartLocalstorageService,
     CartCheckoutService,
-    ProvinciasService
+    ProvinciasService,
+    EventEmiterService
   ],
   declarations:[]
 })

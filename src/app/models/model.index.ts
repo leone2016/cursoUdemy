@@ -1,3 +1,4 @@
+export {MensajeModel} from './mensaje.model';
 export {CartModel} from './cart.model';
 export {ArticleModel} from './article.model';
 export {ArticlePhotoModel} from './article-photo.model';

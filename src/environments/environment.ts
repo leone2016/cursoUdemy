@@ -20,6 +20,7 @@ export const environment = {
     },
     authUser:{
       path: 'auth/login',
+      method: 'POST',
       localStorageKey: 'waki-user'
     },
     authApp:{
@@ -27,6 +28,11 @@ export const environment = {
       user: 'lmedinae@est.ups.edu.ec',
       password: '1724084247',
       localStorageKey: 'waki-commerce'
+    },
+    ngPayFlow:{
+      path:'shop/payflowPOST',
+      method:'POST'
+
     }
   }
 };

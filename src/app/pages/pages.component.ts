@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
+import {ShopComponent} from './shop/shop.component';
+import {EventEmiterService} from '../services/emit/emit.service';
 declare function inica_plungin_leo();
 declare function inica_plungin_leo2();
 @Component({
@@ -8,9 +10,9 @@ declare function inica_plungin_leo2();
 })
 export class PagesComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private _eventEmiter: EventEmiterService) { }
   ngOnInit() {
+    this._eventEmiter.dataStr.subscribe(data => console.log("------TEST "+data));
     inica_plungin_leo();
     inica_plungin_leo2();
   }

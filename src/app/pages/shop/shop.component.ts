@@ -1,4 +1,4 @@
-import {Component, isDevMode, OnInit,Inject, Injectable} from '@angular/core';
+import {Component, isDevMode, OnInit, Inject, Injectable, Output, EventEmitter} from '@angular/core';
 // import {WakiAuthService} from '../../services/waki-auth/waki-auth.service';
 import {bunble} from '../../../environments/bundle';
 import {MaterialModel, ArticlePhotoModel, StockModel, ArticleModel, ColorMaterialModel, CartModel} from '../../models/model.index';
@@ -11,6 +11,8 @@ import {ArticleImportCodeModel} from '../../models/article-import-code.model';
 import {environment} from '../../../environments/environment';
 import {isNullOrUndefined} from 'util';
 import {MatSnackBar} from '@angular/material';
+import {Router} from '@angular/router';
+import {EventEmiterService} from '../../services/emit/emit.service';
 
 
 @Component({
@@ -19,6 +21,9 @@ import {MatSnackBar} from '@angular/material';
   styles: []
 })
 export class ShopComponent implements OnInit {
+
+  @Output() contProducts:EventEmitter<number> = new EventEmitter<number>();
+  // @Output() emitEvent:EventEmitter<boolean> = new EventEmitter<boolean>();
   private articuloSingle: ArticleModel;
   private fakeArticle: boolean = true;
   private signoModeda:string =  bunble.signoDolar;
@@ -36,7 +41,7 @@ export class ShopComponent implements OnInit {
     // imageUrls: (string | IImage)[] = [
   //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_image/image/56748793/dbohn_170625_1801_0018.0.0.jpg', caption: 'The first slide', href: '#config' },
   //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_asset/file/9278671/jbareham_170917_2000_0124.jpg', clickAction: () => alert('custom click function') },
-  //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_image/image/56789263/akrales_170919_1976_0104.0.jpg', caption: 'Apple TV', href: 'https://www.apple.com/' },
+  //   //   { url: 'https://cdxn.vox-cdn.com/uploads/chorus_image/image/56789263/akrales_170919_1976_0104.0.jpg', caption: 'Apple TV', href: 'https://www.apple.com/' },
   //   //   'https://cdn.vox-cdn.com/uploads/chorus_image/image/56674755/mr_pb_is_the_best.0.jpg',
   //   //   { url: 'assets/kitties.jpg', backgroundSize: 'contain', backgroundPosition: 'center' }
   //   // ];
@@ -69,9 +74,12 @@ export class ShopComponent implements OnInit {
                @Inject(DOCUMENT) private _document,
                private cartLocalstorageService : CartLocalstorageService,
                private cartCheckoutService: CartCheckoutService,
-               public snackBar: MatSnackBar) {
+               public snackBar: MatSnackBar,
+               public router: Router, private _eventEmiter: EventEmiterService) {
+
 
   }
+
   private abrirModal(articulo: ArticleModel ):void{
     this.imageUrls = [];
     this.articuloSingle = articulo;
@@ -104,10 +112,7 @@ export class ShopComponent implements OnInit {
    */
   private agregarCesta(articulo: ArticleModel ):void{
     this.listCartArticle = [];
-      let shoppingCart:any = document.getElementsByClassName('shopping__cart');
-      let bodyOverlay:any = document.getElementsByClassName('body__overlay');
-      shoppingCart[0].classList.add('shopping__cart__on');
-      bodyOverlay[0].classList.add('is-visible');
+    this.setEstilos(true);
       let test = this.cartLocalstorageService.guardarLocalStorage( {code: btoa(articulo.code.toString()), url:btoa(articulo.urlFoto) } );
       if(test){
         this.snackBar.open("Nuevo reloj Agregado", 'X', {
@@ -119,6 +124,28 @@ export class ShopComponent implements OnInit {
 
   }
 
+  /**
+   * recive un booleano para aplicar o quitar este estilo
+   * @param aplicarEstilo
+   */
+  private setEstilos(aplicarEstilo:boolean):void{
+    let shoppingCart:any = document.getElementsByClassName('shopping__cart');
+    let bodyOverlay:any = document.getElementsByClassName('body__overlay');
+
+    if( aplicarEstilo ){
+      console.log("-----------si ");
+      shoppingCart[0].classList.add('shopping__cart__on');
+      bodyOverlay[0].classList.add('is-visible');
+    }else{
+      shoppingCart[0].classList.remove('shopping__cart__on');
+      bodyOverlay[0].classList.remove('is-visible');
+    }
+  }
+
+  private irCheckout():void{
+    this.setEstilos(false);
+    this.router.navigate(['checkout']);
+  }
 
   private eliminarDeCesta(articulo: ArticleModel):void{
     this.cartCheckoutService.eliminarDeCesta(articulo);
@@ -182,6 +209,7 @@ export class ShopComponent implements OnInit {
     return {codeImport:codigoImportacion,listArticle:retornoListArticulos, listMaterial: retornoListMateriales};
   }
   ngOnInit() {
+
       this.articleService.cargarArticulos().subscribe( (articulos:ArticleModel[]) =>{
           this.articulos = articulos;
           this.fakeArticle = false;
@@ -206,6 +234,7 @@ export class ShopComponent implements OnInit {
 
   private setListCartArticle(){
     this.listCartArticle = this.cartCheckoutService.getDatosLocalStorage(this.articulos);
+    this._eventEmiter.sendMessage("hola desde shop"+this.listCartArticle.length);
   }
   private getListCartArticle():ArticleModel[]{
     return this.listCartArticle;

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {CartLocalstorageService} from '../../services/service.index';
 import {isNullOrUndefined} from 'util';
+import {EventEmiterService} from '../../services/emit/emit.service';
 
 @Component({
   selector: 'app-header',
@@ -11,12 +12,14 @@ import {isNullOrUndefined} from 'util';
 export class HeaderComponent implements OnInit {
 
   private numeroArticulos:number=0;
-  constructor(private cartLocalStorageService: CartLocalstorageService,private router:Router,  private activatedRoute: ActivatedRoute) {
+  constructor(private _eventEmiter: EventEmiterService,private cartLocalStorageService: CartLocalstorageService,private router:Router,  private activatedRoute: ActivatedRoute) {
+
 
   }
 
-  private abrirCesta():void{
 
+  private abrirCesta():void{
+    this._eventEmiter.dataStr.subscribe(data => console.log(data));
     if(this.numeroArticulos === 0){
       let shoppingCart:any = document.getElementsByClassName('shopping__cart');
       let bodyOverlay:any = document.getElementsByClassName('body__overlay');
@@ -31,10 +34,17 @@ export class HeaderComponent implements OnInit {
 
 
   }
-
+ private getNumberArticles():void{
+   this.numeroArticulos = this.cartLocalStorageService.getArticlesLocalStorage().length;
+ }
   ngOnInit() {
+    this._eventEmiter.dataStr.subscribe((data) =>{
+      // this.numeroArticulos = 8;
+      this.getNumberArticles();
+    }
+  )
     if(!isNullOrUndefined(this.cartLocalStorageService.getArticlesLocalStorage())){
-      this.numeroArticulos = this.cartLocalStorageService.getArticlesLocalStorage().length;
+      this.getNumberArticles();
     }
   }
 

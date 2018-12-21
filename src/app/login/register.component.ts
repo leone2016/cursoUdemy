@@ -1,8 +1,10 @@
-import {Component, isDevMode, OnInit} from '@angular/core';
+  import {Component, isDevMode, OnInit} from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import swal from 'sweetalert';
 import {UsuarioService} from '../services/service.index';
 import {Usuario} from '../models/usuario.model';
+import {MensajeModel} from '../models/model.index';
+import {Router} from '@angular/router';
 @Component({
   selector: 'app-register',
   templateUrl: './register.component.html',
@@ -10,8 +12,8 @@ import {Usuario} from '../models/usuario.model';
 })
 export class RegisterComponent implements OnInit {
   forma: FormGroup;
-
-  constructor(public _usuarioService: UsuarioService) { }
+  private loading:boolean = false;
+  constructor(public _usuarioService: UsuarioService, private router:Router ) { }
 
   iguales( campo1: string,  campo2:string){
     return ( group : FormGroup ) =>{
@@ -28,7 +30,9 @@ export class RegisterComponent implements OnInit {
              };
       };
   }
+
   crearCuenta(){
+
     if( this.forma.invalid ){
       swal('importate', 'verifique que todos los campos esten correctamente ingresados', 'warning');
       return;
@@ -45,11 +49,17 @@ export class RegisterComponent implements OnInit {
       );
 
       console.log(usuario);
-      this._usuarioService.crearUsuario(usuario).subscribe((resp)=> {
-        swal('Bienvenido a Relojes 593 (Ecuador) ', '', 'success');
+      this.loading = true;
+      this._usuarioService.crearUsuario(usuario).subscribe((resp:MensajeModel)=> {
+        swal(resp.message, '', 'success');
+        this.loading = false;
+
       }, (error)=>{
-        console.error(error);
+        // console.log(error.error.message);
+        swal(' ', error.error.message, 'warning');
+        this.loading = false;
       });
+
 
 
 

@@ -83,7 +83,7 @@ i.arrow prev{
   text-transform: uppercase;
 }
 .header-nav-top-bar {
-  background-color: #000;
+  background-color: #109553;
   text-align: center;
   color: #fff;
   font-size: 11px;
@@ -93,6 +93,7 @@ i.arrow prev{
   font-weight: 500;
 
 }
+
  /*sticky__header scroll-header*/
 /*.mainmenu__area.sticky__header.scroll-header .menu-extra .header-nav-cart-count li span {*/
   /*color: #cc0000;*/
@@ -104,4 +105,120 @@ i.arrow prev{
 
 /*}*/
 
+/* This CSS file just define some default styles and loaders */
+/* You don't need to include it if you're working with your custom overlay loader element */
+
+.loading-overlay {
+  display: table;
+  opacity: 0.7;
+}
+
+.loading-overlay-content {
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  font-size: 1.15em;
+  font-weight: bold;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.loading-overlay.loading-theme-light {
+  background-color: #fff;
+  color: #000;
+}
+
+.loading-overlay.loading-theme-dark {
+  background-color: #15191f;
+  color: #fff;
+}
+
+
+
+.full {
+  width: 72%;
+}
+
+.example-radio-group {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.example-selected-value {
+  margin: 15px 0;
+}
+@media screen and (min-width: 992px)  {
+  .boxes1 {
+    position:relative;
+    float:left;
+    left:70%
+  }
+  .boxes2 {
+    position:relative;
+    float:left;
+    left:-30%
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 991px)  {
+  .boxes1 {
+    position:relative;
+    float:left;
+    left:23%
+  }
+  .boxes2 {
+    position:relative;
+    float:left;
+    left:23%
+  }
+}
+/*    ckeckout style  */
+
+.full {
+  width: 72%;
+}
+
+.example-radio-group {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+.example-selected-value {
+  margin: 15px 0;
+}
+@media screen and (min-width: 992px)  {
+  .boxes1 {
+    position:relative;
+    float:left;
+    left:70%
+  }
+  .boxes2 {
+    position:relative;
+    float:left;
+    left:-30%
+  }
+}
+
+@media screen and (min-width: 505px) and (max-width: 991px)  {
+  .boxes1 {
+    position:relative;
+    float:left;
+    left:23%
+  }
+  .boxes2 {
+    position:relative;
+    float:left;
+    left:23%
+  }
+}
+
+/* paypal css */
 
