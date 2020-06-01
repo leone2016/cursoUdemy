@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import {Injectable, isDevMode} from '@angular/core';
 import {LocalStorageService} from 'angular-2-local-storage';
 import {environment} from '../../../environments/environment';
 import {CartModel} from '../../models/model.index';
@@ -24,7 +24,7 @@ export class CartLocalstorageService {
   public guardarLocalStorage(cartModel:CartModel):boolean{
     let acumCartModel:CartModel[]=[];
 
-    console.log((!isNullOrUndefined(this.getArticlesLocalStorage())));
+    if (isDevMode())console.log((!isNullOrUndefined(this.getArticlesLocalStorage())));
     if(!isNullOrUndefined(this.getArticlesLocalStorage())){
       for(let articuloLocalstorage  of this.getArticlesLocalStorage()){
         if( cartModel.code===articuloLocalstorage.code )

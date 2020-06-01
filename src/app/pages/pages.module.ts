@@ -7,6 +7,8 @@ import {NgModule} from '@angular/core';
 import {SlideshowModule} from 'ng-simple-slideshow';
 import {MaterialDesingModule} from '../material-desing.module';
 import {MatDatepickerModule, MatNativeDateModule} from '@angular/material';
+import {ContactComponent} from './contact/contact.component';
+import {ProductsComponent} from './products/products.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import {MatDatepickerModule, MatNativeDateModule} from '@angular/material';
     CheckoutComponent,
     WishlistComponent,
     PagesComponent,
+    ContactComponent,
+    ProductsComponent
 
   ],
   exports:[
@@ -23,7 +27,9 @@ import {MatDatepickerModule, MatNativeDateModule} from '@angular/material';
     ShoppingCartComponent,
     CheckoutComponent,
     WishlistComponent,
-    PagesComponent
+    PagesComponent,
+    ContactComponent,
+    ProductsComponent
   ],
   imports:[SharedModule,
     PAGES_ROUtES,

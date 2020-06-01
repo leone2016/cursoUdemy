@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, isDevMode, OnInit} from '@angular/core';
 import {ActivatedRoute, Router} from '@angular/router';
 import {CartLocalstorageService} from '../../services/service.index';
 import {isNullOrUndefined} from 'util';
@@ -19,7 +19,7 @@ export class HeaderComponent implements OnInit {
 
 
   private abrirCesta():void{
-    this._eventEmiter.dataStr.subscribe(data => console.log(data));
+    this._eventEmiter.dataStr.subscribe(data =>{if (isDevMode()) console.log("------TEST "+data);});
     if(this.numeroArticulos === 0){
       let shoppingCart:any = document.getElementsByClassName('shopping__cart');
       let bodyOverlay:any = document.getElementsByClassName('body__overlay');

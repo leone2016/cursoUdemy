@@ -83,7 +83,7 @@ export class WakiRestService {
 
   private getRequestHeaders():HttpHeaders{
     let headers: HttpHeaders = new HttpHeaders({'content-type': 'aplication/json' });
-    console.log(this.getBasicAuthHeader());
+    if (isDevMode())console.log(this.getBasicAuthHeader());
     const authHeader: {key: string, value:string} = this.getBasicAuthHeader();
     headers = headers.append(authHeader.key, authHeader.value)
     return headers;

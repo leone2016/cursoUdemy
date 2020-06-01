@@ -18,8 +18,8 @@ export class UsuarioService {
   }
 
   crearUsuario (usuario: Usuario ){
-    console.log("LLEGA");
-    console.log(usuario);
+    if (isDevMode())console.log("LLEGA");
+    if (isDevMode())console.log(usuario);
     let url:string = environment.waki_rest_service_configuration.api_url+environment.waki_rest_service_configuration.newUser.path;
     return this.wakiRestService.request<MensajeModel>(url,'POST', usuario);
   }

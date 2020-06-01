@@ -106,7 +106,7 @@ export class CheckoutComponent implements OnInit, AfterViewChecked {
     })
   }
 
-  private codigoDesc():void{
+  public codigoDesc():void{
     this.snackBar.open("Código no valido", 'X', {
       duration: 2000,
     });

@@ -24,20 +24,20 @@ export class ShopComponent implements OnInit {
 
   @Output() contProducts:EventEmitter<number> = new EventEmitter<number>();
   // @Output() emitEvent:EventEmitter<boolean> = new EventEmitter<boolean>();
-  private articuloSingle: ArticleModel;
-  private fakeArticle: boolean = true;
-  private signoModeda:string =  bunble.signoDolar;
-  private articulos:ArticleModel[] = [];
-  private defaultImage:string = environment.defaultImage;
-  private imageUrls: any[] = [];
-  private listadoImportacion:ArticleImportCodeModel[] = [];
-  private listadoMateriales: MaterialModel[] = [];
-  private listadoColorMaterial: ColorMaterialModel[] = [];
-  private listCartArticle: ArticleModel[] = [];
-  private subTotal:number = 0;
-  private subTotalSinPromo:number = 0;
-  private img:string ="assets/images/borrar/images/bigimage00.jpg";
-  private img2:string = "assets/images/borrar/smallimage.jpg";
+  public articuloSingle: ArticleModel;
+  public fakeArticle: boolean = true;
+  public signoModeda:string =  bunble.signoDolar;
+  public articulos:ArticleModel[] = [];
+  public defaultImage:string = environment.defaultImage;
+  public imageUrls: any[] = [];
+  public listadoImportacion:ArticleImportCodeModel[] = [];
+  public listadoMateriales: MaterialModel[] = [];
+  public listadoColorMaterial: ColorMaterialModel[] = [];
+  public listCartArticle: ArticleModel[] = [];
+  public subTotal:number = 0;
+  public subTotalSinPromo:number = 0;
+  public img:string ="assets/images/borrar/images/bigimage00.jpg";
+  public img2:string = "assets/images/borrar/smallimage.jpg";
     // imageUrls: (string | IImage)[] = [
   //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_image/image/56748793/dbohn_170625_1801_0018.0.0.jpg', caption: 'The first slide', href: '#config' },
   //   //   { url: 'https://cdn.vox-cdn.com/uploads/chorus_asset/file/9278671/jbareham_170917_2000_0124.jpg', clickAction: () => alert('custom click function') },
@@ -102,7 +102,7 @@ export class ShopComponent implements OnInit {
   }
 
   private seleccionColor(codeColor:number):void{
-    console.log("INGRESA--------->",codeColor);
+    if (isDevMode())console.log("INGRESA--------->",codeColor);
   }
 
 

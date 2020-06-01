@@ -38,8 +38,8 @@ export class LoginComponent implements OnInit {
     }
 
   }
-  private login():void{
-    console.log("INGRESO"+this.isLoginFormValid());
+  public login():void{
+    if (isDevMode())console.log("INGRESO"+this.isLoginFormValid());
       if( this.isLoginFormValid()) {
             this.rememberMe();
             this.procedToLogin();
@@ -58,7 +58,7 @@ export class LoginComponent implements OnInit {
   private procedToLogin():void{
       const loginRequestModel: LoginRequestModel = this.loginForm.value;
       this.loginService.login(loginRequestModel).subscribe( (loginStatus: any ) =>{
-        console.log("---->"+loginStatus);
+        if (isDevMode())console.log("---->"+loginStatus);
       })
   }
 

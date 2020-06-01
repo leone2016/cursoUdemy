@@ -10,4 +10,5 @@ const routes: Routes =[
   { path: '**', component: PagenotfoundComponent }
 ];
 
-export const APP_ROUTES = RouterModule.forRoot(routes);
+// export const APP_ROUTES = RouterModule.forRoot(routes);
+export const APP_ROUTES = RouterModule.forRoot(routes, { useHash: false });

@@ -16,7 +16,7 @@ import {environment} from '../environments/environment';
 import { SearchArticlePipe } from './pipes/search-article.pipe';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MaterialDesingModule} from './material-desing.module';
-import {ImageZoomModule} from 'angular2-image-zoom';
+
 
 
 @NgModule({
@@ -36,7 +36,6 @@ import {ImageZoomModule} from 'angular2-image-zoom';
     ServiceModule,
     BrowserAnimationsModule,
     MaterialDesingModule,
-    ImageZoomModule,
     LocalStorageModule.withConfig({
       prefix: environment.localStorageKey,
       storageType: 'localStorage'

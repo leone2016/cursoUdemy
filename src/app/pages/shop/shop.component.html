@@ -1,61 +1,61 @@
 <mat-progress-bar mode="query" *ngIf="fakeArticle"></mat-progress-bar>
-<section class="htc__feature__product bg__cat--2 ">
-    <div class="container">
-        <div class="row">
-            <div class="new__product__wrap clearfix">
-                <!-- Start New Product -->
-                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                    <div class="new__product foo">
-                        <div class="new__product__thumb">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/men/men.jpg" alt="new product">
-                            </a>
-                        </div>
-                        <div class="new__product__details">
-                            <h2><a href="product-details.html" class="gender_shop">Colección para Hombres</a></h2>
-                            <div class="new__product__btn">
-                                <a class="htc__btn shop__now__btn" style="color: #ffffff" href="cart.html">comprar ahora</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End New Product -->
-                <!-- Start New Product -->
-                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 smt-30 xmt-30">
-                    <div class="new__product text__align--left foo">
-                        <div class="new__product__thumb">
-                            <a href="product-details.html">
-                                <img src="assets/images/product/woman/woman.jpg" alt="new product">
-                            </a>
-                        </div>
-                        <div class="new__product__details">
-                            <h2><a href="product-details.html" class="gender_shop">Colección para Mujeres</a></h2>
-                            <div class="new__product__btn">
-                                <a class="htc__btn shop__now__btn" style="color: #ffffff" href="cart.html">comprar ahora</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- End New Product -->
-            </div>
-        </div>
-    </div>
-</section>
+<!--<section class="htc__feature__product bg__cat&#45;&#45;2 ">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="new__product__wrap clearfix">-->
+                <!--&lt;!&ndash; Start New Product &ndash;&gt;-->
+                <!--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">-->
+                    <!--<div class="new__product foo">-->
+                        <!--<div class="new__product__thumb">-->
+                            <!--<a href="product-details.html">-->
+                                <!--<img src="assets/images/product/men/men.jpg" alt="new product">-->
+                            <!--</a>-->
+                        <!--</div>-->
+                        <!--<div class="new__product__details">-->
+                            <!--<h2><a href="product-details.html" class="gender_shop">Colección para Hombres</a></h2>-->
+                            <!--<div class="new__product__btn">-->
+                                <!--<a class="htc__btn shop__now__btn" style="color: #ffffff" href="cart.html">comprar ahora</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; End New Product &ndash;&gt;-->
+                <!--&lt;!&ndash; Start New Product &ndash;&gt;-->
+                <!--<div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 smt-30 xmt-30">-->
+                    <!--<div class="new__product text__align&#45;&#45;left foo">-->
+                        <!--<div class="new__product__thumb">-->
+                            <!--<a href="product-details.html">-->
+                                <!--<img src="assets/images/product/woman/woman.jpg" alt="new product">-->
+                            <!--</a>-->
+                        <!--</div>-->
+                        <!--<div class="new__product__details">-->
+                            <!--<h2><a href="product-details.html" class="gender_shop">Colección para Mujeres</a></h2>-->
+                            <!--<div class="new__product__btn">-->
+                                <!--<a class="htc__btn shop__now__btn" style="color: #ffffff" href="cart.html">comprar ahora</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--&lt;!&ndash; End New Product &ndash;&gt;-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</section>-->
 <section class="htc__product__area ptb--60 bg__cat--2">
     <div class="container">
         <div class="htc__product__container">
             <!-- Start Product MEnu -->
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="product__menu">
-                        <button data-filter="*" class="is-checked">Todo</button>
-                        <button data-filter=".cat--1">Acero Inoxidable</button>
-                        <button data-filter=".cat--2">Silicon</button>
-                        <button data-filter=".cat--3">Nylon</button>
-                        <button data-filter=".cat--4">Cuero</button>
-                    </div>
-                </div>
-            </div>
+            <!--<div class="row">-->
+                <!--<div class="col-md-12">-->
+                    <!--<div class="product__menu">-->
+                        <!--<button data-filter="*" class="is-checked">Todo</button>-->
+                        <!--<button data-filter=".cat&#45;&#45;1">Acero Inoxidable</button>-->
+                        <!--<button data-filter=".cat&#45;&#45;2">Silicon</button>-->
+                        <!--<button data-filter=".cat&#45;&#45;3">Nylon</button>-->
+                        <!--<button data-filter=".cat&#45;&#45;4">Cuero</button>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
             <!-- End Product MEnu -->
             <div class="row">
                 <div>
@@ -93,15 +93,15 @@
                                     <div class="product__hover__info">
                                         <ul class="product__action">
                                             <li><a data-toggle="modal" data-target="#productModal" matTooltip="Vista Rapida" class="quick-view modal-view detail-link" (click)="abrirModal(articulo)"><span class="ti-plus"></span></a></li>
-                                            <li><a matTooltip="Añadir a al cesta" (click)="agregarCesta(articulo)"><span class="ti-shopping-cart"></span></a></li>
+                                            <!--<li><a matTooltip="Añadir a al cesta" (click)="agregarCesta(articulo)"><span class="ti-shopping-cart"></span></a></li>-->
                                         </ul>
                                     </div>
                                     <div class="add__to__wishlist">
-                                        <a data-toggle="tooltip" title="Añadir a la lista de deseos" class="add-to-cart" href="wishlist.html"><span class="ti-heart"></span></a>
+                                        <!--<a data-toggle="tooltip" title="Añadir a la lista de deseos" class="add-to-cart" href="wishlist.html"><span class="ti-heart"></span></a>-->
                                     </div>
                                 </div>
                                 <div class="product__details">
-                                    <h2><a href="product-details.html">{{ articulo.nameProduct }}</a></h2>
+                                    <h2><a >{{ articulo.nameProduct }} [ {{ articulo.listStock.length}} ]</a></h2>
                                     <ul class="product__price">
                                         <li class="old__price" *ngIf="articulo.Promo != 'NO PROMO'">{{this.signoModeda}}{{ articulo.rate }}</li>
                                         <li class="new__price" [matTooltip]="articulo.code">{{this.signoModeda}}{{ articulo.ratePromo }}</li>
@@ -194,7 +194,7 @@
                                                     <div class="s-price-box">
                                                         <!--<li class="old__price"  *ngIf="articulo.Promo != 'NO PROMO'">{{this.signoModeda}}{{ articuloSingle.rate }}</li>-->
                                                         <!--<li class="new__price" [title]="articulo.code">{{this.signoModeda}}{{ articuloSingle.ratePromo }}</li>-->
-                                                        <span class="new-price" [title]="this.articuloSingle.code">{{this.signoModeda}}{{ this.articuloSingle.ratePromo }}</span>
+                                                        <span class="new-price" [title]="this.articuloSingle.codeImport">{{this.signoModeda}}{{ this.articuloSingle.ratePromo }}</span>
                                                         <span class="old-price" *ngIf="this.articuloSingle.Promo != 'NO PROMO'">{{this.signoModeda}}{{ this.articuloSingle.rate }}</span>
                                                     </div>
                                                 </div>
@@ -240,9 +240,9 @@
                                                 <!--</ul>-->
                                                 <!--</div>-->
                                                 <!--</div>-->
-                                                <div class="addtocart-btn">
-                                                    <a (click)="agregarCesta(articuloSingle)">Añadir a al cesta</a>
-                                                </div>
+                                                <!--<div class="addtocart-btn">-->
+                                                    <!--<a (click)="agregarCesta(articuloSingle)">Añadir a al cesta</a>-->
+                                                <!--</div>-->
                                             </div>
                                             <!-- .product-info -->
                                         </div>

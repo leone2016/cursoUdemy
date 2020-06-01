@@ -12,7 +12,7 @@ import {Router} from '@angular/router';
 })
 export class RegisterComponent implements OnInit {
   forma: FormGroup;
-  private loading:boolean = false;
+  public loading:boolean = false;
   constructor(public _usuarioService: UsuarioService, private router:Router ) { }
 
   iguales( campo1: string,  campo2:string){
@@ -48,7 +48,7 @@ export class RegisterComponent implements OnInit {
         this.forma.value.password
       );
 
-      console.log(usuario);
+      if (isDevMode()) console.log(usuario);
       this.loading = true;
       this._usuarioService.crearUsuario(usuario).subscribe((resp:MensajeModel)=> {
         swal(resp.message, '', 'success');
